@@ -40,7 +40,15 @@ export function parseNatures(src: string) {
 }
 
 // chinese.dat：MessageTypes 編號 → 內容（Data/Scripts/001_Technical/003_Intl_Messages.rb）
-const MESSAGE_TYPES = { species: 1, moves: 5, abilities: 10, types: 12, scriptTexts: 24 } as const;
+const MESSAGE_TYPES = {
+  species: 1,
+  moves: 5,
+  moveDescriptions: 6,
+  abilities: 10,
+  abilityDescriptions: 11,
+  types: 12,
+  scriptTexts: 24,
+} as const;
 
 // OrderedHash 的 _dump 是 Marshal.dump([keys, values])
 function orderedHash(v: RubyValue): Map<string, string> {
@@ -94,11 +102,13 @@ function main() {
   write('abilities', abilities);
   write('species', species);
   write('natures', natures);
-  // 遊戲內建的中文（簡體）名稱
-  write('names_zh_game', {
+  // 遊戲內建的中文（簡體）名稱與說明
+  write('text_zh_game', {
     species: zh.byNumber(MESSAGE_TYPES.species, species),
     moves: zh.byNumber(MESSAGE_TYPES.moves, moves),
+    move_descriptions: zh.byNumber(MESSAGE_TYPES.moveDescriptions, moves),
     abilities: zh.byNumber(MESSAGE_TYPES.abilities, abilities),
+    ability_descriptions: zh.byNumber(MESSAGE_TYPES.abilityDescriptions, abilities),
     types: zh.byNumber(MESSAGE_TYPES.types, types),
     natures: zh.natures,
   });
