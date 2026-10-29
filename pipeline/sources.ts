@@ -23,6 +23,7 @@ export const GAME: Source = {
     '/Data/chinese.dat',
     '/Data/Scripts/001_Settings.rb',
     '/Data/Scripts/010_Data/001_Hardcoded data/009_Nature.rb',
+    '/Data/Scripts/011_Battle/002_Move/001_PokeBattle_Move.rb',
   ],
 };
 
