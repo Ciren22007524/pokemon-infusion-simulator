@@ -1,0 +1,8 @@
+{
+ "source": "https://github.com/infinitefusion/infinitefusion-e18",
+ "branch": "releases",
+ "commit": "060726298dadff542e9a48e57ef8bea3fa459e07",
+ "game_version": "6.8.3",
+ "nb_pokemon": 576,
+ "mechanics_generation": 5
+}
