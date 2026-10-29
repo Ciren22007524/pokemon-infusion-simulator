@@ -1,0 +1,234 @@
+﻿id,number,name_en,name_zh_tw,name_zh_game,desc_en,desc_zh_game
+ADAPTABILITY,91,Adaptability,適應力,适应力,Powers up moves of the same type.,与自身同属性的招式威力会提高。
+AERILATE,184,Aerilate,飛行皮膚,飞行皮肤,Normal-type moves become Flying-type and power up.,一般属性的招式会变为飞属性。威力会少量提高。
+AFTERMATH,106,Aftermath,引爆,引爆,Damages the attacker landing the finishing hit.,变为濒死时，会对接触到自己的对手造成伤害。
+AIRLOCK,76,Air Lock,氣閘,气闸,Eliminates the effects of weather.,所有天气的影响都会消失。
+ANALYTIC,148,Analytic,分析,分析,Boosts move power when the Pokémon moves last.,如果在最后使出招式，招式的威力会提高。
+ANGERPOINT,83,Anger Point,憤怒穴位,愤怒穴位,Maxes Attack after taking a critical hit.,要害被击中时，会大发雷霆，攻击力变为最大。
+ANTICIPATION,107,Anticipation,危險預知,危险预知,Senses a foe's dangerous moves.,可以察觉到对手拥有的危险招式。
+ARENATRAP,71,Arena Trap,沙穴,沙穴,Prevents the foe from fleeing.,在战斗中让对手无法逃走。
+AROMAVEIL,165,Aroma Veil,芳香幕,芳香幕,Protects against attacks that limit move choices.,可以防住向自己和同伴发出的心灵攻击。
+AURABREAK,188,Aura Break,氣場破壞,气场破坏,"Reverses ""Aura"" Abilities to weaken affected moves.",让气场的效果发生逆转，降低威力。
+BADDREAMS,123,Bad Dreams,夢魘,梦魇,Reduces a sleeping foe's HP.,给予睡眠状态的对手伤害。
+BATTERY,217,Battery,蓄電池,蓄电池,Powers up ally Pokémon's special moves.,会提高我方的特殊招式的威力。
+BATTLEARMOR,4,Battle Armor,戰鬥盔甲,战斗盔甲,The Pokémon is protected against critical hits.,不会被对手的攻击击中要害。
+BATTLEBOND,210,Battle Bond,牽絆變身,牵绊变身,Defeating a foe lets it become Ash-Greninja.,打倒对手时，变为小智版甲贺忍蛙。
+BEASTBOOST,224,Beast Boost,異獸提升,异兽提升,Boosts its best stat each time it deals a KO.,打倒对手的时候，自己最高的那项能力会提高。
+BERSERK,201,Berserk,怒火沖天,怒火冲天,Ups Sp. Atk if a hit makes its HP half or less.,因对手的攻击HP变为一半时，特攻会提高。
+BIGPECKS,145,Big Pecks,健壯胸肌,健壮胸肌,Protects from Defense-lowering attacks.,不会受到防御降低的效果。
+BLAZE,66,Blaze,猛火,猛火,Powers up Fire-type moves in a pinch.,HP减少的时候，火属性的招式威力会提高。
+BULLETPROOF,171,Bulletproof,防彈,防弹,Protects the Pokémon from some ball and bomb moves.,可以防住对手的球和弹类招式。
+CHEEKPOUCH,167,Cheek Pouch,頰囊,颊囊,Restores HP as well when the Pokémon eats a Berry.,无论是哪种树果，食用后，HP都会回复。
+CHLOROPHYLL,34,Chlorophyll,葉綠素,叶绿素,Boosts the Pokémon's Speed in sunshine.,晴朗天气时，速度会提高。
+CLEARBODY,29,Clear Body,恆淨之軀,恒净之躯,Prevents other Pokémon from lowering its stats.,不会因为对手的招式或特性而被降低能力。
+CLOUDNINE,13,Cloud Nine,無關天氣,无关天气,Eliminates the effects of weather.,任何天气的影响都会消失。
+COLORCHANGE,16,Color Change,變色,变色,Changes the Pokémon's type to the foe's move.,自己的属性会变为从对手处所受招式的属性。
+COMATOSE,213,Comatose,絕對睡眠,绝对睡眠,"It's always drowsing, and attacks without waking.",总是半梦半醒的状态。可以就这么睡着进行攻击。
+COMPETITIVE,172,Competitive,好勝,好胜,Sharply boosts Sp. Atk when a stat is lowered.,如果能力被降低，特攻就会大幅提高。
+COMPOUNDEYES,14,Compound Eyes,複眼,复眼,The Pokémon's accuracy is boosted.,因为拥有复眼，招式的命中率会提高。
+CONTRARY,126,Contrary,唱反調,唱反调,Makes stat changes have an opposite effect.,能力的变化发生逆转，原本提高时会降低，而原本降低时会提高。
+CORROSION,212,Corrosion,腐蝕,腐蚀,It can poison Steel- and Poison-type targets.,可以使钢属性和毒属性的宝可梦也陷入中毒状态。
+CURSEDBODY,130,Cursed Body,詛咒之軀,诅咒之躯,May disable a move used on the Pokémon.,受到攻击时，有时会把对手的招式变为定身法状态。
+CUTECHARM,56,Cute Charm,迷人之軀,迷人之躯,Contact with the Pokémon may cause infatuation.,有时会让接触到自己的对手着迷。
+DAMP,6,Damp,濕氣,湿气,Prevents the use of self-destructing moves.,使谁都无法使用自爆等爆炸类的招式。
+DANCER,216,Dancer,舞者,舞者,Repeats another Pokémon's dance move immediately.,有谁使出跳舞招式时，自己能接着使出跳舞招式。
+DARKAURA,186,Dark Aura,暗黑氣場,暗黑气场,Powers up each Pokémon's Dark-type moves.,全体的恶属性招式变强。
+DAZZLING,219,Dazzling,鮮艷之軀,鲜艳之躯,Makes foes unable to use priority attacks.,让对手吓一跳，使其无法对我方使出先制招式。
+DEFEATIST,129,Defeatist,軟弱,软弱,Lowers stats when HP becomes half or less.,HP减半时，会变得软弱，攻击和特攻会减半。
+DEFIANT,128,Defiant,不服輸,不服输,When its stats are lowered its Attack increases.,能力被降低时，攻击会大幅提高。
+DELTASTREAM,191,Delta Stream,德爾塔氣流,德尔塔气流,Alters weather to remove Flying-type's weaknesses.,变为令飞行属性的弱点消失的天气。
+DESOLATELAND,190,Desolate Land,終結之地,终结之地,Changes the weather to nullify Water-type moves.,变为不会受到水属性攻击的天气。
+DISGUISE,209,Disguise,畫皮,画皮,Its shroud protects it from an attack just once.,过画皮覆盖住身体，可以防住1次攻击。
+DOWNLOAD,88,Download,下載,下载,Adjusts power according to a foe's defenses.,比较对手的防御和特防，提高自己的攻击或特攻。
+DRIZZLE,2,Drizzle,降雨,降雨,The Pokémon makes it rain if it appears in battle.,出场时，会将天气变为下雨。
+DROUGHT,70,Drought,日照,日照,Turns the sunlight harsh if it is in battle.,出场时，会将天气变为晴朗。
+DRYSKIN,87,Dry Skin,乾燥皮膚,干燥皮肤,Reduces HP if it is hot. Water restores HP.,下雨和水招式回复HP。晴朗和火招式减少HP。
+EARLYBIRD,48,Early Bird,早起,早起,The Pokémon awakens quickly from sleep.,即使变为睡眠状态，也能以2倍的速度提早醒来。
+EFFECTSPORE,27,Effect Spore,孢子,孢子,Contact may poison or cause paralysis or sleep.,把接触到自己的对手变为中毒、麻痹或睡眠状态。
+ELECTRICSURGE,226,Electric Surge,電氣製造者,电气制造者,Turns the ground into Electric Terrain.,出场时，会布下电气场地。
+EMERGENCYEXIT,194,Emergency Exit,危險迴避,危险回避,Switches out if its HP becomes half or less.,HP变为一半时，为回避危险，退回同行队伍中。
+FAIRYAURA,187,Fairy Aura,妖精氣場,妖精气场,Powers up each Pokémon's Fairy-type moves.,全体的妖精属性招式变强。
+FILTER,111,Filter,過濾,过滤,Reduces damage from super-effective attacks.,受到效果绝佳的攻击时，可以减弱其威力。
+FLAMEBODY,49,Flame Body,火焰之軀,火焰之躯,Contact with the Pokémon may burn the attacker.,有时会让接触到自己的对手变为灼伤状态。
+FLAREBOOST,138,Flare Boost,受熱激升,受热激升,Powers up special attacks when burned.,变为灼伤状态时，特殊招式的威力会提高。
+FLASHFIRE,18,Flash Fire,引火,引火,It powers up Fire-type moves if it's hit by one.,受到火属性的招式攻击时，火属性招式会变强。
+FLOWERGIFT,122,Flower Gift,花之禮,花之礼,Powers up party Pokémon when it is sunny.,晴朗天气时，自己与同伴的攻击和特防能力提高。
+FLOWERVEIL,166,Flower Veil,花幕,花幕,Protects Grass-type allies from stat/status effects.,我方草属性宝可梦能力不会降低，免疫异常状态。
+FLUFFY,218,Fluffy,毛茸茸,毛茸茸,Resists contact damage but weaker to Fire-type.,受接触类招式的伤害减半，受火招式伤害变2倍。
+FORECAST,59,Forecast,陰晴不定,阴晴不定,Castform transforms with the weather.,受天气的影响，变为水、火或冰属性中的某一个。
+FOREWARN,108,Forewarn,預知夢,预知梦,Determines what moves a foe has.,出场时，只读取1个对手拥有的招式。
+FRIENDGUARD,132,Friend Guard,友情防守,友情防守,Reduces damage done to allies.,可以减少我方的伤害。
+FRISK,119,Frisk,察覺,察觉,The Pokémon can check a foe's held item.,出场时，可以察觉对手的持有物。
+FULLMETALBODY,230,Full Metal Body,金屬防護,金属防护,Prevents other Pokémon from lowering its stats.,不会因为对手的招式或特性而被降低能力。
+FURCOAT,169,Fur Coat,毛皮大衣,毛皮大衣,Halves the damage from physical moves.,对手给予的物理招式的伤害会减半。
+GALEWINGS,177,Gale Wings,疾風之翼,疾风之翼,Flying-type moves gain priority when its HP is full.,HP全满时，飞行属性的招式可以率先使出。
+GALVANIZE,206,Galvanize,電氣皮膚,电气皮肤,Normal-type moves become Electric-type and powered.,一般属性的招式会变为电属性。威力会少量提高。
+GLUTTONY,82,Gluttony,貪吃鬼,贪吃鬼,Encourages the early use of a held Berry.,在HP还有一半时就会把树果吃掉。
+GOOEY,183,Gooey,黏滑,黏滑,Contact with it lowers the attacker's Speed stat.,对于用攻击接触到自己的对手，会降低其速度。
+GRASSPELT,179,Grass Pelt,草之毛皮,草之毛皮,Boosts the Defense stat on Grassy Terrain.,在青草场地时，防御会提高。
+GRASSYSURGE,229,Grassy Surge,青草製造者,青草制造者,Turns the ground into Grassy Terrain.,出场时，会布下青草场地。
+GUTS,62,Guts,毅力,毅力,Boosts Attack if there is a status problem.,如果变为异常状态，会拿出毅力，攻击会提高。
+HARVEST,139,Harvest,收穫,收获,May create another Berry after one is used.,可以多次制作出已被使用掉的树果。
+HEALER,131,Healer,治癒之心,治愈之心,May heal an ally's status conditions.,有时会治愈异常状态的同伴。
+HEATPROOF,85,Heatproof,耐熱,耐热,Weakens the power of Fire-type moves.,耐热的体质会让火属性的招式威力减半。
+HEAVYMETAL,134,Heavy Metal,重金屬,重金属,Doubles the Pokémon's weight.,自身的重量会变为2倍。
+HONEYGATHER,118,Honey Gather,採蜜,采蜜,The Pokémon may gather Honey from somewhere.,战斗结束时，有时候会捡来甜甜蜜。
+HUGEPOWER,37,Huge Power,大力士,大力士,Raises the Pokémon's Attack stat.,物理攻击的威力会变为2倍。
+HUSTLE,55,Hustle,活力,活力,"Boosts the Attack stat, but lowers accuracy.",自己的攻击变高，但命中率会降低。
+HYDRATION,93,Hydration,濕潤之軀,湿润之躯,Heals status problems if it is raining.,下雨天气时，异常状态会治愈。
+HYPERCUTTER,52,Hyper Cutter,怪力鉗,怪力钳,Prevents other Pokémon from lowering Attack stat.,因拥有以力量自豪的钳子，不会被对手降低攻击。
+ICEBODY,115,Ice Body,冰凍之軀,冰冻之躯,The Pokémon gradually regains HP in a hailstorm.,冰雹天气时，会缓缓回复HP。
+ILLUMINATE,35,Illuminate,發光,发光,Raises the likelihood of meeting wild Pokémon.,通过让周围变亮，变得容易遇到野生的宝可梦。
+ILLUSION,149,Illusion,幻覺,幻觉,Comes out disguised as the Pokémon in back.,假扮成同行队伍中的最后一个宝可梦，迷惑对手。
+IMMUNITY,17,Immunity,免疫,免疫,Prevents the Pokémon from getting poisoned.,因为体内拥有免疫能力，不会变为中毒状态。
+IMPOSTER,150,Imposter,變身者,变身者,It transforms itself into the Pokémon it is facing.,变身为当前面对的宝可梦。
+INFILTRATOR,151,Infiltrator,穿透,穿透,Passes through the foe's barrier and strikes.,可以穿透对手的壁障或替身进行攻击。
+INNARDSOUT,215,Innards Out,飛出的內在物,飞出的内在物,Damages an attacker that lands the finishing hit.,被对手打倒时，会给予对手HP剩余量的伤害。
+INNERFOCUS,39,Inner Focus,精神力,精神力,The Pokémon is protected from flinching.,通过锻炼精神，不会因对手的攻击而畏缩。
+INSOMNIA,15,Insomnia,不眠,不眠,Prevents the Pokémon from falling asleep.,因为是不会睡觉的体质，所以不会变为睡眠状态。
+INTIMIDATE,22,Intimidate,威嚇,威吓,Lowers the foe's Attack stat.,出场时威吓对手，让其退缩，降低对手的攻击。
+IRONBARBS,160,Iron Barbs,鐵刺,铁刺,Inflicts damage to the Pokémon on contact.,用铁刺给予接触到自己的对手伤害。
+IRONFIST,89,Iron Fist,鐵拳,铁拳,Boosts the power of punching moves.,使用拳类招式的威力会提高。
+JUSTIFIED,154,Justified,正義之心,正义之心,Raises Attack when hit by a Dark-type move.,受到恶属性的招式攻击时，攻击会提高。
+KEENEYE,51,Keen Eye,銳利目光,锐利目光,Prevents other Pokémon from lowering accuracy.,多亏了锐利的目光，命中率不会被降低。
+KLUTZ,103,Klutz,笨拙,笨拙,The Pokémon can't use any held items.,无法使用持有的道具。
+LEAFGUARD,102,Leaf Guard,葉子防守,叶子防守,Prevents problems with status in sunny weather.,晴朗天气时，不会变为异常状态。
+LEVITATE,26,Levitate,飄浮,飘浮,Gives full immunity to all Ground-type moves.,从地面浮起，从而不会受到地面属性招式的攻击。
+LIGHTMETAL,135,Light Metal,輕金屬,轻金属,Halves the Pokémon's weight.,自身的重量会减半。
+LIGHTNINGROD,31,Lightning Rod,避雷針,避雷针,Draws in all Electric-type moves to up Sp. Attack.,将电属性的招式吸引到自己身上，提高特攻。
+LIMBER,7,Limber,柔軟,柔软,The Pokémon is protected from paralysis.,因为身体柔软，不会变为麻痹状态。
+LIQUIDOOZE,64,Liquid Ooze,污泥漿,污泥浆,Damages attackers using any draining move.,吸收了污泥浆的对手会受到伤害，减少HP。
+LIQUIDVOICE,204,Liquid Voice,濕潤之聲,湿润之声,Its sound-based moves become Water-type.,所有的声音招式都变为水属性。
+LONGREACH,203,Long Reach,遠隔,远隔,Uses moves without making contact with the target.,可以不接触对手就使出所有的招式。
+MAGICBOUNCE,156,Magic Bounce,魔法鏡,魔法镜,Reflects status-changing moves.,不受到由对手使出的变化招式影响，并将其反弹。
+MAGICGUARD,98,Magic Guard,魔法防守,魔法防守,The Pokémon only takes damage from attacks.,不会受到攻击以外的伤害。
+MAGICIAN,170,Magician,魔術師,魔术师,Steals the held item of a Pokémon it hits.,夺走被自己的招式击中的对手的道具。
+MAGMAARMOR,40,Magma Armor,熔岩鎧甲,熔岩铠甲,Prevents the Pokémon from becoming frozen.,将炽热的熔岩覆盖在身上，不会变为冰冻状态。
+MAGNETPULL,42,Magnet Pull,磁力,磁力,Prevents Steel-type Pokémon from escaping.,用磁力吸住钢属性的宝可梦，使其无法逃走。
+MARVELSCALE,63,Marvel Scale,神奇鱗片,神奇鳞片,Ups Defense if there is a status problem.,如果变为异常状态，防御会提高。
+MEGALAUNCHER,178,Mega Launcher,超級發射器,超级发射器,Powers up aura and pulse moves.,波动和波导类招式的威力会提高。
+MERCILESS,196,Merciless,不仁不義,不仁不义,Its attacks are critical hits when it is poisoned.,攻击中毒状态的对手时，必定会击中要害。
+MINUS,58,Minus,負電,负电,Ups Sp. Atk if another Pokémon has Plus or Minus.,出场伙伴有正电或负电特性宝可梦，特攻会提高。
+MISTYSURGE,228,Misty Surge,薄霧製造者,薄雾制造者,Turns the ground into Misty Terrain.,出场时，会布下薄雾场地。
+MOLDBREAKER,104,Mold Breaker,破格,破格,Moves can be used regardless of Abilities.,可以不受对手特性的干扰，向对手使出招式。
+MOODY,141,Moody,心情不定,心情不定,Raises one stat and lowers another.,每回合，能力中的某项大幅提高，而某项降低。
+MOTORDRIVE,78,Motor Drive,電氣引擎,电气引擎,Raises Speed if hit by an Electric-type move.,受到电属性的招式攻击时，速度会提高。
+MOXIE,153,Moxie,自信過度,自信过度,Boosts Attack after knocking out any Pokémon.,如果打倒对手，就会充满自信，攻击会提高。
+MULTISCALE,136,Multiscale,多重鱗片,多重鳞片,Reduces damage when HP is full.,HP全满时，受到的伤害会变少。
+MULTITYPE,121,Multitype,多屬性,多属性,Changes type to match the held Plate.,自己的属性会根据持有的石板的属性而改变。
+MUMMY,152,Mummy,木乃伊,木乃伊,Contact with this Pokémon spreads this Ability.,被对手接触到后，会将对手变为木乃伊。
+NATURALCURE,30,Natural Cure,自然回復,自然回复,All status problems heal when it switches out.,回到同行队伍后，异常状态就会被治愈。
+NEUROFORCE,233,Neuroforce,腦核之力,脑核之力,Powers up moves that are super-effective.,效果绝佳的攻击，威力会变得更强。
+NOGUARD,99,No Guard,無防守,无防守,Ensures attacks by or against the Pokémon land.,由于无防守战术，双方使出的招式都必定会击中。
+NORMALIZE,96,Normalize,一般皮膚,一般皮肤,All the Pokémon's moves become the Normal type.,招式全部会变为一般属性。威力会少量提高。
+OBLIVIOUS,12,Oblivious,遲鈍,迟钝,Prevents it from becoming infatuated.,因为感觉迟钝，不会变为着迷和被挑衅状态。
+OVERCOAT,142,Overcoat,防塵,防尘,Protects the Pokémon from damage from weather.,不会受沙暴或冰雹等的伤害和粉末类招式的攻击。
+OVERGROW,65,Overgrow,茂盛,茂盛,Powers up Grass-type moves in a pinch.,HP减少的时候，草属性的招式威力会提高。
+OWNTEMPO,20,Own Tempo,我行我素,我行我素,Prevents the Pokémon from becoming confused.,因为我行我素，不会变为混乱状态。
+PARENTALBOND,185,Parental Bond,親子愛,亲子爱,Parent and child each attacks.,亲子俩可以合计攻击2次。
+PICKPOCKET,124,Pickpocket,順手牽羊,顺手牵羊,Steals an item when hit by another Pokémon.,盗取接触到自己的对手的道具。
+PICKUP,53,Pickup,撿拾,捡拾,The Pokémon may pick up items.,有时会捡来对手用过的道具，冒险中也会捡到。
+PIXILATE,182,Pixilate,妖精皮膚,妖精皮肤,Normal-type moves become Fairy-type and powered up.,一般属性的招式会变为妖属性。威力会少量提高。
+PLUS,57,Plus,正電,正电,Ups Sp. Atk if another Pokémon has Plus or Minus.,出场伙伴有正电或负电特性宝可梦，特攻会提高。
+POISONHEAL,90,Poison Heal,毒療,毒疗,Restores HP if the Pokémon is poisoned.,中毒状态时，HP不会减少，反而会增加起来。
+POISONPOINT,38,Poison Point,毒刺,毒刺,Contact with the Pokémon may poison the attacker.,有时会让接触到自己的对手变为中毒状态。
+POISONTOUCH,143,Poison Touch,毒手,毒手,May poison targets when a Pokémon makes contact.,只通过接触就有可能让对手变为中毒状态。
+POWERCONSTRUCT,211,Power Construct,群聚變形,群聚变形,Changes with other Cells if HP becomes half or less.,HP变为一半时，变为完全体形态。
+POWEROFALCHEMY,223,Power of Alchemy,化學之力,化学之力,Copies the Ability of a defeated ally.,继承被打倒的同伴的特性，变为相同的特性。
+PRANKSTER,158,Prankster,惡作劇之心,恶作剧之心,Gives priority to a status move.,可以率先使出变化招式。
+PRESSURE,46,Pressure,壓迫感,压迫感,The Pokémon raises the foe's PP usage.,给予对手压迫感，大量减少其使用招式的PP。
+PRIMORDIALSEA,189,Primordial Sea,始源之海,始源之海,Changes the weather to nullify Fire-type moves.,变为不会受到火属性攻击的天气。
+PRISMARMOR,232,Prism Armor,稜鏡裝甲,棱镜装甲,Reduces damage from super-effective attacks.,受到效果绝佳的攻击时，可以减弱其威力。
+PROTEAN,168,Protean,變幻自如,变幻自如,It changes type to that of the move it's about to use.,变为与自己使出的招式相同的属性。
+PSYCHICSURGE,227,Psychic Surge,精神製造者,精神制造者,Turns the ground into Psychic Terrain.,出场时，会布下精神场地。
+PUREPOWER,74,Pure Power,瑜伽之力,瑜伽之力,Raises the Pokémon's Attack stat.,物理攻击的威力会变为2倍。
+QUEENLYMAJESTY,214,Queenly Majesty,女王的威嚴,女王的威严,Makes foes unable to use priority attacks.,向对手施加威慑，使其无法对我方使出先制招式。
+QUICKFEET,95,Quick Feet,飛毛腿,飞毛腿,Boosts Speed if there is a status problem.,变为异常状态时，速度会提高。
+RAINDISH,44,Rain Dish,雨盤,雨盘,The Pokémon gradually regains HP in rain.,下雨天气时，会缓缓回复HP。
+RATTLED,155,Rattled,膽怯,胆怯,Some move types scare it and boost its Speed.,受恶、幽灵和虫属性的招式攻击时，速度会提高。
+RECEIVER,222,Receiver,接球手,接球手,Copies the Ability of a defeated ally.,继承被打倒的同伴的特性，变为相同的特性。
+RECKLESS,120,Reckless,捨身,舍身,Powers up moves that have recoil damage.,自己会因反作用力受伤的招式，其威力会提高。
+REFRIGERATE,174,Refrigerate,冰凍皮膚,冰冻皮肤,Normal-type moves become Ice-type and powered up.,一般属性的招式会变为冰属性。威力会少量提高。
+REGENERATOR,144,Regenerator,再生力,再生力,Restores a little HP when withdrawn from battle.,退回同行队伍后，HP会少量回复。
+RIVALRY,79,Rivalry,鬥爭心,斗争心,Deals more damage to a foe of the same gender.,面对性别相同的对手会变得更强，反之则会变弱。
+RKSSYSTEM,225,RKS System,ＡＲ系統,AR系统,Its type matches the memory disc it holds.,根据持有的存储碟，自己的属性会改变。
+ROCKHEAD,69,Rock Head,堅硬腦袋,坚硬脑袋,Protects the Pokémon from recoil damage.,使出会受反作用力伤害的招式，HP也不会减少。
+ROUGHSKIN,24,Rough Skin,粗糙皮膚,粗糙皮肤,Inflicts damage to the foe on contact.,受到攻击时，用粗糙的皮肤弄伤接触自己的对手。
+RUNAWAY,50,Run Away,逃跑,逃跑,Enables a sure getaway from wild Pokémon.,一定能从野生宝可梦那儿逃走。
+SANDFORCE,159,Sand Force,沙之力,沙之力,Boosts certain moves' power in a sandstorm.,沙暴天气时，岩、地和钢属性的招式威力会提高。
+SANDRUSH,146,Sand Rush,撥沙,拨沙,Boosts the Pokémon's Speed in a sandstorm.,沙暴天气时，速度会提高。
+SANDSTREAM,45,Sand Stream,揚沙,扬沙,The Pokémon summons a sandstorm in battle.,出场时，会把天气变为沙暴。
+SANDVEIL,8,Sand Veil,沙隱,沙隐,Boosts the Pokémon's evasion in a sandstorm.,在沙暴的时候，闪避率会提高。
+SAPSIPPER,157,Sap Sipper,食草,食草,Boosts Attack when hit by a Grass-type move.,受到草属性的招式攻击时，攻击会提高。
+SCHOOLING,208,Schooling,魚群,鱼群,Forms a powerful school while it has a lot of HP.,HP多的时候变强。HP少时，群体会分崩离析。
+SCRAPPY,113,Scrappy,膽量,胆量,Enables moves to hit Ghost-type Pokémon.,一般和格斗属性招式可以击中幽灵属性的宝可梦。
+SERENEGRACE,32,Serene Grace,天恩,天恩,Boosts the likelihood of added effects appearing.,托天恩的福，招式的追加效果容易出现。
+SHADOWSHIELD,231,Shadow Shield,幻影防守,幻影防守,Resists damage while its HP is full.,HP全满时，受到的伤害会变少。
+SHADOWTAG,23,Shadow Tag,踩影,踩影,Prevents the foe from escaping.,踩住对手的影子使其无法逃走或替换。
+SHEDSKIN,61,Shed Skin,蛻皮,蜕皮,The Pokémon may heal its own status problems.,通过蜕去身上的皮，有时会治愈异常状态。
+SHEERFORCE,125,Sheer Force,強行,强行,Removes added effects to increase move damage.,招式的追加效果消失，但能以更高威力使出招式。
+SHELLARMOR,75,Shell Armor,硬殼盔甲,硬壳盔甲,The Pokémon is protected against critical hits.,被坚硬的壳保护着，对手的攻击不会击中要害。
+SHIELDDUST,19,Shield Dust,鱗粉,鳞粉,Blocks the added effects of attacks taken.,被鳞粉守护着，不会受到招式的追加效果影响。
+SHIELDSDOWN,197,Shields Down,界限盾殼,界限盾壳,Its shell breaks if its HP becomes half or less.,HP变为一半时，壳会坏掉，变得有攻击性。
+SIMPLE,86,Simple,單純,单纯,The Pokémon is prone to wild stat changes.,能力变化会变为平时的2倍。
+SKILLLINK,92,Skill Link,連續攻擊,连续攻击,Increases the frequency of multi-strike moves.,如果使用连续招式，总是能使出最高次数。
+SLOWSTART,112,Slow Start,慢啟動,慢启动,Temporarily halves Attack and Speed.,在5回合内，攻击和速度减半。
+SLUSHRUSH,202,Slush Rush,撥雪,拨雪,Boosts the Pokémon's Speed stat in a hailstorm.,冰雹天气时，速度会提高。
+SNIPER,97,Sniper,狙擊手,狙击手,Powers up moves if they become critical hits.,击中要害时，威力会变得更强。
+SNOWCLOAK,81,Snow Cloak,雪隱,雪隐,Raises evasion in a hailstorm.,冰雹天气时，闪避率会提高。
+SNOWWARNING,117,Snow Warning,降雪,降雪,The Pokémon summons a hailstorm in battle.,出场时，会将天气变为冰雹。
+SOLARPOWER,94,Solar Power,太陽之力,太阳之力,"In sunshine, Sp. Atk is boosted but HP decreases.",晴朗天气时，特攻会提高，而每回合HP会减少。
+SOLIDROCK,116,Solid Rock,堅硬岩石,坚硬岩石,Reduces damage from super-effective attacks.,受到效果绝佳的攻击时，可以减弱其威力。
+SOULHEART,220,Soul-Heart,魂心,魂心,Boosts Sp. Atk each time a Pokémon faints.,宝可梦每次变为濒死状态时，特攻会提高。
+SOUNDPROOF,43,Soundproof,隔音,隔音,Gives full immunity to all sound-based moves.,通过屏蔽声音，不受到声音招式的攻击。
+SPEEDBOOST,3,Speed Boost,加速,加速,Its Speed stat is gradually boosted.,每一回合速度会变快。
+STAKEOUT,198,Stakeout,監視,蹲守,Deals doubles damage to a target's replacement.,可以对替换出场的对手以2倍的伤害进行攻击。
+STALL,100,Stall,慢出,慢出,The Pokémon moves after all other Pokémon do.,使出招式的顺序必定会变为最后。
+STAMINA,192,Stamina,持久力,持久力,Boosts Defense when hit by an attack.,受到攻击时，防御会提高。
+STANCECHANGE,176,Stance Change,戰鬥切換,战斗切换,Changes between Blade and Shield Forme with attacks.,根据招式会变为刀剑形态或盾牌形态。
+STATIC,9,Static,靜電,静电,Contact with the Pokémon may cause paralysis.,身上带有静电，有时会让接触到的对手麻痹。
+STEADFAST,80,Steadfast,不屈之心,不屈之心,Raises Speed each time the Pokémon flinches.,每次畏缩时，不屈之心就会燃起，速度也会提高。
+STEELWORKER,200,Steelworker,鋼能力者,钢能力者,Powers up Steel-type moves.,钢属性的招式威力会提高。
+STENCH,1,Stench,惡臭,恶臭,The stench may cause the target to flinch.,在攻击的时候，有时会使对手畏缩。
+STICKYHOLD,60,Sticky Hold,黏著,黏着,Protects the Pokémon from item theft.,道具是粘在黏性身体上的，所以不会被对手夺走。
+STORMDRAIN,114,Storm Drain,引水,引水,Draws in all Water-type moves to up Sp. Attack.,将水属性的招式引到自己身上，提高特攻。
+STRONGJAW,173,Strong Jaw,強壯之顎,强壮之颚,Boosts the power of biting moves.,因为颚部强壮，啃咬类招式的威力会提高。
+STURDY,5,Sturdy,結實,结实,It cannot be knocked out with one hit.,不会被一击打倒。一击必杀的招式也没有效果。
+SUCTIONCUPS,21,Suction Cups,吸盤,吸盘,Negates all moves that force switching out.,让替换宝可梦的招式和道具无效。
+SUPERLUCK,105,Super Luck,超幸運,超幸运,Heightens the critical-hit ratios of moves.,因为拥有超幸运，攻击容易击中对手的要害。
+SURGESURFER,207,Surge Surfer,衝浪之尾,冲浪之尾,Doubles Speed on Electric Terrain.,电气场地时，速度会变为2倍。
+SWARM,68,Swarm,蟲之預感,虫之预感,Powers up Bug-type moves in a pinch.,HP减少的时候，虫属性的招式威力会提高。
+SWEETVEIL,175,Sweet Veil,甜幕,甜幕,Prevents itself and allies from falling asleep.,我方的宝可梦不会变为睡眠状态。
+SWIFTSWIM,33,Swift Swim,悠游自如,悠游自如,Boosts the Pokémon's Speed in rain.,下雨天气时，速度会提高。
+SYMBIOSIS,180,Symbiosis,共生,共生,Passes its held item to an ally that has used theirs.,同伴使用道具时，会把自己持有道具传递给同伴。
+SYNCHRONIZE,28,Synchronize,同步,同步,"Passes a burn, poison, or paralysis to the foe.",将自己的中毒、麻痹或灼伤状态传染给对手。
+TANGLEDFEET,77,Tangled Feet,蹣跚,蹒跚,Raises evasion if the Pokémon is confused.,在混乱状态时，闪避率会提高。
+TANGLINGHAIR,221,Tangling Hair,捲髮,卷发,Contact with it lowers the attacker's Speed.,对于用攻击接触到自己的对手，会降低其速度。
+TECHNICIAN,101,Technician,技術高手,技术高手,Powers up the Pokémon's weaker moves.,攻击时可以将低威力招式的威力提高。
+TELEPATHY,140,Telepathy,心靈感應,心灵感应,Anticipates an ally's attack and dodges it.,读取我方的攻击，并闪避其招式伤害。
+TERAVOLT,164,Teravolt,兆級電壓,兆级电压,Moves can be used regardless of Abilities.,可以不受对手特性的干扰，向对手使出招式。
+THICKFAT,47,Thick Fat,厚脂肪,厚脂肪,Ups resistance to Fire- and Ice-type moves.,会让火属性和冰属性的招式伤害减半。
+TINTEDLENS,110,Tinted Lens,有色眼鏡,有色眼镜,"Powers up ""not very effective"" moves.",可以将效果不好的招式以通常的威力使出。
+TORRENT,67,Torrent,激流,激流,Powers up Water-type moves in a pinch.,HP减少的时候，水属性的招式威力会提高。
+TOUGHCLAWS,181,Tough Claws,硬爪,硬爪,Powers up moves that make direct contact.,接触到对手的招式威力会提高。
+TOXICBOOST,137,Toxic Boost,中毒激升,中毒激升,Powers up physical attacks when poisoned.,变为中毒状态时，物理招式的威力会提高。
+TRACE,36,Trace,複製,复制,The Pokémon copies a foe's Ability.,出场时，复制对手的特性，变为与之相同的特性。
+TRIAGE,205,Triage,先行治療,先行治疗,Gives priority to a healing move.,可以率先使出回复招式。
+TRUANT,54,Truant,懶惰,懒惰,Pokémon can't attack on consecutive turns.,如果使出招式，下一回合就会休息。
+TURBOBLAZE,163,Turboblaze,渦輪火焰,涡轮火焰,Moves can be used regardless of Abilities.,可以不受对手特性的干扰，向对手使出招式。
+UNAWARE,109,Unaware,純樸,纯朴,Ignores any stat changes in the Pokémon.,可以无视对手能力的变化，进行攻击。
+UNBURDEN,84,Unburden,輕裝,轻装,Raises Speed if a held item is used.,失去所持有的道具时，速度会提高。
+UNNERVE,127,Unnerve,緊張感,紧张感,Makes the foe nervous and unable to eat Berries.,让对手紧张，使其无法食用树果。
+VICTORYSTAR,162,Victory Star,勝利之星,胜利之星,Boosts the accuracy of its allies and itself.,自己和同伴的命中率会提高。
+VITALSPIRIT,72,Vital Spirit,幹勁,干劲,Prevents the Pokémon from falling asleep.,通过激发出干劲，不会变为睡眠状态。
+VOLTABSORB,10,Volt Absorb,蓄電,蓄电,Restores HP if hit by an Electric-type move.,受到电属性的招式攻击时，回复HP。
+WATERABSORB,11,Water Absorb,儲水,储水,Restores HP if hit by a Water-type move.,受到水属性的招式攻击时，回复HP。
+WATERBUBBLE,199,Water Bubble,水泡,水泡,Weakens incoming Fire-type moves and prevents burns.,降低与自己相对的火属性招式的威力，不会灼伤。
+WATERCOMPACTION,195,Water Compaction,遇水凝固,遇水凝固,Sharply ups Defense when hit by a Water-type move.,受到水属性的招式攻击时，防御会大幅提高。
+WATERVEIL,41,Water Veil,水幕,水幕,Prevents the Pokémon from getting a burn.,将水幕裹在身上，不会变为灼伤状态。
+WEAKARMOR,133,Weak Armor,碎裂鎧甲,碎裂铠甲,Physical attacks lower Defense and raise Speed.,因物理招式受到伤害，防御降低，速度大幅提高。
+WHITESMOKE,73,White Smoke,白色煙霧,白色烟雾,Prevents other Pokémon from lowering its stats.,被白色烟雾保护着，不会被对手降低能力。
+WIMPOUT,193,Wimp Out,躍躍欲逃,跃跃欲逃,Cowardly switches out if its HP becomes half or less.,HP变为一半时，会慌张逃走，退回同行队伍中。
+WONDERGUARD,25,Wonder Guard,神奇守護,神奇守护,Only super-effective moves will hit.,不可思议的力量，只有效果绝佳的招式才能击中。
+WONDERSKIN,147,Wonder Skin,奇跡皮膚,奇迹皮肤,Makes status-changing moves more likely to miss.,成为不易受到变化招式攻击的身体。
+ZENMODE,161,Zen Mode,達摩模式,达摩模式,Changes the Pokémon's shape when HP is halved.,HP变为一半以下时，样子会改变。

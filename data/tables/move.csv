@@ -1,0 +1,681 @@
+﻿id,number,name_en,name_zh_tw,name_zh_game,type_id,category,power,accuracy,pp,effect_chance,priority,function_code,target,desc_en,desc_zh_game
+ABSORB,277,Absorb,吸取,吸取,GRASS,special,20,100,25,0,0,0DD,NearOther,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.,吸取对手的养分进行攻击。可以回复给予对手伤害的一半HP。
+ACCELEROCK,615,Accelerock,衝岩,冲岩,ROCK,physical,40,100,20,0,1,000,NearOther,The user smashes into the target at high speed. This move always goes first.,迅速撞向对手进行攻击。必定能够先制攻击。
+ACID,530,Acid,溶解液,溶解液,POISON,special,40,100,30,10,0,046,AllNearFoes,The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.,将强酸泼向对手进行攻击。有时会降低对手的特防。
+ACIDARMOR,534,Acid Armor,溶化,溶化,POISON,status,0,0,20,0,0,02F,User,"The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",通过细胞的变化进行液化，从而大幅提高自己的防御。
+ACIDSPRAY,531,Acid Spray,酸液炸彈,酸液炸弹,POISON,special,40,100,20,100,0,04F,NearOther,The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.,喷出能溶化对手的液体进行攻击。大幅降低对手的特防。
+ACROBATICS,223,Acrobatics,雜技,杂技,FLYING,physical,55,100,15,0,0,086,Other,The user nimbly strikes the foe. This attack does more damage if the user is not holding an item.,轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。
+ACUPRESSURE,429,Acupressure,點穴,点穴,NORMAL,status,0,0,30,0,0,037,UserOrNearAlly,"The user applies pressure to stress points, sharply boosting one of its stats.",通过点穴让身体舒筋活络。大幅提高某1项能力。
+AERIALACE,218,Aerial Ace,燕返,燕返,FLYING,physical,60,0,20,0,0,0A5,Other,"The user confounds the foe with speed, then slashes. The attack lands without fail.",以敏捷的动作戏弄对手后进行切斩。攻击必定会命中。
+AEROBLAST,210,Aeroblast,氣旋攻擊,气旋攻击,FLYING,special,100,95,5,0,0,000,Other,A vortex of air is shot at the target to inflict damage. Critical hits land more easily.,发射空气旋涡进行攻击。容易击中要害。
+AFTERYOU,430,After You,您先請,您先请,NORMAL,status,0,0,15,0,0,11D,NearOther,The user helps the target and makes it use its move right after the user.,支援我方或对手的行动，使其紧接着此招式之后行动。
+AGILITY,567,Agility,高速移動,高速移动,PSYCHIC,status,0,0,30,0,0,030,User,The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.,让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。
+AIRCUTTER,219,Air Cutter,空氣利刃,空气利刃,FLYING,special,60,95,25,0,0,000,AllNearFoes,The user launches razor-like wind to slash the opposing team. Critical hits land more easily.,用锐利的风切斩对手进行攻击。容易击中要害。
+AIRSLASH,216,Air Slash,空氣斬,空气斩,FLYING,special,75,95,15,30,0,00F,Other,The user attacks with a blade of air that slices even the sky. It may also make the target flinch.,用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。
+ALLYSWITCH,568,Ally Switch,交換場地,交换场地,PSYCHIC,status,0,0,15,0,2,120,User,The user teleports using a strange power and switches its place with one of its allies.,用神奇的力量瞬间移动，互换自己和同伴所在的位置。
+AMNESIA,569,Amnesia,瞬間失憶,瞬间失忆,PSYCHIC,status,0,0,20,0,0,033,User,The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.,将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。
+ANCHORSHOT,626,Anchor Shot,擲錨,掷锚,STEEL,physical,80,100,20,100,0,0EF,NearOther,The user entangles the target with its anchor chain. The target becomes unable to flee.,将锚缠住对手进行攻击。使对手无法逃走。
+ANCIENTPOWER,611,Ancient Power,原始之力,原始之力,ROCK,special,60,100,5,10,0,02D,NearOther,The user attacks with a prehistoric power. It may also raise all the user's stats at once.,用原始之力进行攻击。有时会提高自己所有的能力。
+AQUAJET,666,Aqua Jet,水流噴射,水流喷射,WATER,physical,40,100,20,0,1,000,NearOther,The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.,以迅雷不及掩耳之势扑向对手。必定能够先制攻击。
+AQUARING,672,Aqua Ring,水流環,水流环,WATER,status,0,0,20,0,0,0DA,User,The user envelops itself in a veil made of water. It regains some HP on every turn.,在自己身体的周围覆盖用水制造的幕。每回合回复HP。
+AQUATAIL,652,Aqua Tail,水流尾,水流尾,WATER,physical,90,90,10,0,0,000,NearOther,The user attacks by swinging its tail as if it were a vicious wave in a raging storm.,如惊涛骇浪般挥动大尾巴攻击对手。
+ARMTHRUST,161,Arm Thrust,猛推,猛推,FIGHTING,physical,15,100,20,0,0,0C0,NearOther,The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.,用张开着的双手猛推对手进行攻击。连续攻击2～5次。
+AROMATHERAPY,279,Aromatherapy,芳香治療,芳香治疗,GRASS,status,0,0,5,0,0,019,UserAndAllies,The user releases a soothing scent that heals all status problems affecting the user's party.,让同伴闻沁人心脾的香气，从而治愈我方全员的异常状态。
+AROMATICMIST,119,Aromatic Mist,芳香薄霧,芳香薄雾,FAIRY,status,0,0,20,0,0,138,NearAlly,The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.,通过神奇的芳香，提高我方宝可梦的特防。
+ASSIST,431,Assist,借助,借助,NORMAL,status,0,0,20,0,0,0B5,User,The user hurriedly and randomly uses a move among those known by other Pokémon in the party.,向我方紧急求助，从我方宝可梦已学会的招式中随机使用1个。
+ASSURANCE,39,Assurance,惡意追擊,恶意追击,DARK,physical,60,100,10,0,0,082,NearOther,"If the target has already taken some damage in the same turn, this attack's power is doubled.",如果此回合内对手已经受到伤害的话，招式威力会变成2倍。
+ASTONISH,243,Astonish,驚嚇,惊吓,GHOST,physical,30,100,15,30,0,00F,NearOther,The user attacks the target while shouting in a startling fashion. It may also make the target flinch.,用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。
+ATTACKORDER,2,Attack Order,攻擊指令,攻击指令,BUG,physical,90,100,15,0,0,000,NearOther,The user calls out its underlings to pummel the target. Critical hits land more easily.,召唤手下，让其朝对手发起攻击。容易击中要害。
+ATTRACT,432,Attract,迷人,迷人,NORMAL,status,0,100,15,0,0,016,NearOther,"If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。
+AURASPHERE,143,Aura Sphere,波導彈,波导弹,FIGHTING,special,80,0,20,0,0,0A5,Other,The user looses a blast of aura power from deep within its body. This move is certain to hit.,从体内产生出波导之力，然后向对手发出。攻击必定会命中。
+AURORABEAM,327,Aurora Beam,極光束,极光束,ICE,special,65,100,20,10,0,042,NearOther,The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.,向对手发射虹色光束进行攻击。有时会降低对手的攻击。
+AURORAVEIL,338,Aurora Veil,極光幕,极光幕,ICE,status,0,0,20,0,0,167,UserSide,This move reduces damage from attacks for five turns. This can be used only in a hailstorm.,在5回合内减弱物理和特殊的伤害。只有冰雹时才能使出。
+AUTOTOMIZE,640,Autotomize,身體輕量化,身体轻量化,STEEL,status,0,0,15,0,0,031,User,The user sheds part of its body to make itself lighter and sharply raise its Speed stat.,削掉身体上没用的部分。大幅提高自己的速度，同时体重也会变轻。
+AVALANCHE,330,Avalanche,雪崩,雪崩,ICE,physical,60,100,10,0,-4,081,NearOther,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.,如果受到对手的招式攻击，就能给予该对手2倍威力的攻击。
+BABYDOLLEYES,120,Baby-Doll Eyes,圓瞳,圆瞳,FAIRY,status,0,100,30,0,1,042,NearOther,"The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first.",用圆瞳凝视对手，从而降低其攻击。必定能够先制攻击。
+BANEFULBUNKER,535,Baneful Bunker,碉堡,碉堡,POISON,status,0,0,10,0,4,168,User,Protects the user from attacks. Also poisons any attacker that makes contact with the user.,防住对手攻击的同时，让接触到自己的对手中毒。
+BARRAGE,408,Barrage,投球,投球,NORMAL,physical,15,85,20,0,0,0C0,NearOther,Round objects are hurled at the target to strike two to five times in a row.,向对手投掷圆形物体进行攻击。连续攻击2～5次。
+BARRIER,570,Barrier,屏障,屏障,PSYCHIC,status,0,0,20,0,0,02F,User,The user throws up a sturdy wall that sharply raises its Defense stat.,制造坚固的壁障，从而大幅提高自己的防御。
+BATONPASS,433,Baton Pass,接棒,接棒,NORMAL,status,0,0,40,0,0,0ED,User,"The user switches places with a party Pokémon in waiting, passing along any stat changes.",和后备宝可梦进行替换。换上的宝可梦能直接继承其能力的变化。
+BEAKBLAST,211,Beak Blast,鳥嘴加農炮,鸟嘴加农炮,FLYING,physical,100,100,15,0,0,172,NearOther,The user heats up its beak before attacking. Making contact in this time results in a burn.,先加热鸟嘴后再进行攻击。鸟嘴在加热时对手触碰的话，就会使其灼伤。
+BEATUP,47,Beat Up,圍攻,围攻,DARK,physical,1,100,10,0,0,0C1,NearOther,"The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",我方全员进行攻击。同行的宝可梦越多，招式的攻击次数越多。
+BELCH,519,Belch,打嗝,打嗝,POISON,special,120,90,10,0,0,158,NearOther,The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.,朝着对手打嗝，并给予伤害。如果不吃树果则无法使出。
+BELLYDRUM,434,Belly Drum,腹鼓,腹鼓,NORMAL,status,0,0,10,0,0,03A,User,The user maximizes its Attack stat in exchange for HP equal to half its max HP.,将自己的HP减少到最大HP的一半，从而最大限度提高自己的攻击。
+BESTOW,435,Bestow,傳遞禮物,传递礼物,NORMAL,status,0,0,15,0,0,0F3,NearOther,The user passes its held item to the target when the target isn't holding an item.,当对手未携带道具时，能够将自己携带的道具交给对手。
+BIDE,414,Bide,忍耐,忍耐,NORMAL,physical,1,0,10,0,1,0D4,None,"The user endures attacks for two turns, then strikes back to cause double the damage taken.",在2回合内忍受攻击，受到的伤害会2倍返还给对手。
+BIND,409,Bind,綁緊,绑紧,NORMAL,physical,15,85,20,0,0,0CF,NearOther,Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.,使用长长的身体或藤蔓等，在4～5回合内绑紧对手进行攻击。
+BITE,40,Bite,咬住,咬住,DARK,physical,60,100,25,30,0,00F,NearOther,The target is bitten with viciously sharp fangs. It may make the target flinch.,用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。
+BLASTBURN,173,Blast Burn,爆炸烈焰,爆炸烈焰,FIRE,special,150,90,5,0,0,0C2,NearOther,"The target is razed by a fiery explosion. The user must rest on the next turn, however.",用爆炸的火焰烧尽对手进行攻击。下一回合自己将无法动弹。
+BLAZEKICK,189,Blaze Kick,火焰踢,火焰踢,FIRE,physical,85,90,10,10,0,00A,NearOther,The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.,攻击对手后，有时会使其陷入灼伤状态。也容易击中要害。
+BLIZZARD,321,Blizzard,暴風雪,暴风雪,ICE,special,110,70,5,10,0,00D,AllNearFoes,A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.,将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。
+BLOCK,436,Block,擋路,挡路,NORMAL,status,0,0,5,0,0,0EF,NearOther,The user blocks the target's way with arms spread wide to prevent escape.,张开双手进行阻挡，封住对手的退路，使其不能逃走。
+BLUEFLARE,177,Blue Flare,青焰,青焰,FIRE,special,130,85,5,20,0,00A,NearOther,"The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe.",用美丽而激烈的青焰包裹住对手进行攻击。有时会让对手陷入灼伤状态。
+BODYSLAM,362,Body Slam,泰山壓頂,泰山压顶,NORMAL,physical,85,100,15,30,0,007,NearOther,The user drops onto the target with its full body weight. It may leave the target with paralysis.,用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。
+BOLTSTRIKE,81,Bolt Strike,雷擊,雷击,ELECTRIC,physical,130,85,5,20,0,007,NearOther,"The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed.",让强大的电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。
+BONECLUB,304,Bone Club,骨棒,骨棒,GROUND,physical,65,85,20,10,0,00F,NearOther,The user clubs the target with a bone. It may also make the target flinch.,用手中的骨头殴打对手进行攻击。有时会使对手畏缩。
+BONEMERANG,308,Bonemerang,骨頭回力鏢,骨头回力镖,GROUND,physical,50,90,10,0,0,0BD,NearOther,"The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",用手中的骨头投掷对手，来回连续2次给予伤害。
+BONERUSH,310,Bone Rush,骨棒亂打,骨棒乱打,GROUND,physical,25,90,10,0,0,0C0,NearOther,The user strikes the target with a hard bone two to five times in a row.,用坚硬的骨头殴打对手进行攻击。连续攻击2～5次。
+BOOMBURST,346,Boomburst,爆音波,爆音波,NORMAL,special,140,100,10,0,0,000,AllNearOthers,"The user attacks everything around it with the destructive power of a terrible, explosive sound.",通过震耳欲聋的爆炸声产生的破坏力，攻击自己周围所有的宝可梦。
+BOUNCE,213,Bounce,彈跳,弹跳,FLYING,physical,85,85,5,30,0,0CC,Other,"The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",弹跳到高高的空中，第2回合攻击对手。有时会让对手陷入麻痹状态。
+BRAVEBIRD,207,Brave Bird,勇鳥猛攻,勇鸟猛攻,FLYING,physical,120,100,15,0,0,0FB,Other,The user tucks in its wings and charges from a low altitude. The user also takes serious damage.,收拢翅膀，通过低空飞行突击对手。自己也会受到不小的伤害。
+BRICKBREAK,145,Brick Break,劈瓦,劈瓦,FIGHTING,physical,75,100,15,0,0,10A,NearOther,The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.,将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。
+BRINE,662,Brine,鹽水,盐水,WATER,special,65,100,10,0,0,080,NearOther,"If the target's HP is down to about half, this attack will hit with double the power.",当对手的HP负伤到一半左右时，招式威力会变成2倍。
+BRUTALSWING,41,Brutal Swing,狂舞揮打,狂舞挥打,DARK,physical,60,100,20,0,0,000,AllNearOthers,The user swings its body around violently to inflict damage on everything in its vicinity.,用自己的身体狂舞挥打，给予对手伤害。
+BUBBLE,667,Bubble,泡沫,泡沫,WATER,special,40,100,30,10,0,044,AllNearFoes,A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.,向对手用力吹起无数泡泡进行攻击。有时会降低对手的速度。
+BUBBLEBEAM,663,Bubble Beam,泡沫光線,泡沫光线,WATER,special,65,100,20,10,0,044,NearOther,A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.,向对手猛烈地喷射泡沫进行攻击。有时会降低对手的速度。
+BUGBITE,12,Bug Bite,蟲咬,虫咬,BUG,physical,60,100,20,0,0,0F4,NearOther,"The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",咬住进行攻击。当对手携带树果时，可以食用并获得其效果。
+BUGBUZZ,3,Bug Buzz,蟲鳴,虫鸣,BUG,special,90,100,10,10,0,046,NearOther,The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.,利用振动发出音波进行攻击。有时会降低对手的特防。
+BULKUP,168,Bulk Up,健美,健美,FIGHTING,status,0,0,20,0,0,024,User,"The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",使出全身力气绷紧肌肉，从而提高自己的攻击和防御。
+BULLDOZE,306,Bulldoze,重踏,重踏,GROUND,physical,60,100,20,100,0,044,AllNearOthers,The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.,用力踩踏地面并攻击自己周围所有的宝可梦。降低对方的速度。
+BULLETPUNCH,636,Bullet Punch,子彈拳,子弹拳,STEEL,physical,40,100,30,0,1,000,NearOther,The user strikes the target with tough punches as fast as bullets. This move always goes first.,向对手使出如子弹般快速而坚硬的拳头。必定能够先制攻击。
+BULLETSEED,276,Bullet Seed,種子機關槍,种子机关枪,GRASS,physical,25,100,30,0,0,0C0,NearOther,The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.,向对手猛烈地发射种子进行攻击。连续攻击2～5次。
+BURNUP,178,Burn Up,燃盡,燃尽,FIRE,special,130,100,5,0,0,162,NearOther,"To inflict massive damage, the user burns itself out. The user will no longer be Fire type.",将自己全身燃烧起火焰来，给予对手大大的伤害。自己的火属性将会消失。
+CALMMIND,571,Calm Mind,冥想,冥想,PSYCHIC,status,0,0,20,0,0,02C,User,The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.,静心凝神，从而提高自己的特攻和特防。
+CAMOUFLAGE,437,Camouflage,保護色,保护色,NORMAL,status,0,0,20,0,0,060,User,"The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.",根据所在场所不同，如水边、草丛和洞窟等，可以改变自己的属性。
+CAPTIVATE,438,Captivate,誘惑,诱惑,NORMAL,status,0,100,20,0,0,04E,AllNearFoes,"If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.",♂诱惑♀或♀诱惑♂，从而大幅降低对手的特攻。
+CELEBRATE,439,Celebrate,慶祝,庆祝,NORMAL,status,0,0,40,0,0,134,User,The Pokémon congratulates you on your special day!,宝可梦为十分开心的你庆祝。
+CHARGE,102,Charge,充電,充电,ELECTRIC,status,0,0,20,0,0,021,User,The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.,提高下一回合使出的电属性的招式威力。自己的特防也会提高。
+CHARGEBEAM,98,Charge Beam,充電光束,充电光束,ELECTRIC,special,50,90,10,70,0,020,NearOther,The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.,向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。
+CHARM,121,Charm,撒嬌,撒娇,FAIRY,status,0,100,20,0,0,04B,NearOther,"The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.",可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。
+CHATTER,217,Chatter,喋喋不休,喋喋不休,FLYING,special,65,100,20,100,0,014,Other,The user attacks using a sound wave based on words it has learned. It may also confuse the target.,用非常烦人的，喋喋不休的音波攻击对手。使对手混乱。
+CHIPAWAY,372,Chip Away,逐步擊破,逐步击破,NORMAL,physical,70,100,20,0,0,0A9,NearOther,"Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage.",看准机会稳步攻击。无视对手的能力变化，直接给予伤害。
+CIRCLETHROW,150,Circle Throw,巴投,巴投,FIGHTING,physical,60,90,10,0,-6,0EC,NearOther,"The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.",扔飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。
+CLAMP,669,Clamp,貝殼夾擊,贝壳夹击,WATER,physical,35,85,15,0,0,0CF,NearOther,The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.,用非常坚固且厚实的贝壳，在4～5回合内夹住对手进行攻击。
+CLANGINGSCALES,68,Clanging Scales,鱗片噪音,鳞片噪音,DRAGON,special,110,100,5,0,0,15F,AllNearFoes,The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat.,摩擦全身鳞片，发出响亮的声音进行攻击。攻击后自己的防御会降低。
+CLEARSMOG,527,Clear Smog,清除之煙,清除之烟,POISON,special,50,0,15,0,0,050,NearOther,The user attacks by throwing a clump of special mud. All status changes are returned to normal.,向对手投掷特殊的泥块进行攻击。使其能力变回原点。
+CLOSECOMBAT,132,Close Combat,近身戰,近身战,FIGHTING,physical,120,100,5,0,0,03C,NearOther,The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.,放弃守护，向对手的怀里突击。自己的防御和特防会降低。
+COIL,536,Coil,盤蜷,盘蜷,POISON,status,0,0,20,0,0,025,User,The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.,盘蜷着集中精神。提高自己的攻击、防御和命中率。
+COMETPUNCH,406,Comet Punch,連續拳,连续拳,NORMAL,physical,18,85,15,0,0,0C0,NearOther,The target is hit with a flurry of punches that strike two to five times in a row.,用拳头怒涛般的殴打对手进行攻击。连续攻击2～5次。
+CONFIDE,440,Confide,密語,密语,NORMAL,status,0,0,20,0,0,13C,NearOther,The user tells the target a secret. The target loses focus and its Sp. Atk stat is lowered.,和对手进行密语，使其失去集中力，从而降低对手的特攻。
+CONFUSERAY,246,Confuse Ray,奇異之光,奇异之光,GHOST,status,0,100,10,0,0,013,NearOther,The target is exposed to a sinister ray that triggers confusion.,显示奇怪的光，扰乱对手。使对手混乱。
+CONFUSION,563,Confusion,念力,念力,PSYCHIC,special,50,100,25,10,0,013,NearOther,The target is hit by a weak telekinetic force. It may also leave the target confused.,向对手发送微弱的念力进行攻击。有时会使对手混乱。
+CONSTRICT,413,Constrict,纏繞,缠绕,NORMAL,physical,10,100,35,10,0,044,NearOther,"The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed.",用触手或青藤等缠绕进行攻击。有时会降低对手的速度。
+CONVERSION,441,Conversion,紋理,纹理,NORMAL,status,0,0,30,0,0,05E,User,The user changes its type to become the same type as one of its moves.,将自己的属性转换成和已学会的招式中第一个招式相同的属性。
+CONVERSION2,442,Conversion 2,紋理２,纹理2,NORMAL,status,0,0,30,0,0,05F,NearOther,The user changes its type to make itself resistant to the type of the attack the opponent used last.,为了可以抵抗对手最后使用的招式，从而使自己的属性发生变化。
+COPYCAT,443,Copycat,仿效,仿效,NORMAL,status,0,0,20,0,0,0AF,User,The user mimics the move used immediately before it. The move fails if no other move has been used yet.,模仿对手刚才使出的招式，并使出相同招式。如果对手还没出招则会失败。
+COREENFORCER,69,Core Enforcer,核心懲罰者,核心惩罚者,DRAGON,special,100,100,10,0,0,165,AllNearFoes,"If the target has already moved this turn, the effect of its Ability is negated.",如果给予过伤害的对手已经结束行动，其特性就会被消除。
+COSMICPOWER,572,Cosmic Power,宇宙力量,宇宙力量,PSYCHIC,status,0,0,20,0,0,02A,User,The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.,汲取宇宙中神秘的力量，从而提高自己的防御和特防。
+COTTONGUARD,280,Cotton Guard,棉花防守,棉花防守,GRASS,status,0,0,10,0,0,038,User,"The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat.",用软绵绵的绒毛包裹住自己的身体进行守护。巨幅提高自己的防御。
+COTTONSPORE,281,Cotton Spore,棉孢子,棉孢子,GRASS,status,0,100,40,0,0,04D,AllNearFoes,"The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.",将棉花般柔软的孢子紧贴对手，从而大幅降低对手的速度。
+COUNTER,163,Counter,雙倍奉還,双倍奉还,FIGHTING,physical,1,100,20,0,-5,071,None,"A retaliation move that counters any physical attack, inflicting double the damage taken.",从对手那里受到物理攻击的伤害将以2倍返还给同一个对手。
+COVET,382,Covet,渴望,渴望,NORMAL,physical,60,100,25,0,0,0F1,NearOther,"The user endearingly approaches the target, then steals the target's held item.",一边可爱地撒娇，一边靠近对手进行攻击，还能夺取对手携带的道具。
+CRABHAMMER,651,Crabhammer,蟹鉗錘,蟹钳锤,WATER,physical,100,90,10,0,0,000,NearOther,The target is hammered with a large pincer. Critical hits land more easily.,用大钳子敲打对手进行攻击。容易击中要害。
+CRAFTYSHIELD,122,Crafty Shield,戲法防守,戏法防守,FAIRY,status,0,0,10,0,3,14A,UserSide,The user protects itself and its allies from status moves with a mysterious power.,使用神奇的力量防住攻击我方的变化招式。但无法防住伤害招式的攻击。
+CROSSCHOP,135,Cross Chop,十字劈,十字劈,FIGHTING,physical,100,80,5,0,0,000,NearOther,The user delivers a double chop with its forearms crossed. Critical hits land more easily.,用两手呈十字劈打对手进行攻击。容易击中要害。
+CROSSPOISON,524,Cross Poison,十字毒刃,十字毒刃,POISON,physical,70,100,20,10,0,005,NearOther,A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.,用毒刃劈开对手。有时会让对手陷入中毒状态，也容易击中要害。
+CRUNCH,33,Crunch,咬碎,咬碎,DARK,physical,80,100,15,20,0,043,NearOther,The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.,用利牙咬碎对手进行攻击。有时会降低对手的防御。
+CRUSHCLAW,370,Crush Claw,撕裂爪,撕裂爪,NORMAL,physical,75,95,10,50,0,043,NearOther,The user slashes the target with hard and sharp claws. It may also lower the target's Defense.,用坚硬的锐爪劈开对手进行攻击。有时会降低对手的防御。
+CRUSHGRIP,415,Crush Grip,捏碎,捏碎,NORMAL,physical,1,100,5,0,0,08C,NearOther,The target is crushed with great force. The attack is more powerful the more HP the target has left.,用骇人的力量捏碎对手。对手剩余的HP越多，威力越大。
+CURSE,247,Curse,詛咒,诅咒,GHOST,status,0,0,10,0,0,10D,User,A move that works differently for the Ghost type than for all the other types.,使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。
+CUT,387,Cut,居合斬,居合斩,NORMAL,physical,50,95,30,0,0,000,NearOther,The target is cut with a scythe or a claw. It can also be used to cut down thin trees.,用镰刀或爪子等切斩对手进行攻击。还可以切断细的树木。
+DARKESTLARIAT,31,Darkest Lariat,ＤＤ金勾臂,DD金勾臂,DARK,physical,85,100,10,0,0,0A9,NearOther,The user swings both arms and hits the target. Ignores the target's stat changes.,旋转双臂打向对手。无视对手的能力变化，直接给予伤害。
+DARKPULSE,34,Dark Pulse,惡之波動,恶之波动,DARK,special,80,100,15,20,0,00F,Other,The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.,从体内发出充满恶意的恐怖气场。有时会使对手畏缩。
+DARKVOID,51,Dark Void,暗黑洞,暗黑洞,DARK,status,0,50,10,0,0,003,AllNearFoes,Opposing Pokémon are dragged into a world of total darkness that makes them sleep.,将对手强制拖入黑暗的世界，从而让对手陷入睡眠状态。
+DAZZLINGGLEAM,114,Dazzling Gleam,魔法閃耀,魔法闪耀,FAIRY,special,80,100,10,0,0,000,AllNearFoes,The user damages opposing Pokémon by emitting a powerful flash.,向对手发射强光，并给予伤害。
+DEFENDORDER,20,Defend Order,防禦指令,防御指令,BUG,status,0,0,10,0,0,02A,User,"The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",召唤手下，让其附在自己的身体上。可以提高自己的防御和特防。
+DEFENSECURL,444,Defense Curl,變圓,变圆,NORMAL,status,0,0,40,0,0,01E,User,The user curls up to conceal weak spots and raise its Defense stat.,将身体蜷曲变圆，从而提高自己的防御。
+DEFOG,226,Defog,清除濃霧,清除浓雾,FLYING,status,0,0,15,0,0,049,NearOther,A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.,用强风吹开对手的反射壁或光墙等。也会降低对手的闪避率。
+DESTINYBOND,248,Destiny Bond,同命,同命,GHOST,status,0,0,5,0,0,0E7,User,"When this move is used, if the user faints, the foe that landed the knockout hit also faints.",使出招式后，当受到对手攻击陷入濒死时，对手也会一同濒死。连续使出则会失败。
+DETECT,169,Detect,看穿,看穿,FIGHTING,status,0,0,5,0,4,0AA,User,It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.,完全抵挡对手的攻击。连续使出则容易失败。
+DIAMONDSTORM,607,Diamond Storm,鑽石風暴,钻石风暴,ROCK,physical,100,95,5,50,0,136,AllNearFoes,The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat.,掀起钻石风暴给予伤害。有时会大幅提高自己的防御。
+DIG,301,Dig,挖洞,挖洞,GROUND,physical,80,100,10,0,0,0CA,NearOther,"The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",第1回合钻入，第2回合攻击对手。还能用来逃离洞窟之类的地方。
+DISABLE,445,Disable,定身法,定身法,NORMAL,status,0,100,20,0,0,0B9,NearOther,"For four turns, this move prevents the target from using the move it last used.",阻碍对手行动，之前使出的招式将在4回合内无法使用。
+DISARMINGVOICE,116,Disarming Voice,魅惑之聲,魅惑之声,FAIRY,special,40,0,15,0,0,0A5,AllNearFoes,"Letting out a charming cry, the user does emotional damage to foes. This attack never misses.",发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中。
+DISCHARGE,89,Discharge,放電,放电,ELECTRIC,special,80,100,15,30,0,007,AllNearOthers,A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.,用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态。
+DIVE,657,Dive,潛水,潜水,WATER,physical,80,100,10,0,0,0CB,NearOther,"Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean.",第1回合潜入，第2回合浮上来进行攻击。还可以潜入深海之中。
+DIZZYPUNCH,373,Dizzy Punch,迷昏拳,迷昏拳,NORMAL,physical,70,100,10,20,0,013,NearOther,The target is hit with rhythmically launched punches that may also leave it confused.,有节奏地出拳攻击对手。有时会使对手混乱。
+DOOMDESIRE,622,Doom Desire,破滅之願,破灭之愿,STEEL,special,140,100,5,0,0,111,NearOther,"Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",使用招式2回合后，会用无数道光束攻击对手。
+DOUBLEEDGE,349,Double-Edge,捨身衝撞,舍身冲撞,NORMAL,physical,120,100,15,0,0,0FB,NearOther,"A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。
+DOUBLEHIT,400,Double Hit,二連擊,二连击,NORMAL,physical,35,90,10,0,0,0BD,NearOther,"The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.",使用尾巴等拍打对手进行攻击。连续2次给予伤害。
+DOUBLEIRONBASH,631,Double Iron Bash,鋼拳雙擊,钢拳双击,STEEL,physical,60,100,5,30,0,175,NearOther,"The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.",以胸口的螺帽为中心旋转，并连续2次挥动手臂打击对手。有时会使对手畏缩。
+DOUBLEKICK,160,Double Kick,二連踢,二连踢,FIGHTING,physical,30,100,30,0,0,0BD,NearOther,The target is quickly kicked twice in succession using both feet.,用2只脚踢飞对手进行攻击。连续2次给予伤害。
+DOUBLESLAP,410,Double Slap,連環巴掌,连环巴掌,NORMAL,physical,15,85,10,0,0,0C0,NearOther,"The target is slapped repeatedly, back and forth, two to five times in a row.",用连环巴掌拍打对手进行攻击。连续攻击2～5次。
+DOUBLETEAM,446,Double Team,影子分身,影子分身,NORMAL,status,0,0,15,0,0,022,User,"By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",通过快速移动来制造分身，扰乱对手，从而提高闪避率。
+DRACOMETEOR,66,Draco Meteor,流星群,流星群,DRAGON,special,130,90,5,0,0,03F,NearOther,Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.,从天空中向对手落下陨石。使用之后因为反作用力，自己的特攻会大幅降低。
+DRAGONASCENT,208,Dragon Ascent,畫龍點睛,画龙点睛,FLYING,physical,120,100,5,0,0,03C,NearOther,The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered.,从天空中急速下降攻击对手。自己的防御和特防会降低。
+DRAGONBREATH,75,Dragon Breath,龍息,龙息,DRAGON,special,60,100,20,30,0,007,NearOther,The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis.,将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态。
+DRAGONCLAW,74,Dragon Claw,龍爪,龙爪,DRAGON,physical,80,100,15,0,0,000,NearOther,"The user slashes the target with huge, sharp claws.",用尖锐的巨爪劈开对手进行攻击。
+DRAGONDANCE,80,Dragon Dance,龍之舞,龙之舞,DRAGON,status,0,0,20,0,0,026,User,"The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",激烈地跳起神秘且强有力的舞蹈。从而提高自己的攻击和速度。
+DRAGONHAMMER,72,Dragon Hammer,龍錘,龙锤,DRAGON,physical,90,100,15,0,0,000,NearOther,The user uses its body like a hammer to attack the target and inflict damage.,将身体当作锤子，向对手发动袭击，给予伤害。
+DRAGONPULSE,73,Dragon Pulse,龍之波動,龙之波动,DRAGON,special,85,100,10,0,0,000,Other,The target is attacked with a shock wave generated by the user's gaping mouth.,从大大的口中掀起冲击波攻击对手。
+DRAGONRAGE,79,Dragon Rage,龍之怒,龙之怒,DRAGON,special,1,100,10,0,0,06B,NearOther,This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.,将愤怒的冲击波撞向对手进行攻击。必定会给予40的伤害。
+DRAGONRUSH,70,Dragon Rush,龍之俯衝,龙之俯冲,DRAGON,physical,100,75,10,20,0,010,NearOther,The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.,释放出骇人的杀气，一边威慑一边撞击对手。有时会使对手畏缩。
+DRAGONTAIL,76,Dragon Tail,龍尾,龙尾,DRAGON,physical,60,90,10,0,-6,0EC,NearOther,"The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.",弹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。
+DRAININGKISS,115,Draining Kiss,吸取之吻,吸取之吻,FAIRY,special,50,100,10,0,0,14F,NearOther,The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt.,用一个吻吸取对手的HP。回复给予对手伤害的一半以上的HP。
+DRAINPUNCH,146,Drain Punch,吸取拳,吸取拳,FIGHTING,physical,75,100,10,0,0,0DD,NearOther,An energy-draining punch. The user's HP is restored by half the damage taken by the target.,用拳头吸取对手的力量。可以回复给予对手伤害的一半HP。
+DREAMEATER,549,Dream Eater,食夢,食梦,PSYCHIC,special,100,100,15,0,0,0DE,NearOther,The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP.,吃掉正在睡觉的对手的梦进行攻击。回复对手所受到伤害的一半HP。
+DRILLPECK,214,Drill Peck,啄鑽,啄钻,FLYING,physical,80,100,20,0,0,000,Other,A corkscrewing attack with the sharp beak acting as a drill.,一边旋转，一边将尖喙刺入对手进行攻击。
+DRILLRUN,302,Drill Run,直衝鑽,直冲钻,GROUND,physical,80,95,10,0,0,000,NearOther,The user crashes into its target while rotating its body like a drill. Critical hits land more easily.,像钢钻一样，一边旋转身体一边撞击对手。容易击中要害。
+DUALCHOP,77,Dual Chop,二連劈,二连劈,DRAGON,physical,40,90,15,0,0,0BD,NearOther,The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.,用身体坚硬的部分拍打对手进行攻击。连续2次给予伤害。
+DYNAMICPUNCH,136,Dynamic Punch,爆裂拳,爆裂拳,FIGHTING,physical,100,50,5,100,0,013,NearOther,"The user punches the target with full, concentrated power. It confuses the target if it hits.",使出浑身力气出拳进行攻击。必定会使对手混乱。
+EARTHPOWER,297,Earth Power,大地之力,大地之力,GROUND,special,90,100,10,10,0,046,NearOther,The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.,向对手脚下释放出大地之力。有时会降低对手的特防。
+EARTHQUAKE,295,Earthquake,地震,地震,GROUND,physical,100,100,10,0,0,076,AllNearOthers,The user sets off an earthquake that strikes every Pokémon around it.,利用地震的冲击，攻击自己周围所有的宝可梦。
+ECHOEDVOICE,391,Echoed Voice,回聲,回声,NORMAL,special,40,100,15,0,0,092,NearOther,"The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.",用回声攻击对手。如果每回合都有宝可梦接着使用该招式，威力就会提高。
+EERIEIMPULSE,103,Eerie Impulse,怪異電波,怪异电波,ELECTRIC,status,0,100,15,0,0,13D,NearOther,The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat.,从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。
+EGGBOMB,354,Egg Bomb,炸蛋,炸蛋,NORMAL,physical,100,75,10,0,0,000,NearOther,A large egg is hurled at the target with maximum force to inflict damage.,向对手用力投掷大大的蛋进行攻击。
+ELECTRICTERRAIN,104,Electric Terrain,電氣場地,电气场地,ELECTRIC,status,0,0,10,0,0,154,BothSides,The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep.,在5回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。
+ELECTRIFY,105,Electrify,輸電,输电,ELECTRIC,status,0,0,20,0,0,145,NearOther,"If the target uses a move after being electrified, that move becomes Electric-type.",对手使出招式前，如果输电，则该回合对手的招式变成电属性。
+ELECTROBALL,101,Electro Ball,電球,电球,ELECTRIC,special,1,100,10,0,0,099,NearOther,The user hurls an electric orb at the foe. It does more damage the faster the user is.,用电气团撞向对手。自己比对手速度越快，威力越大。
+ELECTROWEB,97,Electroweb,電網,电网,ELECTRIC,special,55,95,15,100,0,044,AllNearFoes,"The user captures and attacks foes by using an electric net, which lowers their Speed stat.",用电网捉住对手进行攻击。降低对手的速度。
+EMBARGO,52,Embargo,查封,查封,DARK,status,0,100,15,0,0,0F8,NearOther,It prevents the target from using its held item. Its Trainer is also prevented from using items on it.,让对手在5回合内不能使用宝可梦携带的道具。训练家也不能给那只宝可梦使用道具。
+EMBER,201,Ember,火花,火花,FIRE,special,40,100,25,10,0,00A,NearOther,The target is attacked with small flames. It may also leave the target with a burn.,向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态。
+ENCORE,447,Encore,再來一次,再来一次,NORMAL,status,0,100,5,0,0,0BC,NearOther,The user compels the target to keep using only the move it last used for three turns.,让对手接受再来一次，连续3次使出最后使用的招式。
+ENDEAVOR,416,Endeavor,蠻幹,蛮干,NORMAL,physical,1,100,5,0,0,06E,NearOther,An attack move that cuts down the target's HP to equal the user's HP.,给予伤害，使对手的HP变得和自己的HP一样。
+ENDURE,448,Endure,挺住,挺住,NORMAL,status,0,0,10,0,4,0E8,User,The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.,即使受到攻击，也至少会留下1HP。连续使出则容易失败。
+ENERGYBALL,261,Energy Ball,能量球,能量球,GRASS,special,90,100,10,10,0,046,NearOther,The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.,发射从自然收集的生命力量。有时会降低对手的特防。
+ENTRAINMENT,449,Entrainment,找夥伴,找伙伴,NORMAL,status,0,100,15,0,0,066,NearOther,"The user dances to compel the target to mimic it, making the target's Ability the same as the user's.",用神奇的节奏跳舞。使对手模仿自己的动作，从而将特性变成一样。
+ERUPTION,174,Eruption,噴火,喷火,FIRE,special,150,100,5,0,0,08B,AllNearFoes,"The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.",爆发怒火攻击对手。自己的HP越少，招式的威力越小。
+EXPLOSION,342,Explosion,大爆炸,大爆炸,NORMAL,physical,250,100,5,0,0,0E0,AllNearOthers,The user explodes to inflict damage on those around it. The user faints upon using this move.,引发大爆炸，攻击自己周围所有的宝可梦。使用后自己会陷入濒死。
+EXTRASENSORY,554,Extrasensory,神通力,神通力,PSYCHIC,special,80,100,20,10,0,00F,NearOther,"The user attacks with an odd, unseeable power. It may also make the target flinch.",发出看不见的神奇力量进行攻击。有时会使对手畏缩。
+EXTREMESPEED,363,Extreme Speed,神速,神速,NORMAL,physical,80,100,5,0,2,000,NearOther,The user charges the target at blinding speed. This attack always goes before any other move.,以迅雷不及掩耳之势猛撞向对手进行攻击。必定能够先制攻击。
+FACADE,374,Facade,硬撐,硬撑,NORMAL,physical,70,100,20,0,0,07E,NearOther,"An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成2倍。
+FAINTATTACK,677,Feint Attack,出奇一擊,出奇一击,DARK,physical,60,0,20,0,0,0A5,NearOther,"The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",悄悄地靠近对手，趁其不备进行殴打。攻击必定会命中。
+FAIRYLOCK,123,Fairy Lock,妖精之鎖,妖精之锁,FAIRY,status,0,0,10,0,0,152,BothSides,"By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",通过封锁，下一回合所有的宝可梦都无法逃走。
+FAIRYWIND,117,Fairy Wind,妖精之風,妖精之风,FAIRY,special,40,100,30,0,0,000,NearOther,The user stirs up a fairy wind and strikes the target with it.,刮起妖精之风，吹向对手进行攻击。
+FAKEMOVE,680,Counterfeit,,冒牌货,QMARKS,status,0,100,5,20,0,001,NearOther,A fake move developped by Team Rocket that is used to trick people into buying counterfeit TMs,火箭队发明的一种虚假招式，用来诱骗人们购买假冒的招式学习器。
+FAKEOUT,392,Fake Out,擊掌奇襲,击掌奇袭,NORMAL,physical,40,100,10,100,3,012,NearOther,An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.,进行先制攻击，使对手畏缩。要在出场后立刻使出才能成功。
+FAKETEARS,53,Fake Tears,假哭,假哭,DARK,status,0,100,20,0,0,04F,NearOther,"The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.",装哭流泪。使对手不知所措，从而大幅降低对手的特防。
+FALSESWIPE,393,False Swipe,點到為止,点到为止,NORMAL,physical,40,100,40,0,0,0E9,NearOther,A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.,对手的HP至少会留下1HP，如此般手下留情地攻击。
+FEATHERDANCE,227,Feather Dance,羽毛舞,羽毛舞,FLYING,status,0,100,15,0,0,04B,NearOther,The user covers the target's body with a mass of down that harshly lowers its Attack stat.,撒出羽毛，笼罩在对手的周围。大幅降低对手的攻击。
+FEINT,401,Feint,佯攻,佯攻,NORMAL,physical,30,100,10,0,2,0AD,NearOther,An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.,能够攻击正在使用守住或看穿等招式的对手。解除其守护效果。
+FEINTATTACK,42,Feint Attack,出奇一擊,出奇一击,DARK,physical,60,0,20,0,0,0A5,NearOther,"The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",悄悄地靠近对手，趁其不备进行殴打。攻击必定会命中。
+FELLSTINGER,14,Fell Stinger,致命針刺,致命针刺,BUG,physical,50,100,25,0,0,150,NearOther,"When the user knocks out a target with this move, the user's Attack stat rises drastically.",如果使用此招式打倒对手，攻击会巨幅提高。
+FIERYDANCE,190,Fiery Dance,火之舞,火之舞,FIRE,special,80,100,10,50,0,020,NearOther,"Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.",让火焰覆盖全身，振翅攻击对手。有时会提高自己的特攻。
+FINALGAMBIT,164,Final Gambit,搏命,搏命,FIGHTING,special,1,100,5,0,0,0E1,NearOther,The user risks all to attack the foe. The user faints but does damage equal to its HP.,拼命攻击对手。虽然自己陷入濒死，但会给予对手和自己目前HP等量的伤害。
+FIREBLAST,181,Fire Blast,大字爆炎,大字爆炎,FIRE,special,110,85,5,10,0,00A,NearOther,The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.,用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。
+FIREFANG,197,Fire Fang,火焰牙,火焰牙,FIRE,physical,65,95,15,100,0,00B,NearOther,The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.,用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。
+FIRELASH,191,Fire Lash,火焰鞭,火焰鞭,FIRE,physical,80,100,15,100,0,043,NearOther,The user strikes the target with a burning lash. This also lowers the target's Defense stat.,用燃烧的鞭子抽打对手。受到攻击的对手防御会降低。
+FIREPLEDGE,192,Fire Pledge,火之誓約,火之誓约,FIRE,special,50,100,10,0,0,107,NearOther,"A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.",用火柱进行攻击。如果和草组合，威力就会提高，周围会变成火海。
+FIREPUNCH,194,Fire Punch,火焰拳,火焰拳,FIRE,physical,75,100,15,10,0,00A,NearOther,The target is punched with a fiery fist. It may leave the target with a burn.,用充满火焰的拳头攻击对手。有时会让对手陷入灼伤状态。
+FIRESPIN,202,Fire Spin,火焰旋渦,火焰旋涡,FIRE,special,35,85,15,0,0,0CF,NearOther,The target becomes trapped within a fierce vortex of fire that rages for four to five turns.,将对手困在激烈的火焰旋涡中，在4～5回合内进行攻击。
+FIRSTIMPRESSION,4,First Impression,迎頭一擊,迎头一击,BUG,physical,90,100,10,0,2,174,NearOther,"Although this move has great power, it only works the first turn the user is in battle.",威力很高的招式，但只有在出场战斗时，立刻使出才能成功。
+FISSURE,312,Fissure,地裂,地裂,GROUND,physical,1,30,5,0,0,070,NearOther,The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.,让对手掉落于地裂的裂缝中进行攻击。只要命中就会一击濒死。
+FLAIL,417,Flail,抓狂,抓狂,NORMAL,physical,1,100,15,0,0,098,NearOther,The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.,抓狂般乱打进行攻击。自己的HP越少，招式的威力越大。
+FLAMEBURST,196,Flame Burst,烈焰濺射,烈焰溅射,FIRE,special,70,100,15,0,0,074,NearOther,The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.,如果击中，爆裂的火焰会攻击到对手。爆裂出的火焰还会飞溅到旁边的对手。
+FLAMECHARGE,200,Flame Charge,蓄能焰襲,蓄能焰袭,FIRE,physical,50,100,20,100,0,01F,NearOther,"The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.",让火焰覆盖全身，攻击对手。积蓄力量并提高自己的速度。
+FLAMETHROWER,188,Flamethrower,噴射火焰,喷射火焰,FIRE,special,90,100,15,10,0,00A,NearOther,The target is scorched with an intense blast of fire. It may also leave the target with a burn.,向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。
+FLAMEWHEEL,198,Flame Wheel,火焰輪,火焰轮,FIRE,physical,60,100,25,10,0,00A,NearOther,The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.,让火焰覆盖全身，猛撞向对手进行攻击。有时会让对手陷入灼伤状态。
+FLAREBLITZ,180,Flare Blitz,閃焰衝鋒,闪焰冲锋,FIRE,physical,120,100,15,10,0,0FE,NearOther,The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target.,让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态。
+FLASH,450,Flash,閃光,闪光,NORMAL,status,0,100,20,0,0,047,NearOther,The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.,使出耀眼光芒，从而降低对手的命中率。
+FLASHCANNON,627,Flash Cannon,加農光炮,加农光炮,STEEL,special,80,100,10,10,0,046,NearOther,The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.,将身体的光芒聚集在一点释放出去。有时会降低对手的特防。
+FLATTER,54,Flatter,吹捧,吹捧,DARK,status,0,100,15,0,0,040,NearOther,"Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.",吹捧对手，使其混乱。同时还会提高对手的特攻。
+FLEURCANNON,111,Fleur Cannon,花朵加農炮,花朵加农炮,FAIRY,special,130,90,5,0,0,03F,NearOther,The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.,放出强力光束后，自己的特攻会大幅降低。
+FLING,48,Fling,投擲,投掷,DARK,physical,1,100,10,0,0,0F7,NearOther,The user flings its held item at the target to attack. Its power and effects depend on the item.,快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。
+FLORALHEALING,124,Floral Healing,花療,花疗,FAIRY,status,0,0,10,0,0,16E,NearOther,The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.,回复对手最大HP的一半。在青草场地时，效果会提高。
+FLOWERSHIELD,125,Flower Shield,鮮花防守,鲜花防守,FAIRY,status,0,0,10,0,0,13F,AllBattlers,The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.,使用神奇的力量提高在场的所有草属性宝可梦的防御。
+FLY,212,Fly,飛翔,飞翔,FLYING,physical,90,95,15,0,0,0C9,Other,"The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.",第1回合飞上天空，第2回合攻击对手。还可以飞到去过的城镇。
+FLYINGPRESS,137,Flying Press,飛身重壓,飞身重压,FIGHTING,physical,100,95,10,0,0,144,Other,The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.,从空中俯冲向对手。此招式同时带有格斗属性和飞行属性。
+FOCUSBLAST,133,Focus Blast,真氣彈,真气弹,FIGHTING,special,120,70,5,10,0,046,NearOther,The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.,提高气势，释放出全部力量。有时会降低对手的特防。
+FOCUSENERGY,451,Focus Energy,聚氣,聚气,NORMAL,status,0,0,30,0,0,023,User,The user takes a deep breath and focuses so that critical hits land more easily.,深深地吸口气，集中精神。自己的攻击会变得容易击中要害。
+FOCUSPUNCH,130,Focus Punch,真氣拳,真气拳,FIGHTING,physical,150,100,20,0,-3,115,NearOther,The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.,集中精神出拳。在招式使出前若受到攻击则会失败。
+FOLLOWME,452,Follow Me,看我嘛,看我嘛,NORMAL,status,0,0,20,0,2,117,User,"The user draws attention to itself, making all targets take aim only at the user.",引起对手的注意，将对手的攻击全部转移到自己身上。
+FORCEPALM,151,Force Palm,發勁,发劲,FIGHTING,physical,60,100,10,30,0,007,NearOther,The target is attacked with a shock wave. It may also leave the target with paralysis.,向对手的身体发出冲击波进行攻击。有时会让对手陷入麻痹状态。
+FORESIGHT,453,Foresight,識破,识破,NORMAL,status,0,0,40,0,0,0A7,NearOther,Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.,对幽灵属性宝可梦没有效果的招式以及闪避率高的对手，使用后变得能够打中。
+FORESTSCURSE,282,Forest's Curse,森林詛咒,森林诅咒,GRASS,status,0,100,20,0,0,143,NearOther,The user puts a forest curse on the target. The target is now Grass type as well.,向对手施加森林诅咒。中了诅咒的对手会被追加草属性。
+FOULPLAY,30,Foul Play,欺詐,欺诈,DARK,physical,95,100,15,0,0,121,NearOther,The user turns the foe's power against it. It does more damage the higher the target's Attack stat.,利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。
+FREEZEDRY,326,Freeze-Dry,冷凍乾燥,冷冻干燥,ICE,special,70,100,20,10,0,135,NearOther,The user rapidly cools the target. This may freeze the target. Is super-effective on Water types.,急剧冷冻对手，有时会让对手陷入冰冻状态。对于水属性宝可梦也是效果绝佳。
+FREEZESHOCK,319,Freeze Shock,冰凍伏特,冰冻伏特,ICE,physical,140,90,5,30,0,0C5,NearOther,"On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe.",用覆盖着电流的冰块，在第2回合撞向对手。有时会让对手陷入麻痹状态。
+FRENZYPLANT,253,Frenzy Plant,瘋狂植物,疯狂植物,GRASS,special,150,90,5,0,0,0C2,NearOther,The user slams the target with an enormous tree. The user can't move on the next turn.,用大树摔打对手进行攻击。下一回合自己将无法动弹。
+FROSTBREATH,331,Frost Breath,冰息,冰息,ICE,special,60,90,10,0,0,0A0,NearOther,The user blows a cold breath on the target. This attack always results in a critical hit.,将冰冷的气息吹向对手进行攻击。必定会击中要害。
+FRUSTRATION,418,Frustration,遷怒,迁怒,NORMAL,physical,1,100,20,0,0,08A,NearOther,A full-power attack that grows more powerful the less the user likes its Trainer.,为了发泄不满而全力攻击对手。亲密度越低，威力越大。
+FURYATTACK,411,Fury Attack,亂擊,乱击,NORMAL,physical,15,85,20,0,0,0C0,NearOther,The target is jabbed repeatedly with a horn or beak two to five times in a row.,用角或喙刺向对手进行攻击。连续攻击2～5次。
+FURYCUTTER,16,Fury Cutter,連斬,连斩,BUG,physical,40,95,20,0,0,091,NearOther,The target is slashed with scythes or claws. Its power increases if it hits in succession.,用镰刀或爪子等切斩对手进行攻击。连续击中，威力就会提高。
+FURYSWIPES,407,Fury Swipes,亂抓,乱抓,NORMAL,physical,18,80,15,0,0,0C0,NearOther,The target is raked with sharp claws or scythes for two to five times in quick succession.,用爪子或镰刀等抓对手进行攻击。连续攻击2～5次。
+FUSIONBOLT,85,Fusion Bolt,交錯閃電,交错闪电,ELECTRIC,physical,100,100,5,0,0,079,NearOther,The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame.,释放出巨大的闪电。受到巨大的火焰影响时，招式威力会提高。
+FUSIONFLARE,182,Fusion Flare,交錯火焰,交错火焰,FIRE,special,100,100,5,0,0,07A,NearOther,The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.,释放出巨大的火焰。受到巨大的闪电影响时，招式威力会提高。
+FUTURESIGHT,547,Future Sight,預知未來,预知未来,PSYCHIC,special,120,100,10,0,0,111,NearOther,"Two turns after this move is used, a hunk of psychic energy attacks the target.",在使用招式2回合后，向对手发送一团念力进行攻击。
+GASTROACID,537,Gastro Acid,胃液,胃液,POISON,status,0,100,10,0,0,068,NearOther,The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.,将胃液吐向对手的身体。沾上的胃液会消除对手的特性效果。
+GEARGRIND,634,Gear Grind,齒輪飛盤,齿轮飞盘,STEEL,physical,50,85,15,0,0,0BD,NearOther,The user attacks by throwing two steel gears at its target.,向对手投掷钢铁齿轮进行攻击。连续2次给予伤害。
+GEARUP,641,Gear Up,輔助齒輪,辅助齿轮,STEEL,status,0,0,20,0,0,15C,UserAndAllies,The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.,启动齿轮，提高特性为正电和负电的宝可梦的攻击和特攻。
+GEOMANCY,126,Geomancy,大地掌控,大地掌控,FAIRY,status,0,0,10,0,0,14E,User,"The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",第1回合吸收能量，第2回合大幅提高特攻、特防和速度。
+GIGADRAIN,266,Giga Drain,終極吸取,终极吸取,GRASS,special,75,100,10,0,0,0DD,NearOther,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.,吸取对手的养分进行攻击。可以回复给予对手伤害的一半HP。
+GIGAIMPACT,344,Giga Impact,終極衝擊,终极冲击,NORMAL,physical,150,90,5,0,0,0C2,NearOther,The user charges at the target using every bit of its power. The user must rest on the next turn.,使出自己浑身力量突击对手。下一回合自己将无法动弹。
+GLACIATE,328,Glaciate,冰封世界,冰封世界,ICE,special,65,95,10,100,0,044,AllNearFoes,The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat.,将冰冻的冷气吹向对手进行攻击。会降低对手的速度。
+GLARE,454,Glare,大蛇瞪眼,大蛇瞪眼,NORMAL,status,0,100,30,0,0,007,NearOther,The user intimidates the target with the pattern on its belly to cause paralysis.,用腹部的花纹使对手害怕，从而让其陷入麻痹状态。
+GRASSKNOT,278,Grass Knot,打草結,打草结,GRASS,special,1,100,20,0,0,09A,NearOther,"The user snares the target with grass and trips it. The heavier the target, the greater the damage.",用草缠住并绊倒对手。对手越重，威力越大。
+GRASSPLEDGE,264,Grass Pledge,草之誓約,草之誓约,GRASS,special,50,100,10,0,0,106,NearOther,"A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp.",用草柱进行攻击。如果和水组合，威力就会提高，周围会变成湿地。
+GRASSWHISTLE,283,Grass Whistle,草笛,草笛,GRASS,status,0,55,15,0,0,003,NearOther,The user plays a pleasant melody that lulls the target into a deep sleep.,让对手听舒适的笛声，从而陷入睡眠状态。
+GRASSYTERRAIN,284,Grassy Terrain,青草場地,青草场地,GRASS,status,0,0,10,0,0,155,BothSides,The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn.,在5回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。
+GRAVITY,573,Gravity,重力,重力,PSYCHIC,status,0,0,5,0,0,118,BothSides,"Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",在5回合内，飘浮特性和飞行属性的宝可梦会被地面属性的招式击中。飞向空中的招式也将无法使用。
+GROWL,455,Growl,叫聲,叫声,NORMAL,status,0,100,40,0,0,042,AllNearFoes,"The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered.",让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。
+GROWTH,456,Growth,生長,生长,NORMAL,status,0,0,20,0,0,028,User,"The user's body grows all at once, raising the Atk and Sp. Atk stats.",让身体一下子长大，从而提高攻击和特攻。
+GRUDGE,249,Grudge,怨念,怨念,GHOST,status,0,0,5,0,0,0E6,User,"If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out.",因对手的招式而陷入濒死时给对手施加怨念，让该招式的PP变成0。
+GUARDSPLIT,574,Guard Split,防守平分,防守平分,PSYCHIC,status,0,0,10,0,0,059,NearOther,The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.,利用超能力将自己和对手的防御和特防相加，再进行平分。
+GUARDSWAP,575,Guard Swap,防守互換,防守互换,PSYCHIC,status,0,0,10,0,0,053,NearOther,The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.,利用超能力互换自己和对手的防御以及特防的能力变化。
+GUILLOTINE,419,Guillotine,斷頭鉗,断头钳,NORMAL,physical,1,30,5,0,0,070,NearOther,"A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.",用大钳子或剪刀等夹断对手进行攻击。只要命中就会一击濒死。
+GUNKSHOT,520,Gunk Shot,垃圾射擊,垃圾射击,POISON,physical,120,80,5,30,0,005,NearOther,The user shoots filthy garbage at the target to attack. It may also poison the target.,用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。
+GUST,224,Gust,起風,起风,FLYING,special,40,100,35,0,0,077,Other,A gust of wind is whipped up by wings and launched at the target to inflict damage.,用翅膀将刮起的狂风袭向对手进行攻击。
+GYROBALL,637,Gyro Ball,陀螺球,陀螺球,STEEL,physical,1,100,5,0,0,08D,NearOther,"The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",让身体高速旋转并撞击对手。速度比对手越慢，威力越大。
+HAIL,339,Hail,冰雹,冰雹,ICE,status,0,0,10,0,0,102,BothSides,The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.,在5回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害。
+HAMMERARM,138,Hammer Arm,臂錘,臂锤,FIGHTING,physical,100,90,10,0,0,03E,NearOther,"The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.",挥舞强力而沉重的拳头，给予对手伤害。自己的速度会降低。
+HAPPYHOUR,457,Happy Hour,歡樂時光,欢乐时光,NORMAL,status,0,0,30,0,0,157,UserSide,Using Happy Hour doubles the amount of prize money received after battle.,如果使用欢乐时光，战斗后得到的钱会翻倍。
+HARDEN,458,Harden,變硬,变硬,NORMAL,status,0,0,30,0,0,01D,User,The user stiffens all the muscles in its body to raise its Defense stat.,全身使劲，让身体变硬，从而提高自己的防御。
+HAZE,340,Haze,黑霧,黑雾,ICE,status,0,0,30,0,0,051,BothSides,The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.,升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。
+HEADBUTT,375,Headbutt,頭錘,头锤,NORMAL,physical,70,100,15,30,0,00F,NearOther,The user sticks out its head and attacks by charging into the foe. It may also make the target flinch.,将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。
+HEADCHARGE,350,Head Charge,爆炸頭突擊,爆炸头突击,NORMAL,physical,120,100,15,0,0,0FA,NearOther,"The user charges its head into the foe, using its powerful guard hair. The user also takes damage.",用厉害的爆炸头猛撞向对手进行攻击。自己也会受到少许伤害。
+HEADSMASH,605,Head Smash,雙刃頭錘,双刃头锤,ROCK,physical,150,80,5,0,0,0FC,NearOther,"The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.",拼命使出浑身力气，向对手进行头锤攻击。自己也会受到非常大的伤害。
+HEALBELL,459,Heal Bell,治癒鈴聲,治愈铃声,NORMAL,status,0,0,5,0,0,019,UserAndAllies,The user makes a soothing bell chime to heal the status problems of all the party Pokémon.,让同伴听舒适的铃音，从而治愈我方全员的异常状态。
+HEALBLOCK,576,Heal Block,回復封鎖,回复封锁,PSYCHIC,status,0,100,15,0,0,0BB,AllNearFoes,"For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP.",在5回合内无法通过招式、特性或携带的道具来回复HP。
+HEALINGWISH,578,Healing Wish,治癒之願,治愈之愿,PSYCHIC,status,0,0,10,0,0,0E3,User,"The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",虽然自己陷入濒死，但可以治愈后备上场的宝可梦的异常状态以及回复HP。
+HEALORDER,21,Heal Order,回復指令,回复指令,BUG,status,0,0,10,0,0,0D5,User,The user calls out its underlings to heal it. The user regains up to half of its max HP.,召唤手下疗伤。回复自己最大HP的一半。
+HEALPULSE,577,Heal Pulse,治癒波動,治愈波动,PSYCHIC,status,0,0,10,0,0,0DF,Other,The user emits a healing pulse which restores the target's HP by up to half of its max HP.,放出治愈波动，从而回复对手最大HP的一半。
+HEARTSTAMP,562,Heart Stamp,愛心印章,爱心印章,PSYCHIC,physical,60,100,25,30,0,00F,NearOther,The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.,以可爱的动作使对手疏忽，乘机给出强烈的一击。有时会使对手畏缩。
+HEARTSWAP,579,Heart Swap,心靈互換,心灵互换,PSYCHIC,status,0,0,10,0,0,054,NearOther,The user employs its psychic power to switch stat changes with the target.,利用超能力互换自己和对手之间的能力变化。
+HEATCRASH,203,Heat Crash,高溫重壓,高温重压,FIRE,physical,1,100,10,0,0,09B,NearOther,"The user slams the foe with its flaming body. The heavier the user is, the greater the damage.",用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。
+HEATWAVE,187,Heat Wave,熱風,热风,FIRE,special,95,90,10,10,0,00A,AllNearFoes,The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.,将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。
+HEAVYSLAM,638,Heavy Slam,重磅衝撞,重磅冲撞,STEEL,physical,1,100,10,0,0,09B,NearOther,"The user slams into the foe with its heavy body. The heavier the user, the greater the damage.",用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。
+HELPINGHAND,460,Helping Hand,幫助,帮助,NORMAL,status,0,0,20,0,5,09C,NearAlly,The user assists an ally by boosting the power of its attack.,帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。
+HEX,239,Hex,禍不單行,祸不单行,GHOST,special,65,100,10,0,0,07F,NearOther,This relentless attack does massive damage to a target affected by status problems.,接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。
+HIDDENPOWER,383,Hidden Power,覺醒力量,觉醒力量,NORMAL,special,60,100,15,0,0,090,NearOther,A unique attack that varies in type and intensity depending on the Pokémon using it.,招式的属性会随着使用此招式的宝可梦而改变。
+HIDDENPOWER2,678,Hidden Power,覺醒力量,觉醒力量,NORMAL,special,60,100,15,0,0,090,NearOther,A unique attack that varies in type and intensity depending on the Pokémon using it.,招式的属性会随着使用此招式的宝可梦而改变。
+HIGHHORSEPOWER,296,High Horsepower,十萬馬力,十万马力,GROUND,physical,95,95,10,0,0,000,NearOther,The user fiercely attacks the target using its entire body.,使出全身力量，猛攻对手。
+HIJUMPKICK,131,High Jump Kick,飛膝踢,飞膝踢,FIGHTING,physical,130,90,10,0,0,10B,NearOther,"The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",跳起后用膝盖撞对手进行攻击。如果撞偏则自己会受到伤害。
+HOLDBACK,394,Hold Back,手下留情,手下留情,NORMAL,physical,40,100,40,0,0,0E9,NearOther,"The user holds back when it attacks, and the target is left with at least 1 HP.",在攻击的时候手下留情，从而使对手的HP至少会留下1HP。
+HOLDHANDS,461,Hold Hands,牽手,牵手,NORMAL,status,0,0,40,0,0,133,NearAlly,The user and an ally hold hands. This makes them very happy.,我方宝可梦之间牵手。能带来非常幸福的心情。
+HONECLAWS,55,Hone Claws,磨爪,磨爪,DARK,status,0,0,15,0,0,029,User,The user sharpens its claws to boost its Attack stat and accuracy.,将爪子磨得更加锋利。提高自己的攻击和命中率。
+HORNATTACK,380,Horn Attack,角撞,角撞,NORMAL,physical,65,100,25,0,0,000,NearOther,The target is jabbed with a sharply pointed horn to inflict damage.,用尖锐的角攻击对手。
+HORNDRILL,420,Horn Drill,角鑽,角钻,NORMAL,physical,1,30,5,0,0,070,NearOther,"The user stabs the foe with a horn that rotates like a drill. If it hits, the target faints instantly.",用旋转的角刺入对手进行攻击。只要命中就会一击濒死。
+HORNLEECH,267,Horn Leech,木角,木角,GRASS,physical,75,100,10,0,0,0DD,NearOther,The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted.,将角刺入，吸取对手的养分。可以回复给予对手伤害的一半HP。
+HOWL,462,Howl,長嚎,长嚎,NORMAL,status,0,0,40,0,0,01C,User,"The user howls loudly to raise its spirit, boosting its Attack stat.",大声吼叫提高气势，从而提高自己的攻击。
+HURRICANE,209,Hurricane,暴風,暴风,FLYING,special,110,70,10,30,0,015,Other,The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe.,用强烈的风席卷对手进行攻击。有时会使对手混乱。
+HYDROCANNON,646,Hydro Cannon,加農水炮,加农水炮,WATER,special,150,90,5,0,0,0C2,NearOther,"The target is hit with a watery blast. The user must rest on the next turn, however.",向对手喷射水炮进行攻击。下一回合自己将无法动弹。
+HYDROPUMP,648,Hydro Pump,水炮,水炮,WATER,special,110,80,5,0,0,000,NearOther,The target is blasted by a huge volume of water launched under great pressure.,向对手猛烈地喷射大量水流进行攻击。
+HYPERBEAM,345,Hyper Beam,破壞光線,破坏光线,NORMAL,special,150,90,5,0,0,0C2,NearOther,The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.,向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。
+HYPERFANG,364,Hyper Fang,必殺門牙,必杀门牙,NORMAL,physical,80,90,15,10,0,00F,NearOther,The user bites hard on the target with its sharp front fangs. It may also make the target flinch.,用锋利的门牙牢牢地咬住对手进行攻击。有时会使对手畏缩。
+HYPERSPACEFURY,29,Hyperspace Fury,異次元猛攻,异次元猛攻,DARK,physical,100,0,5,0,0,13B,NearOther,"Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls.",用许多手臂，无视对手的守住或看穿等招式进行连续攻击，自己的防御会降低。
+HYPERSPACEHOLE,555,Hyperspace Hole,異次元洞,异次元洞,PSYCHIC,special,80,0,5,0,0,147,NearOther,"Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections.",通过异次元洞，突然出现在对手的侧面进行攻击。还可以无视守住和看穿等招式。
+HYPERVOICE,356,Hyper Voice,巨聲,巨声,NORMAL,special,90,100,10,0,0,000,AllNearFoes,The user lets loose a horribly echoing shout with the power to inflict damage.,给予对手又吵又响的巨大震动进行攻击。
+HYPNOSIS,580,Hypnosis,催眠術,催眠术,PSYCHIC,status,0,60,20,0,0,003,NearOther,The user employs hypnotic suggestion to make the target fall into a deep sleep.,施以诱导睡意的暗示，让对手陷入睡眠状态。
+ICEBALL,335,Ice Ball,冰球,冰球,ICE,physical,30,90,20,0,0,0D3,NearOther,The user continually rolls into the target over five turns. It becomes stronger each time it hits.,在5回合内连续滚动攻击对手。招式每次击中，威力就会提高。
+ICEBEAM,323,Ice Beam,冰凍光束,冰冻光束,ICE,special,90,100,10,10,0,00C,NearOther,The target is struck with an icy-cold beam of energy. It may also freeze the target solid.,向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。
+ICEBURN,320,Ice Burn,極寒冷焰,极寒冷焰,ICE,special,140,90,5,30,0,0C6,NearOther,"On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn.",用能够冻结一切的强烈冷气，在第2回合包裹住对手。有时会让对手陷入灼伤状态。
+ICEFANG,329,Ice Fang,冰凍牙,冰冻牙,ICE,physical,65,95,15,100,0,00E,NearOther,The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.,用藏有冷气的牙齿咬住对手。有时会使对手畏缩或陷入冰冻状态。
+ICEHAMMER,322,Ice Hammer,冰錘,冰锤,ICE,physical,100,90,10,0,0,03E,NearOther,"The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.",挥舞强力而沉重的拳头，给予对手伤害。自己的速度会降低。
+ICEPUNCH,325,Ice Punch,冰凍拳,冰冻拳,ICE,physical,75,100,15,10,0,00C,NearOther,The target is punched with an icy fist. It may also leave the target frozen.,用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。
+ICESHARD,333,Ice Shard,冰礫,冰砾,ICE,physical,40,100,30,0,1,000,NearOther,The user flash freezes chunks of ice and hurls them at the target. This move always goes first.,瞬间制作冰块，快速地扔向对手。必定能够先制攻击。
+ICICLECRASH,324,Icicle Crash,冰柱墜擊,冰柱坠击,ICE,physical,85,90,10,30,0,00F,NearOther,The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch.,用大冰柱激烈地撞向对手进行攻击。有时会使对手畏缩。
+ICICLESPEAR,336,Icicle Spear,冰錐,冰锥,ICE,physical,25,100,30,0,0,0C0,NearOther,The user launches sharp icicles at the target. It strikes two to five times in a row.,向对手发射锋利的冰柱进行攻击。连续攻击2～5次。
+ICYWIND,332,Icy Wind,冰凍之風,冰冻之风,ICE,special,55,95,15,100,0,044,AllNearFoes,The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.,将结冰的冷气吹向对手进行攻击。会降低对手的速度。
+IMPRISON,581,Imprison,封印,封印,PSYCHIC,status,0,0,10,0,0,0B8,User,"If the foe knows any move also known by the user, the foe is prevented from using it.",如果对手有和自己相同的招式，那么只有对手无法使用该招式。
+INCINERATE,199,Incinerate,燒盡,烧尽,FIRE,special,60,100,15,0,0,0F5,AllNearFoes,The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.,用火焰攻击对手。对手携带树果等时，会烧掉，使其不能使用。
+INFERNO,183,Inferno,煉獄,炼狱,FIRE,special,100,50,5,100,0,00A,NearOther,The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.,用烈焰包裹住对手进行攻击。让对手陷入灼伤状态。
+INFESTATION,19,Infestation,死纏爛打,死缠烂打,BUG,special,20,100,20,0,0,0CF,NearOther,The target is infested and unable to flee for four to five turns.,在4～5回合内死缠烂打地进行攻击。在此期间对手将无法逃走。
+INGRAIN,285,Ingrain,扎根,扎根,GRASS,status,0,0,20,0,0,0DB,User,"The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.",在大地上扎根，每回合回复自己的HP。因为扎根了，所以不能替换宝可梦。
+INSTRUCT,582,Instruct,號令,号令,PSYCHIC,status,0,0,15,0,0,16B,NearOther,The user instructs the target to use the target's last move again.,向对手下达指示，让其再次使出刚才的招式。
+IONDELUGE,106,Ion Deluge,等離子浴,等离子浴,ELECTRIC,status,0,0,25,0,1,146,BothSides,The user disperses electrically charged particles. Normal-type moves become Electric-type.,将带电粒子扩散开来，使一般属性的招式变成电属性。
+IRONDEFENSE,642,Iron Defense,鐵壁,铁壁,STEEL,status,0,0,15,0,0,02F,User,"The user hardens its body's surface like iron, sharply raising its Defense stat.",将皮肤变得坚硬如铁，从而大幅提高自己的防御。
+IRONHEAD,628,Iron Head,鐵頭,铁头,STEEL,physical,80,100,15,30,0,00F,NearOther,The foe slams the target with its steel-hard head. It may also make the target flinch.,用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。
+IRONTAIL,623,Iron Tail,鐵尾,铁尾,STEEL,physical,100,75,15,30,0,043,NearOther,The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.,使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。
+JUDGMENT,355,Judgment,制裁光礫,制裁光砾,NORMAL,special,100,100,10,0,0,09F,NearOther,The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.,向对手放出无数的光弹。属性会根据自己携带的石板不同而改变。
+JUMPKICK,139,Jump Kick,飛踢,飞踢,FIGHTING,physical,100,95,10,0,0,10B,NearOther,"The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",使出高高的腾空踢攻击对手。如果踢偏则自己会受到伤害。
+KARATECHOP,155,Karate Chop,空手劈,空手劈,FIGHTING,physical,50,100,25,0,0,000,NearOther,The target is attacked with a sharp chop. Critical hits land more easily.,用锋利的手刀劈向对手进行攻击。容易击中要害。
+KINESIS,583,Kinesis,折彎湯匙,折弯汤匙,PSYCHIC,status,0,80,15,0,0,047,NearOther,The user distracts the target by bending a spoon. It lowers the target's accuracy.,折弯汤匙引开注意，从而降低对手的命中率。
+KINGSSHIELD,643,King's Shield,王者盾牌,王者盾牌,STEEL,status,0,0,10,0,4,14B,User,Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.,防住对手攻击的同时，自己变为防御姿态。能够降低所接触到的对手的攻击。
+KNOCKOFF,38,Knock Off,拍落,拍落,DARK,physical,65,100,20,0,0,0F0,NearOther,"The user slaps down the target's held item, preventing that item from being used in the battle.",拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。
+LANDSWRATH,298,Land's Wrath,大地神力,大地神力,GROUND,physical,90,100,10,0,0,000,AllNearFoes,The user gathers the energy of the land and focuses that power on foes to damage them.,聚集大地的力量，将此力量集中攻击对手，并给予伤害。
+LASERFOCUS,463,Laser Focus,磨礪,磨砺,NORMAL,status,0,0,30,0,0,15E,User,The user focuses intensely. The attack on the next turn always results in a critical hit.,集中精神，下次攻击必定会击中要害。
+LASTRESORT,347,Last Resort,珍藏,珍藏,NORMAL,physical,140,100,5,0,0,125,NearOther,This move can be used only after the user has used all the other moves it knows in the battle.,当战斗中已学会的招式全部使用过后，才能开始使出珍藏的招式。
+LAVAPLUME,193,Lava Plume,噴煙,喷烟,FIRE,special,80,100,15,30,0,00A,AllNearOthers,An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.,用熊熊烈火攻击自己周围所有的宝可梦。有时会陷入灼伤状态。
+LEAFAGE,274,Leafage,樹葉,树叶,GRASS,physical,40,100,40,0,0,000,NearOther,The user attacks by pelting the target with leaves.,将叶片打向对手，进行攻击。
+LEAFBLADE,262,Leaf Blade,葉刃,叶刃,GRASS,physical,90,100,15,0,0,000,NearOther,The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.,像用剑一般操纵叶片切斩对手进行攻击。容易击中要害。
+LEAFSTORM,254,Leaf Storm,飛葉風暴,飞叶风暴,GRASS,special,130,90,5,0,0,03F,NearOther,A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.,用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。
+LEAFTORNADO,269,Leaf Tornado,青草攪拌器,青草搅拌器,GRASS,special,65,90,10,50,0,047,NearOther,The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy.,用锋利的叶片包裹住对手进行攻击。有时会降低对手的命中率。
+LEECHLIFE,6,Leech Life,吸血,吸血,BUG,physical,80,100,10,0,0,0DD,NearOther,The user drains the target's blood. The user's HP is restored by half the damage taken by the target.,吸取血液攻击对手。可以回复给予对手伤害的一半HP。
+LEECHSEED,286,Leech Seed,寄生種子,寄生种子,GRASS,status,0,90,10,0,0,0DC,NearOther,A seed is planted on the target. It steals some HP from the target every turn.,植入寄生种子后，将在每回合一点一点吸取对手的HP，从而用来回复自己的HP。
+LEER,464,Leer,瞪眼,瞪眼,NORMAL,status,0,100,30,0,0,043,AllNearFoes,The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced.,用犀利的眼神使其害怕，从而降低对手的防御。
+LICK,244,Lick,舌舔,舌舔,GHOST,physical,30,100,30,30,0,007,NearOther,"The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",用长长的舌头，舔遍对手进行攻击。有时会让对手陷入麻痹状态。
+LIGHTOFRUIN,110,Light of Ruin,破滅之光,破灭之光,FAIRY,special,140,90,5,0,0,0FC,NearOther,Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.,借用永恒之花的力量，发射出强力光线。自己也会受到不小的伤害。
+LIGHTSCREEN,584,Light Screen,光牆,光墙,PSYCHIC,status,0,0,30,0,0,0A3,UserSide,A wondrous wall of light is put up to suppress damage from special attacks for five turns.,利用神奇的墙壁，在5回合内减弱从对手那里受到的特殊攻击的伤害。
+LIQUIDATION,656,Liquidation,水流裂破,水流裂破,WATER,physical,85,100,10,20,0,043,NearOther,The user slams into the target using a full-force blast of water. May lower the target's Defense.,用水之力量撞向对手进行攻击。有时会降低对手的防御。
+LOCKON,465,Lock-On,鎖定,锁定,NORMAL,status,0,0,5,0,0,0A6,NearOther,The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.,紧紧瞄准对手，下次攻击必定会打中。
+LOVELYKISS,466,Lovely Kiss,惡魔之吻,恶魔之吻,NORMAL,status,0,75,10,0,0,003,NearOther,"With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep.",用恐怖的脸强吻对手。让对手陷入睡眠状态。
+LOWKICK,165,Low Kick,踢倒,踢倒,FIGHTING,physical,1,100,20,0,0,09A,NearOther,A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.,用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。
+LOWSWEEP,149,Low Sweep,下盤踢,下盘踢,FIGHTING,physical,65,100,20,100,0,044,NearOther,"The user attacks the target's legs swiftly, reducing the target's Speed stat.",以敏捷的动作瞄准对手的脚进行攻击。降低对手的速度。
+LUCKYCHANT,467,Lucky Chant,幸運咒語,幸运咒语,NORMAL,status,0,0,30,0,0,0A1,UserSide,"The user chants an incantation toward the sky, preventing the foe from landing critical hits.",向天许愿，从而在5回合内不会被对手的攻击打中要害。
+LUNARDANCE,585,Lunar Dance,新月舞,新月舞,PSYCHIC,status,0,0,10,0,0,0E4,User,"The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",虽然自己陷入濒死，但可以治愈后备上场的宝可梦的全部状态。
+LUNGE,7,Lunge,猛撲,猛扑,BUG,physical,80,100,15,100,0,042,NearOther,"The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat.",全力猛扑对手进行攻击。从而降低对手的攻击。
+LUSTERPURGE,558,Luster Purge,潔淨光芒,洁净光芒,PSYCHIC,special,70,100,5,50,0,046,NearOther,The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.,释放耀眼的光芒进行攻击。有时会降低对手的特防。
+MACHPUNCH,156,Mach Punch,音速拳,音速拳,FIGHTING,physical,40,100,30,0,1,000,NearOther,The user throws a punch at blinding speed. It is certain to strike first.,以迅雷不及掩耳之势出拳。必定能够先制攻击。
+MAGICALLEAF,270,Magical Leaf,魔法葉,魔法叶,GRASS,special,60,0,20,0,0,0A5,NearOther,The user scatters curious leaves that chase the target. This attack will not miss.,散落可以追踪对手的神奇叶片。攻击必定会命中。
+MAGICCOAT,586,Magic Coat,魔法反射,魔法反射,PSYCHIC,status,0,0,15,0,4,0B1,User,A barrier reflects back to the target moves like Leech Seed and moves that damage status.,当对手使出会变成异常状态的招式或寄生种子等时，会将对手的招式反射回去。
+MAGICROOM,587,Magic Room,魔法空間,魔法空间,PSYCHIC,status,0,0,10,0,0,0F9,BothSides,The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.,制造出离奇的空间。在5回合内所有宝可梦携带道具的效果都会消失。
+MAGMASTORM,184,Magma Storm,熔岩風暴,熔岩风暴,FIRE,special,100,75,5,0,0,0CF,NearOther,The target becomes trapped within a maelstrom of fire that rages for four to five turns.,将对手困在熊熊燃烧的火焰中，在4～5回合内进行攻击。
+MAGNETBOMB,633,Magnet Bomb,磁鐵炸彈,磁铁炸弹,STEEL,physical,60,0,20,0,0,0A5,NearOther,The user launches steel bombs that stick to the target. This attack will not miss.,发射吸住对手的钢铁炸弹。攻击必定会命中。
+MAGNETICFLUX,108,Magnetic Flux,磁場操控,磁场操控,ELECTRIC,status,0,0,20,0,0,137,UserAndAllies,Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities.,通过操控磁场，会提高特性为正电和负电的宝可梦的防御和特防。
+MAGNETRISE,107,Magnet Rise,電磁飄浮,电磁飘浮,ELECTRIC,status,0,0,10,0,0,119,User,The user levitates using electrically generated magnetism for five turns.,利用电气产生的磁力浮在空中。在5回合内可以飘浮。
+MAGNITUDE,313,Magnitude,震級,震级,GROUND,physical,1,100,30,0,0,095,AllNearOthers,The user looses a ground-shaking quake affecting everyone around the user. Its power varies.,晃动地面，攻击自己周围所有的宝可梦。招式的威力会有各种变化。
+MATBLOCK,170,Mat Block,掀榻榻米,掀榻榻米,FIGHTING,status,0,0,10,0,0,149,UserSide,"Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.",将掀起来的榻榻米当作盾牌，防住自己和同伴免受招式伤害。变化招式无法防住。
+MEANLOOK,469,Mean Look,黑色目光,黑色目光,NORMAL,status,0,0,5,0,0,0EF,NearOther,"The user pins the target with a dark, arresting look. The target becomes unable to flee.",用好似要勾人心魂的黑色目光一动不动地凝视对手，使其不能从战斗中逃走。
+MEDITATE,588,Meditate,瑜伽姿勢,瑜伽姿势,PSYCHIC,status,0,0,40,0,0,01C,User,The user meditates to awaken the power deep within its body and raise its Attack stat.,唤醒身体深处沉睡的力量，从而提高自己的攻击。
+MEFIRST,468,Me First,搶先一步,抢先一步,NORMAL,status,0,0,20,0,0,0B0,NearFoe,The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.,提高威力，抢先使出对手想要使出的招式。如果不先使出则会失败。
+MEGADRAIN,275,Mega Drain,超級吸取,超级吸取,GRASS,special,40,100,15,0,0,0DD,NearOther,A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.,吸取对手的养分进行攻击。可以回复给予对手伤害的一半HP。
+MEGAHORN,1,Megahorn,超級角擊,超级角击,BUG,physical,120,85,10,0,0,000,NearOther,"Using its tough and impressive horn, the user rams into the target with no letup.",用坚硬且华丽的角狠狠地刺入对手进行攻击。
+MEGAKICK,351,Mega Kick,百萬噸重踢,百万吨重踢,NORMAL,physical,120,75,5,0,0,000,NearOther,The target is attacked by a kick launched with muscle-packed power.,使出力大无穷的重踢踢飞对手进行攻击。
+MEGAPUNCH,365,Mega Punch,百萬噸重拳,百万吨重拳,NORMAL,physical,80,85,20,0,0,000,NearOther,The target is slugged by a punch thrown with muscle-packed power.,用充满力量的拳头攻击对手。
+MEMENTO,56,Memento,臨別禮物,临别礼物,DARK,status,0,100,10,0,0,0E2,NearOther,"The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.",虽然会使自己陷入濒死，但是能够大幅降低对手的攻击和特攻。
+METALBURST,639,Metal Burst,金屬爆炸,金属爆炸,STEEL,physical,1,100,10,0,0,073,None,The user retaliates with much greater power against the target that last inflicted damage on it.,使出招式前，将最后受到的招式的伤害大力返还给对手。
+METALCLAW,635,Metal Claw,金屬爪,金属爪,STEEL,physical,50,95,35,10,0,01C,NearOther,The target is raked with steel claws. It may also raise the user's Attack stat.,用钢铁之爪劈开对手进行攻击。有时会提高自己的攻击。
+METALSOUND,644,Metal Sound,金屬音,金属音,STEEL,status,0,85,40,0,0,04F,NearOther,A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.,让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。
+METEORMASH,625,Meteor Mash,彗星拳,彗星拳,STEEL,physical,90,90,10,20,0,01C,NearOther,The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.,使出彗星般的拳头攻击对手。有时会提高自己的攻击。
+METRONOME,470,Metronome,揮指,挥指,NORMAL,status,0,0,10,0,0,0B6,User,The user waggles a finger and stimulates its brain into randomly using nearly any move.,挥动手指刺激自己的大脑，从许多的招式中随机使出1个。
+MILKDRINK,471,Milk Drink,喝牛奶,喝牛奶,NORMAL,status,0,0,10,0,0,0D5,User,The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.,回复自己最大HP的一半。在战斗以外的时候使用，可将ＨＰ分给伙伴。
+MIMIC,472,Mimic,模仿,模仿,NORMAL,status,0,0,10,0,0,05C,NearOther,The user copies the move last used by the foe. The move can be used until the user is switched out.,可以将对手最后使用的招式，在战斗内变成自己的招式。
+MINDBLOWN,175,Mind Blown,驚爆大頭,惊爆大头,FIRE,special,150,100,5,0,0,170,AllNearOthers,The user attacks everything by causing its own head to explode. This also damages the user.,让自己的头爆炸，来攻击周围的一切。自己也会受到伤害。
+MINDREADER,473,Mind Reader,心之眼,心之眼,NORMAL,status,0,0,5,0,0,0A6,NearOther,The user senses the foe's movements with its mind to ensure its next attack does not miss the foe.,用心感受对手的行动，下次攻击必定会击中对手。
+MINIMIZE,474,Minimize,變小,变小,NORMAL,status,0,0,10,0,0,034,User,"The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",蜷缩身体显得很小，从而大幅提高自己的闪避率。
+MIRACLEEYE,589,Miracle Eye,奇跡之眼,奇迹之眼,PSYCHIC,status,0,0,40,0,0,0A8,NearOther,Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.,对恶属性宝可梦没有效果的招式以及闪避率高的对手，使用后变得能够打中。
+MIRRORCOAT,565,Mirror Coat,鏡面反射,镜面反射,PSYCHIC,special,1,100,20,0,-5,072,None,"A retaliation move that counters any special attack, inflicting double the damage taken.",从对手那里受到特殊攻击的伤害将以2倍返还给同一个对手。
+MIRRORMOVE,228,Mirror Move,鸚鵡學舌,鹦鹉学舌,FLYING,status,0,0,20,0,0,0AE,NearOther,The user counters the target by mimicking the target's last move.,模仿对手使用的招式，自己也使用相同招式。
+MIRRORSHOT,632,Mirror Shot,鏡光射擊,镜光射击,STEEL,special,65,85,10,30,0,047,NearOther,The user looses a flash of energy from its polished body. It may also lower the target's accuracy.,抛光自己的身体，向对手释放出闪光之力。有时会降低对手的命中率。
+MIST,341,Mist,白霧,白雾,ICE,status,0,0,30,0,0,056,UserSide,The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.,用白雾覆盖身体。在5回合内不会让对手降低自己的能力。
+MISTBALL,559,Mist Ball,薄霧球,薄雾球,PSYCHIC,special,70,100,5,50,0,045,NearOther,A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.,用围绕着雾状羽毛的球进行攻击。有时会降低对手的特攻。
+MISTYTERRAIN,127,Misty Terrain,薄霧場地,薄雾场地,FAIRY,status,0,0,10,0,0,156,BothSides,The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions.,在5回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半。
+MOONBLAST,112,Moonblast,月亮之力,月亮之力,FAIRY,special,95,100,15,30,0,045,NearOther,The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.,借用月亮的力量攻击对手。有时会降低对手的特攻。
+MOONGEISTBEAM,232,Moongeist Beam,暗影之光,暗影之光,GHOST,special,100,100,5,0,0,163,NearOther,The user emits a sinister ray. This move can be used on the target regardless of its Abilities.,放出奇怪的光线攻击对手。可以无视对手的特性进行攻击。
+MOONLIGHT,128,Moonlight,月光,月光,FAIRY,status,0,0,5,0,0,0D8,User,The user restores its own HP. The amount of HP regained varies with the weather.,回复自己的HP。根据天气的不同，回复量也会有所变化。
+MORNINGSUN,475,Morning Sun,晨光,晨光,NORMAL,status,0,0,5,0,0,0D8,User,The user restores its own HP. The amount of HP regained varies with the weather.,回复自己的HP。根据天气的不同，回复量也会有所变化。
+MUDBOMB,305,Mud Bomb,泥巴炸彈,泥巴炸弹,GROUND,special,65,85,10,30,0,047,NearOther,The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.,向对手发射坚硬的泥弹进行攻击。有时会降低对手的命中率。
+MUDDYWATER,653,Muddy Water,濁流,浊流,WATER,special,90,85,10,30,0,047,AllNearFoes,The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.,向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。
+MUDSHOT,307,Mud Shot,泥巴射擊,泥巴射击,GROUND,special,55,95,15,100,0,044,NearOther,The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.,向对手投掷泥块进行攻击。同时降低对手的速度。
+MUDSLAP,311,Mud-Slap,擲泥,掷泥,GROUND,special,20,100,10,100,0,047,NearOther,The user hurls mud in the target's face to inflict damage and lower its accuracy.,向对手的脸等投掷泥块进行攻击。会降低对手的命中率。
+MUDSPORT,314,Mud Sport,玩泥巴,玩泥巴,GROUND,status,0,0,15,0,0,09D,BothSides,The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.,一旦使用此招式，周围就会弄得到处是泥。在5回合内减弱电属性的招式。
+MULTIATTACK,357,Multi-Attack,多屬性攻擊,多属性攻击,NORMAL,physical,90,100,10,0,0,09F,NearOther,"Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory.",一边覆盖高能量，一边撞向对手进行攻击。根据存储碟不同，属性会改变。
+MYSTICALFIRE,195,Mystical Fire,魔法火焰,魔法火焰,FIRE,special,75,100,10,100,0,045,NearOther,"The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",从口中喷出特别灼热的火焰进行攻击。降低对手的特攻。
+NASTYPLOT,57,Nasty Plot,詭計,诡计,DARK,status,0,0,20,0,0,032,User,The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.,谋划诡计，激活头脑。大幅提高自己的特攻。
+NATURALGIFT,421,Natural Gift,自然之恩,自然之恩,NORMAL,physical,1,100,15,0,0,096,NearOther,The user draws power to attack by using its held Berry. The Berry determines its type and power.,从树果上获得力量进行攻击。根据携带的树果，招式属性和威力会改变。
+NATUREPOWER,476,Nature Power,自然之力,自然之力,NORMAL,status,0,0,20,0,0,0B3,NearOther,An attack that makes use of nature's power. Its effects vary depending on the user's environment.,用自然之力进行攻击。根据所使用场所的不同，使出的招式也会有所变化。
+NATURESMADNESS,118,Nature's Madness,自然之怒,自然之怒,FAIRY,special,1,90,10,0,0,06C,NearOther,The user hits the target with the force of nature. It halves the target's HP.,向对手释放自然之怒。对手的HP会减半。
+NEEDLEARM,271,Needle Arm,尖刺臂,尖刺臂,GRASS,physical,60,100,15,30,0,00F,NearOther,The user attacks by wildly swinging its thorny arms. It may also make the target flinch.,用带刺的手臂猛烈地挥舞进行攻击。有时会使对手畏缩。
+NIGHTDAZE,32,Night Daze,暗黑爆破,暗黑爆破,DARK,special,85,95,10,40,0,047,NearOther,The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.,放出黑暗的冲击波攻击对手。有时会降低对手的命中率。
+NIGHTMARE,250,Nightmare,惡夢,恶梦,GHOST,status,0,100,15,0,0,10F,NearOther,A sleeping target sees a nightmare that inflicts some damage every turn.,让在睡眠状态下的对手做恶梦，每回合会缓缓减少HP。
+NIGHTSHADE,245,Night Shade,黑夜魔影,黑夜魔影,GHOST,special,1,100,15,0,0,06D,NearOther,The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.,显示恐怖幻影，只给予对手和自己等级相同的伤害。
+NIGHTSLASH,36,Night Slash,暗襲要害,暗袭要害,DARK,physical,70,100,15,0,0,000,NearOther,The user slashes the target the instant an opportunity arises. Critical hits land more easily.,抓住瞬间的空隙切斩对手。容易击中要害。
+NOBLEROAR,477,Noble Roar,戰吼,战吼,NORMAL,status,0,0,30,0,0,13A,NearOther,"Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk.",发出战吼威吓对手，从而降低对手的攻击和特攻。
+NUZZLE,100,Nuzzle,蹭蹭臉頰,蹭蹭脸颊,ELECTRIC,physical,20,100,20,100,0,007,NearOther,The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis.,将带电的脸颊蹭蹭对手进行攻击。让对手陷入麻痹状态。
+OBLIVIONWING,215,Oblivion Wing,死亡之翼,死亡之翼,FLYING,special,80,100,10,0,0,14F,Other,The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt.,从锁定的对手身上吸取HP。回复给予对手伤害的一半以上的HP。
+OCTAZOOKA,664,Octazooka,章魚桶炮,章鱼桶炮,WATER,special,65,85,10,50,0,047,NearOther,The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.,向对手的脸等喷出墨汁进行攻击。有时会降低对手的命中率。
+ODORSLEUTH,478,Odor Sleuth,氣味偵測,气味侦测,NORMAL,status,0,0,40,0,0,0A7,NearOther,Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.,对幽灵属性宝可梦没有效果的招式以及闪避率高的对手，使用后变得能够打中。
+OMINOUSWIND,240,Ominous Wind,奇異之風,奇异之风,GHOST,special,60,100,5,10,0,02D,NearOther,The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.,突然刮起毛骨悚然的暴风攻击对手。有时会提高自己的全部能力。
+ORIGINPULSE,649,Origin Pulse,根源波動,根源波动,WATER,special,110,85,10,0,0,000,AllNearFoes,The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.,用无数青白色且闪耀的光线攻击对手。
+OUTRAGE,67,Outrage,逆鱗,逆鳞,DRAGON,physical,120,100,10,0,0,0D2,RandomNearFoe,"The user rampages and attacks for two to three turns. It then becomes confused, however.",在2～3回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。
+OVERHEAT,179,Overheat,過熱,过热,FIRE,special,130,90,5,0,0,03F,NearOther,The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.,使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。
+PAINSPLIT,479,Pain Split,分擔痛楚,分担痛楚,NORMAL,status,0,0,20,0,0,05A,NearOther,"The user adds its HP to the target's HP, then equally shares the combined HP with the target.",将自己的HP和对手的HP相加，然后自己和对手友好地平分。
+PARABOLICCHARGE,93,Parabolic Charge,拋物面充電,抛物面充电,ELECTRIC,special,65,100,20,0,0,0DD,AllNearOthers,The user attacks everything around it. The user's HP is restored by half the damage dealt.,给周围全体宝可梦造成伤害。可以回复给予伤害的一半HP。
+PARTINGSHOT,58,Parting Shot,拋下狠話,抛下狠话,DARK,status,0,100,20,0,0,151,NearOther,"With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out.",抛下狠话威吓对手，降低攻击和特攻后，和后备宝可梦进行替换。
+PAYBACK,45,Payback,以牙還牙,以牙还牙,DARK,physical,50,100,10,0,0,084,NearOther,"If the user moves after the target, this attack's power will be doubled.",蓄力攻击。如果能在对手之后攻击，招式的威力会变成2倍。
+PAYDAY,395,Pay Day,聚寶功,聚宝功,NORMAL,physical,40,100,20,0,0,109,NearOther,Numerous coins are hurled at the target to inflict damage. Money is earned after battle.,向对手的身体投掷小金币进行攻击。战斗后可以拿到钱。
+PECK,225,Peck,啄,啄,FLYING,physical,35,100,35,0,0,000,Other,The target is jabbed with a sharply pointed beak or horn.,用尖锐的喙或角刺向对手进行攻击。
+PERISHSONG,480,Perish Song,滅亡之歌,灭亡之歌,NORMAL,status,0,0,5,0,0,0E5,AllBattlers,"Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",倾听歌声的宝可梦经过3回合陷入濒死。替换后效果消失。
+PETALBLIZZARD,263,Petal Blizzard,落英繽紛,落英缤纷,GRASS,physical,90,100,15,0,0,000,AllNearOthers,The user stirs up a violent petal blizzard and attacks everything around it.,猛烈地刮起飞雪般的落花，攻击周围所有的宝可梦，并给予伤害。
+PETALDANCE,256,Petal Dance,花瓣舞,花瓣舞,GRASS,special,120,100,10,0,0,0D2,RandomNearFoe,The user attacks by scattering petals for two to three turns. The user then becomes confused.,在2～3回合内，散落花瓣攻击对手。之后自己会陷入混乱。
+PHANTOMFORCE,233,Phantom Force,潛靈奇襲,潜灵奇袭,GHOST,physical,90,100,10,0,0,14D,NearOther,"The user vanishes somewhere, then strikes on the next turn. Hits through protections.",第1回合消失在某处，第2回合攻击对手。可以无视守护进行攻击。
+PHOTONGEYSER,550,Photon Geyser,光子噴湧,光子喷涌,PSYCHIC,special,100,100,5,0,0,164,NearOther,The user attacks with a pillar of light. This move uses the higher of the user's Attack or Sp. Atk stat.,用光柱来进行攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。
+PINMISSILE,17,Pin Missile,飛彈針,飞弹针,BUG,physical,25,95,20,0,0,0C0,NearOther,Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.,向对手发射锐针进行攻击。连续攻击2～5次。
+PLASMAFISTS,86,Plasma Fists,等離子閃電拳,等离子闪电拳,ELECTRIC,physical,100,100,15,0,0,146,NearOther,The user attacks with electrically charged fists. Normal-type moves become Electric-type.,用覆盖着电流的拳头进行攻击。使一般属性的招式变成电属性。
+PLAYNICE,481,Play Nice,和睦相處,和睦相处,NORMAL,status,0,0,20,0,0,139,NearOther,"The user and target become friends. The target loses its will to fight, lowering its Attack stat.",和对手和睦相处，使其失去战斗的气力，从而降低对手的攻击。
+PLAYROUGH,113,Play Rough,嬉鬧,嬉闹,FAIRY,physical,90,90,10,10,0,042,NearOther,The user plays rough with the target and attacks it. This may also lower the target's Attack stat.,与对手嬉闹并攻击。有时会降低对手的攻击。
+PLUCK,220,Pluck,啄食,啄食,FLYING,physical,60,100,20,0,0,0F4,Other,"The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",用喙进行攻击。当对手携带树果时，可以食用并获得其效果。
+POISONFANG,528,Poison Fang,劇毒牙,剧毒牙,POISON,physical,50,100,15,50,0,006,NearOther,The user bites the target with toxic fangs. It may also leave the target badly poisoned.,用有毒的牙齿咬住对手进行攻击。有时会使对手中剧毒。
+POISONGAS,538,Poison Gas,毒瓦斯,毒瓦斯,POISON,status,0,90,40,0,0,005,AllNearFoes,A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.,将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态。
+POISONJAB,523,Poison Jab,毒擊,毒击,POISON,physical,80,100,20,30,0,005,NearOther,The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.,用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。
+POISONPOWDER,539,Poison Powder,毒粉,毒粉,POISON,status,0,75,35,0,0,005,NearOther,The user scatters a cloud of poisonous dust on the target. It may poison the target.,撒出毒粉，从而让对手陷入中毒状态。
+POISONSTING,533,Poison Sting,毒針,毒针,POISON,physical,15,100,35,30,0,005,NearOther,The user stabs the target with a poisonous stinger. This may also poison the target.,将有毒的针刺入对手进行攻击。有时会让对手陷入中毒状态。
+POISONTAIL,529,Poison Tail,毒尾,毒尾,POISON,physical,50,100,25,10,0,005,NearOther,The user hits the target with its tail. It may also poison the target. Critical hits land more easily.,用尾巴拍打。有时会让对手陷入中毒状态，也容易击中要害。
+POLLENPUFF,5,Pollen Puff,花粉團,花粉团,BUG,special,90,100,15,0,0,16F,NearOther,"Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.",对敌人使用是会爆炸的团子。对我方使用则是给予回复的团子。
+POUND,396,Pound,拍擊,拍击,NORMAL,physical,40,100,35,0,0,000,NearOther,"The target is physically pounded with a long tail or a foreleg, etc.",使用长长的尾巴或手等拍打对手进行攻击。
+POWDER,22,Powder,粉塵,粉尘,BUG,status,0,100,20,0,0,148,NearOther,The target is covered in a powder that explodes and damages it if it uses a Fire-type move.,如果被撒到粉尘的对手使用火招式，则会爆炸并给予伤害。
+POWDERSNOW,334,Powder Snow,細雪,细雪,ICE,special,40,100,25,10,0,00C,AllNearFoes,The user attacks with a chilling gust of powdery snow. It may also freeze the targets.,将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。
+POWERGEM,609,Power Gem,力量寶石,力量宝石,ROCK,special,80,100,20,0,0,000,NearOther,The user attacks with a ray of light that sparkles as if it were made of gemstones.,发射如宝石般闪耀的光芒攻击对手。
+POWERSPLIT,590,Power Split,力量平分,力量平分,PSYCHIC,status,0,0,10,0,0,058,NearOther,The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.,利用超能力将自己和对手的攻击和特攻相加，再进行平分。
+POWERSWAP,591,Power Swap,力量互換,力量互换,PSYCHIC,status,0,0,10,0,0,052,NearOther,The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.,利用超能力互换自己和对手的攻击以及特攻的能力变化。
+POWERTRICK,592,Power Trick,力量戲法,力量戏法,PSYCHIC,status,0,0,10,0,0,057,User,The user employs its psychic power to switch its Attack with its Defense stat.,利用超能力交换自己的攻击和防御的力量。
+POWERTRIP,49,Power Trip,囂張,嚣张,DARK,physical,1,100,10,0,0,08E,NearOther,The user boasts of its strength. Power increases the more the user's stats are raised.,耀武扬威地攻击对手，自己的能力提高得越多，威力就越大。
+POWERUPPUNCH,157,Power-Up Punch,增強拳,增强拳,FIGHTING,physical,40,100,20,100,0,01C,NearOther,"Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.",通过反复击打对手，使自己的拳头慢慢变硬。打中对手攻击就会提高。
+POWERWHIP,257,Power Whip,強力鞭打,强力鞭打,GRASS,physical,120,85,10,0,0,000,NearOther,The user violently whirls its vines or tentacles to harshly lash the target.,激烈地挥舞青藤或触手摔打对手进行攻击。
+PRECIPICEBLADES,294,Precipice Blades,斷崖之劍,断崖之剑,GROUND,physical,120,85,10,0,0,000,AllNearFoes,The user attacks its foes by manifesting the power of the land in fearsome blades of stone.,将大地的力量变化为利刃攻击对手。
+PRESENT,422,Present,禮物,礼物,NORMAL,physical,1,90,15,0,0,094,NearOther,"The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.",递给对手设有圈套的盒子进行攻击。也有可能回复对手HP。
+PRISMATICLASER,545,Prismatic Laser,稜鏡鐳射,棱镜镭射,PSYCHIC,special,160,100,10,0,0,0C2,NearOther,The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.,用棱镜的力量发射强烈光线。下一回合自己将无法动弹。
+PROTECT,482,Protect,守住,守住,NORMAL,status,0,0,10,0,4,0AA,User,It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.,完全抵挡对手的攻击。连续使出则容易失败。
+PSYBEAM,561,Psybeam,幻象光線,幻象光线,PSYCHIC,special,65,100,20,10,0,013,NearOther,The target is attacked with a peculiar ray. It may also cause confusion.,向对手发射神奇的光线进行攻击。有时会使对手混乱。
+PSYCHIC,552,Psychic,精神強念,精神强念,PSYCHIC,special,90,100,10,10,0,046,NearOther,The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.,向对手发送强大的念力进行攻击。有时会降低对手的特防。
+PSYCHICFANGS,553,Psychic Fangs,精神之牙,精神之牙,PSYCHIC,physical,85,100,10,0,0,10A,NearOther,The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.,利用精神力量咬住对手进行攻击。还可以破坏光墙和反射壁等。
+PSYCHICTERRAIN,593,Psychic Terrain,精神場地,精神场地,PSYCHIC,status,0,0,10,0,0,173,BothSides,Protects grounded Pokémon from priority moves and powers up Psychic-type moves for five turns.,在5回合内，地面上的宝可梦不会受到先制招式的攻击。超能力属性的招式威力会提高。
+PSYCHOBOOST,546,Psycho Boost,精神突進,精神突进,PSYCHIC,special,140,90,5,0,0,03F,NearOther,The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.,使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。
+PSYCHOCUT,560,Psycho Cut,精神利刃,精神利刃,PSYCHIC,physical,70,100,20,0,0,000,NearOther,The user tears at the target with blades formed by psychic power. Critical hits land more easily.,用实体化的心之利刃劈开对手。容易击中要害。
+PSYCHOSHIFT,594,Psycho Shift,精神轉移,精神转移,PSYCHIC,status,0,100,10,0,0,01B,NearOther,"Using its psychic power of suggestion, the user transfers its status problems to the target.",利用超能力施以暗示，从而将自己受到的异常状态转移给对手。
+PSYCHUP,483,Psych Up,自我暗示,自我暗示,NORMAL,status,0,0,10,0,0,055,NearOther,The user hypnotizes itself into copying any stat change made by the target.,向自己施以自我暗示，将能力变化的状态变得和对手一样。
+PSYSHOCK,556,Psyshock,精神衝擊,精神冲击,PSYCHIC,special,80,100,10,0,0,122,NearOther,The user materializes an odd psychic wave to attack the target. This attack does physical damage.,将神奇的念波实体化攻击对手。给予物理伤害。
+PSYSTRIKE,551,Psystrike,精神擊破,精神击破,PSYCHIC,special,100,100,10,0,0,122,NearOther,The user materializes an odd psychic wave to attack the target. This attack does physical damage.,将神奇的念波实体化攻击对手。给予物理伤害。
+PSYWAVE,566,Psywave,精神波,精神波,PSYCHIC,special,1,100,15,0,0,06F,NearOther,The target is attacked with an odd psychic wave. The attack varies in intensity.,向对手发射神奇的念波进行攻击。每次使用，伤害都会改变。
+PUNISHMENT,50,Punishment,懲罰,惩罚,DARK,physical,1,100,5,0,0,08F,NearOther,This attack's power increases the more the target has powered up with stat changes.,根据能力变化，对手提高的力量越大，招式的威力越大。
+PURIFY,540,Purify,淨化,净化,POISON,status,0,0,20,0,0,15B,NearOther,"The user heals the target's status condition. If so, it also restores the user's own HP. ",治愈对手的异常状态。治愈后可以回复自己的HP。
+PURSUIT,46,Pursuit,追打,追打,DARK,physical,40,100,20,0,0,088,NearOther,An attack move that inflicts double damage if used on a target that is switching out of battle.,当对手替换宝可梦上场时使出此招式的话，能够以2倍的威力进行攻击。
+QUASH,59,Quash,延後,延后,DARK,status,0,100,15,0,0,11E,NearOther,The user suppresses the target and makes its move go last.,压制对手，从而将其行动顺序放到最后。
+QUICKATTACK,397,Quick Attack,電光一閃,电光一闪,NORMAL,physical,40,100,30,0,1,000,NearOther,The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.,以迅雷不及掩耳之势扑向对手。必定能够先制攻击。
+QUICKGUARD,171,Quick Guard,快速防守,快速防守,FIGHTING,status,0,0,15,0,3,0AB,UserSide,The user protects itself and its allies from priority moves. It may fail if used in succession.,守护自己和同伴，以防对手的先制攻击。
+QUIVERDANCE,23,Quiver Dance,蝶舞,蝶舞,BUG,status,0,0,20,0,0,02B,User,"The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.",轻巧地跳起神秘而又美丽的舞蹈。提高自己的特攻、特防和速度。
+RAGE,403,Rage,憤怒,愤怒,NORMAL,physical,20,100,20,0,0,093,NearOther,"As long as this move is in use, the user's Attack rises each time the user is hit in battle.",如果在使出招式后受到攻击的话，会因愤怒的力量而提高攻击。
+RAGEPOWDER,24,Rage Powder,憤怒粉,愤怒粉,BUG,status,0,0,20,0,2,117,User,The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.,将令人烦躁的粉末撒在自己身上，用以吸引对手的注意。使对手的攻击全部指向自己。
+RAINDANCE,673,Rain Dance,求雨,求雨,WATER,status,0,0,5,0,0,100,BothSides,"The user summons a heavy rain that falls for five turns, powering up Water-type moves.",在5回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。
+RAPIDSPIN,404,Rapid Spin,高速旋轉,高速旋转,NORMAL,physical,20,100,40,0,0,110,NearOther,"A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",通过旋转来攻击对手。还可以摆脱绑紧、紧束、寄生种子和撒菱等招式。
+RAZORLEAF,272,Razor Leaf,飛葉快刀,飞叶快刀,GRASS,physical,55,95,25,0,0,000,AllNearFoes,Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.,飞出叶片，切斩对手进行攻击。容易击中要害。
+RAZORSHELL,661,Razor Shell,貝殼刃,贝壳刃,WATER,physical,75,95,10,50,0,043,NearOther,The user cuts the foe with sharp shells. It may also lower the target's Defense stat.,用锋利的贝壳切斩对手进行攻击。有时会降低对手的防御。
+RAZORWIND,366,Razor Wind,旋風刀,旋风刀,NORMAL,special,80,100,10,0,0,0C3,AllNearFoes,A two-turn attack. Blades of wind hit the foe on the second turn. Critical hits land more easily.,制造风之刃，于第2回合攻击对手。容易击中要害。
+RECOVER,484,Recover,自我再生,自我再生,NORMAL,status,0,0,10,0,0,0D5,User,"Restoring its own cells, the user restores its own HP by half of its max HP.",让细胞再生，从而回复自己最大HP的一半。
+RECYCLE,485,Recycle,回收利用,回收利用,NORMAL,status,0,0,10,0,0,0F6,User,The user recycles a held item that has been used in battle so it can be used again.,使战斗中已经消耗掉的自己的持有物再生，并可以再次使用。
+REFLECT,595,Reflect,反射壁,反射壁,PSYCHIC,status,0,0,20,0,0,0A2,UserSide,A wondrous wall of light is put up to suppress damage from physical attacks for five turns.,利用神奇的墙壁，在5回合内减弱从对手那里受到的物理攻击的伤害。
+REFLECTTYPE,486,Reflect Type,鏡面屬性,镜面属性,NORMAL,status,0,0,15,0,0,062,NearOther,"The user reflects the target's type, making it the same type as the target.",反射对手的属性，让自己也变成一样的属性。
+REFRESH,487,Refresh,煥然一新,焕然一新,NORMAL,status,0,0,20,0,0,018,User,"The user rests to cure itself of a poisoning, burn, or paralysis.",让身体休息，治愈自己身上所中的毒、麻痹、灼伤的异常状态。
+RELICSONG,371,Relic Song,古老之歌,古老之歌,NORMAL,special,75,100,10,10,0,003,AllNearFoes,An ancient song appeals to the hearts of those listening. It may also induce sleep.,让对手听古老之歌，打动对手的内心进行攻击。有时会让对手陷入睡眠状态。
+REST,596,Rest,睡覺,睡觉,PSYCHIC,status,0,0,10,0,0,0D9,User,The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.,连续睡上2回合。回复自己的全部HP以及治愈所有异常状态。
+RETALIATE,376,Retaliate,報仇,报仇,NORMAL,physical,70,100,5,0,0,085,NearOther,"Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.",为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高。
+RETURN,423,Return,報恩,报恩,NORMAL,physical,1,100,20,0,0,089,NearOther,A full-power attack that grows more powerful the more the user likes its Trainer.,为了训练家而全力攻击对手。亲密度越高，威力越大。
+REVELATIONDANCE,358,Revelation Dance,覺醒之舞,觉醒之舞,NORMAL,special,90,100,15,0,0,169,NearOther,The user attacks the target by dancing very hard. The user's type determines the type of this move.,全力跳舞进行攻击。此招式的属性将变得和自己的属性相同。
+REVENGE,152,Revenge,報復,报复,FIGHTING,physical,60,100,10,0,-4,081,NearOther,An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.,如果受到对手的招式攻击，就能给予对手2倍的伤害。
+REVERSAL,166,Reversal,起死回生,起死回生,FIGHTING,physical,1,100,15,0,0,098,NearOther,An all-out attack that becomes more powerful the less HP the user has.,竭尽全力进行攻击。自己的HP越少，招式的威力越大。
+ROAR,488,Roar,吼叫,吼叫,NORMAL,status,0,0,20,0,-6,0EB,NearOther,"The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。
+ROAROFTIME,65,Roar of Time,時光咆哮,时光咆哮,DRAGON,special,150,90,5,0,0,0C2,NearOther,The user blasts the target with power that distorts even time. The user must rest on the next turn.,释放出扭曲时间般的强大力量攻击对手。下一回合自己将无法动弹。
+ROCKBLAST,617,Rock Blast,岩石爆擊,岩石爆击,ROCK,physical,25,90,10,0,0,0C0,NearOther,The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.,向对手发射坚硬的岩石进行攻击。连续攻击2～5次。
+ROCKCLIMB,359,Rock Climb,攀岩,攀岩,NORMAL,physical,90,85,20,20,0,013,NearOther,The user attacks the target by smashing into it with incredible force. It may also confuse the target.,用尽全力扑向对手进行攻击。有时会使对手混乱。还可以攀爬悬崖。
+ROCKPOLISH,618,Rock Polish,岩石打磨,岩石打磨,ROCK,status,0,0,20,0,0,030,User,The user polishes its body to reduce drag. It can sharply raise the Speed stat.,打磨自己的身体，减少空气阻力。可以大幅提高自己的速度。
+ROCKSLIDE,610,Rock Slide,岩崩,岩崩,ROCK,physical,75,90,10,30,0,00F,AllNearFoes,Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.,将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。
+ROCKSMASH,158,Rock Smash,碎岩,碎岩,FIGHTING,physical,40,100,15,50,0,043,NearOther,The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.,用拳头进行攻击。有时会降低对手的防御。
+ROCKTHROW,613,Rock Throw,落石,落石,ROCK,physical,50,90,15,0,0,000,NearOther,The user picks up and throws a small rock at the target to attack.,拿起小岩石，投掷对手进行攻击。
+ROCKTOMB,612,Rock Tomb,岩石封鎖,岩石封锁,ROCK,physical,60,95,15,100,0,044,NearOther,Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.,投掷岩石进行攻击。封住对手的行动，从而降低速度。
+ROCKWRECKER,606,Rock Wrecker,岩石炮,岩石炮,ROCK,physical,150,90,5,0,0,0C2,NearOther,"The user launches a huge boulder at the target to attack. It must rest on the next turn, however.",向对手发射巨大的岩石进行攻击。下一回合自己将无法动弹。
+ROLEPLAY,597,Role Play,扮演,扮演,PSYCHIC,status,0,0,10,0,0,065,NearOther,"The user mimics the target completely, copying the target's natural Ability.",扮演对手，让自己的特性变得和对手相同。
+ROLLINGKICK,153,Rolling Kick,迴旋踢,回旋踢,FIGHTING,physical,60,85,15,30,0,00F,NearOther,"The user lashes out with a quick, spinning kick. It may also make the target flinch.",一边使身体快速旋转，一边踢飞对手进行攻击。有时会使对手畏缩。
+ROLLOUT,616,Rollout,滾動,滚动,ROCK,physical,30,90,20,0,0,0D3,NearOther,The user continually rolls into the target over five turns. It becomes stronger each time it hits.,在5回合内连续滚动攻击对手。招式每次击中，威力就会提高。
+ROOST,229,Roost,羽棲,羽栖,FLYING,status,0,0,10,0,0,0D6,User,The user lands and rests its body. It restores the user's HP by up to half of its max HP.,降到地面，使身体休息。回复自己最大HP的一半。
+ROTOTILLER,315,Rototiller,耕地,耕地,GROUND,status,0,0,10,0,0,13E,AllBattlers,The user tills the soil to encourage plant growth. This raises the Attack and Sp. Atk of Grass types.,翻耕土地，使草木更容易成长。会提高草属性宝可梦的攻击和特攻。
+ROUND,384,Round,輪唱,轮唱,NORMAL,special,60,100,15,0,0,083,NearOther,The user attacks with a song. Others can join in the Round and make the attack do greater damage.,用歌声攻击对手。同伴还可以接着使出轮唱招式，威力也会提高。
+SACREDFIRE,185,Sacred Fire,神聖之火,神圣之火,FIRE,physical,100,95,5,50,0,00A,NearOther,The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.,用神秘的火焰烧尽对手进行攻击。有时会让对手陷入灼伤状态。
+SACREDSWORD,140,Sacred Sword,聖劍,圣剑,FIGHTING,physical,90,100,15,0,0,0A9,NearOther,The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.,用剑切斩对手进行攻击。无视对手的能力变化，直接给予伤害。
+SAFEGUARD,489,Safeguard,神秘守護,神秘守护,NORMAL,status,0,0,25,0,0,01A,UserSide,The user creates a protective field that prevents status problems for five turns.,在5回合内被神奇的力量守护，从而不会陷入异常状态。
+SANDATTACK,316,Sand Attack,潑沙,泼沙,GROUND,status,0,100,15,0,0,047,NearOther,"Sand is hurled in the target's face, reducing its accuracy.",向对手脸上泼沙子，从而降低命中率。
+SANDSTORM,619,Sandstorm,沙暴,沙暴,ROCK,status,0,0,10,0,0,101,BothSides,"Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types.",在5回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。
+SANDTOMB,309,Sand Tomb,流沙地獄,流沙地狱,GROUND,physical,35,85,15,0,0,0CF,NearOther,The user traps the target inside a harshly raging sandstorm for four to five turns.,将对手困在铺天盖地的沙暴中，在4～5回合内进行攻击。
+SCALD,658,Scald,熱水,热水,WATER,special,80,100,15,30,0,00A,NearOther,The user shoots boiling hot water at its target. It may also leave the target with a burn.,向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态。
+SCARYFACE,490,Scary Face,鬼面,鬼面,NORMAL,status,0,100,10,0,0,04D,NearOther,The user frightens the target with a scary face to harshly reduce its Speed stat.,用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。
+SCRATCH,398,Scratch,抓,抓,NORMAL,physical,40,100,35,0,0,000,NearOther,"Hard, pointed, and sharp claws rake the target to inflict damage.",用坚硬且无比锋利的爪子抓对手进行攻击。
+SCREECH,491,Screech,刺耳聲,刺耳声,NORMAL,status,0,85,40,0,0,04C,NearOther,An earsplitting screech harshly reduces the target's Defense stat.,发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。
+SEARINGSHOT,186,Searing Shot,火焰彈,火焰弹,FIRE,special,100,100,5,30,0,00A,AllNearOthers,An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn.,用熊熊烈火攻击自己周围所有的宝可梦。有时会陷入灼伤状态。
+SECRETPOWER,377,Secret Power,秘密之力,秘密之力,NORMAL,physical,70,100,20,30,0,0A4,NearOther,The user attacks with a secret power. Its added effects vary depending on the user's environment.,根据使用场所不同，该招式的追加效果也会有所变化。
+SECRETSWORD,141,Secret Sword,神秘之劍,神秘之剑,FIGHTING,special,85,100,10,0,0,122,NearOther,The user cuts with its long horn. The odd power contained in it does physical damage to the foe.,用长角切斩对手进行攻击。角上拥有的神奇力量将给予物理伤害。
+SEEDBOMB,265,Seed Bomb,種子炸彈,种子炸弹,GRASS,physical,80,100,15,0,0,000,NearOther,The user slams a barrage of hard-shelled seeds down on the target from above.,将外壳坚硬的大种子，从上方砸下攻击对手。
+SEEDFLARE,258,Seed Flare,種子閃光,种子闪光,GRASS,special,120,85,5,40,0,04F,NearOther,The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def.,从身体里产生冲击波。有时会大幅降低对手的特防。
+SEISMICTOSS,167,Seismic Toss,地球上投,地球上投,FIGHTING,physical,1,100,20,0,0,06D,NearOther,The target is thrown using the power of gravity. It inflicts damage equal to the user's level.,利用引力将对手甩飞出去。给予对手和自己等级相同的伤害。
+SELFDESTRUCT,343,Self-Destruct,自爆,自爆,NORMAL,physical,200,100,5,0,0,0E0,AllNearOthers,The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.,引发爆炸，攻击自己周围所有的宝可梦。使用后陷入濒死。
+SHADOWBALL,236,Shadow Ball,暗影球,暗影球,GHOST,special,80,100,15,20,0,046,NearOther,The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.,投掷一团黑影进行攻击。有时会降低对手的特防。
+SHADOWBONE,235,Shadow Bone,暗影之骨,暗影之骨,GHOST,physical,85,100,10,20,0,043,NearOther,The user beats the target with a bone containing a spirit. May lower the target's Defense stat.,用附有灵魂的骨头殴打对手进行攻击。有时会降低对手的防御。
+SHADOWCLAW,238,Shadow Claw,暗影爪,暗影爪,GHOST,physical,70,100,15,0,0,000,NearOther,The user slashes with a sharp claw made from shadows. Critical hits land more easily.,以影子做成的锐爪，劈开对手。容易击中要害。
+SHADOWFORCE,231,Shadow Force,暗影潛襲,暗影潜袭,GHOST,physical,120,100,5,0,0,0CD,NearOther,"The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.",第1回合消失踪影，第2回合攻击对手。即使对手正受保护，也能击中。
+SHADOWPUNCH,241,Shadow Punch,暗影拳,暗影拳,GHOST,physical,60,0,20,0,0,0A5,NearOther,The user throws a punch from the shadows. The punch lands without fail.,使出混影之拳。攻击必定会命中。
+SHADOWSNEAK,242,Shadow Sneak,影子偷襲,影子偷袭,GHOST,physical,40,100,30,0,1,000,NearOther,The user extends its shadow and attacks the target from behind. This move always goes first.,伸长影子，从对手的背后进行攻击。必定能够先制攻击。
+SHARPEN,492,Sharpen,稜角化,棱角化,NORMAL,status,0,0,30,0,0,01C,User,"The user reduces its polygon count to make itself more jagged, raising the Attack stat.",增加身体的角，变得棱棱角角，从而提高自己的攻击。
+SHEERCOLD,337,Sheer Cold,絕對零度,绝对零度,ICE,special,1,30,5,0,0,070,NearOther,The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.,给对手一击濒死。如果是冰属性以外的宝可梦使用，就会难以打中。
+SHELLSMASH,493,Shell Smash,破殼,破壳,NORMAL,status,0,0,15,0,0,035,User,"The user breaks its shell, lowering its defenses but sharply raising attacking and Speed stats.",打破外壳，降低自己的防御和特防，但大幅提高攻击、特攻和速度。
+SHELLTRAP,176,Shell Trap,陷阱甲殼,陷阱甲壳,FIRE,special,150,100,5,0,-3,171,AllNearFoes,"The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurt the attacker.",设下甲壳陷阱。如果对手使出物理招式，陷阱就会爆炸并给予对手伤害。
+SHIFTGEAR,645,Shift Gear,換檔,换挡,STEEL,status,0,0,10,0,0,036,User,"The user rotates its gears, raising its Attack and sharply raising its Speed.",转动齿轮，不仅提高自己的攻击，还会大幅提高速度。
+SHOCKWAVE,96,Shock Wave,電擊波,电击波,ELECTRIC,special,60,0,20,0,0,0A5,NearOther,The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.,向对手快速发出电击。攻击必定会命中。
+SHOREUP,317,Shore Up,集沙,集沙,GROUND,status,0,0,10,0,0,16D,User,The user regains up to half of its max HP. It restores more HP in a sandstorm.,回复自己最大HP的一半。在沙暴中回复得更多。
+SIGNALBEAM,9,Signal Beam,信號光束,信号光束,BUG,special,75,100,15,10,0,013,NearOther,The user attacks with a sinister beam of light. It may also confuse the target.,发射神奇的光线进行攻击。有时会使对手混乱。
+SILVERWIND,13,Silver Wind,銀色旋風,银色旋风,BUG,special,60,100,5,10,0,02D,NearOther,The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.,在风中掺入鳞粉攻击对手。有时会提高自己的全部能力。
+SIMPLEBEAM,494,Simple Beam,單純光束,单纯光束,NORMAL,status,0,100,15,0,0,063,NearOther,The user's mysterious psychic wave changes the target's Ability to Simple.,向对手发送谜之念波。接收到念波的对手，其特性会变为单纯。
+SING,495,Sing,唱歌,唱歌,NORMAL,status,0,55,15,0,0,003,NearOther,A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.,让对手听舒适、美妙的歌声，从而陷入睡眠状态。
+SKETCH,496,Sketch,寫生,写生,NORMAL,status,0,0,1,0,0,05D,NearOther,"It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.",将对手使用的招式变成自己的招式。使用1次后写生消失。
+SKILLSWAP,598,Skill Swap,特性互換,特性互换,PSYCHIC,status,0,0,10,0,0,067,NearOther,The user employs its psychic power to exchange Abilities with the target.,利用超能力互换自己和对手的特性。
+SKULLBASH,348,Skull Bash,火箭頭錘,火箭头锤,NORMAL,physical,130,100,10,0,0,0C8,NearOther,"The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",第1回合把头缩进去，从而提高防御。第2回合攻击对手。
+SKYATTACK,206,Sky Attack,神鳥猛擊,神鸟猛击,FLYING,physical,140,90,5,30,0,0C7,Other,A second-turn attack move where critical hits land more easily. It may also make the target flinch.,第2回合攻击对手。偶尔使对手畏缩。也容易击中要害。
+SKYDROP,221,Sky Drop,自由落體,自由落体,FLYING,physical,60,100,10,0,0,0CE,Other,"The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.",第1回合将对手带到空中，第2回合将其摔下进行攻击。被带到空中的对手不能动弹。
+SKYUPPERCUT,142,Sky Uppercut,衝天拳,冲天拳,FIGHTING,physical,85,90,15,0,0,11B,NearOther,The user attacks the target with an uppercut thrown skyward with force.,用冲向天空般高高的上勾拳顶起对手进行攻击。
+SLACKOFF,497,Slack Off,偷懶,偷懒,NORMAL,status,0,0,10,0,0,0D5,User,"The user slacks off, restoring its own HP by up to half of its maximum HP.",偷懒休息。回复自己最大HP的一半。
+SLAM,367,Slam,摔打,摔打,NORMAL,physical,80,75,20,0,0,000,NearOther,"The target is slammed with a long tail, vines, etc., to inflict damage.",使用长长的尾巴或藤蔓等摔打对手进行攻击。
+SLASH,378,Slash,劈開,劈开,NORMAL,physical,70,100,20,0,0,000,NearOther,The target is attacked with a slash of claws or blades. Critical hits land more easily.,用爪子或镰刀等劈开对手进行攻击。容易击中要害。
+SLEEPPOWDER,287,Sleep Powder,催眠粉,催眠粉,GRASS,status,0,75,15,0,0,003,NearOther,The user scatters a big cloud of sleep-inducing dust around the target.,撒出催眠粉，从而让对手陷入睡眠状态。
+SLEEPTALK,498,Sleep Talk,夢話,梦话,NORMAL,status,0,0,10,0,0,0B4,User,"While it is asleep, the user randomly uses one of the moves it knows.",从自己已学会的招式中任意使出1个。只能在自己睡觉时使用。
+SLUDGE,525,Sludge,污泥攻擊,污泥攻击,POISON,special,65,100,20,30,0,005,NearOther,Unsanitary sludge is hurled at the target. It may also poison the target.,用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。
+SLUDGEBOMB,522,Sludge Bomb,污泥炸彈,污泥炸弹,POISON,special,90,100,10,30,0,005,NearOther,Unsanitary sludge is hurled at the target. It may also poison the target.,用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。
+SLUDGEWAVE,521,Sludge Wave,污泥波,污泥波,POISON,special,95,100,10,10,0,005,AllNearOthers,It swamps the area around the user with a giant sludge wave. It may also poison those hit.,用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。
+SMACKDOWN,614,Smack Down,擊落,击落,ROCK,physical,50,100,15,0,0,11C,NearOther,The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit.,扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。
+SMARTSTRIKE,629,Smart Strike,修長之角,修长之角,STEEL,physical,70,0,10,0,0,0A5,NearOther,The user stabs the target with a sharp horn. This attack never misses.,用尖尖的角刺入对手进行攻击。攻击必定会命中。
+SMELLINGSALT,379,Smelling Salts,清醒,清醒,NORMAL,physical,70,100,10,0,0,07C,NearOther,"This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however.",对于麻痹状态下的对手，威力会变成2倍。但相反对手的麻痹也会被治愈。
+SMOG,532,Smog,濁霧,浊雾,POISON,special,30,70,20,40,0,005,NearOther,The target is attacked with a discharge of filthy gases. It may also poison the target.,将肮脏的浓雾吹向对手进行攻击。有时会让对手陷入中毒状态。
+SMOKESCREEN,499,Smokescreen,煙幕,烟幕,NORMAL,status,0,100,20,0,0,047,NearOther,The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.,向对手喷出烟或墨汁等，从而降低对手的命中率。
+SNARL,44,Snarl,大聲咆哮,大声咆哮,DARK,special,55,95,15,100,0,045,AllNearFoes,"The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",没完没了地大声斥责，从而降低对手的特攻。
+SNATCH,60,Snatch,搶奪,抢夺,DARK,status,0,0,10,0,4,0B2,User,The user steals the effects of any healing or stat-changing move the foe attempts to use.,将对手打算使用的回复招式或能力变化招式夺为己用。
+SNORE,388,Snore,打鼾,打鼾,NORMAL,special,50,100,15,30,0,011,NearOther,An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.,在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。
+SOAK,674,Soak,浸水,浸水,WATER,status,0,100,20,0,0,061,NearOther,The user shoots a torrent of water at the target and changes the target's type to Water.,将大量的水泼向对手，从而使其变成水属性。
+SOFTBOILED,500,Soft-Boiled,生蛋,生蛋,NORMAL,status,0,0,10,0,0,0D5,User,The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.,回复自己最大HP的一半。在战斗以外的时候使用，可将HP分给伙伴。
+SOLARBEAM,259,Solar Beam,日光束,日光束,GRASS,special,120,100,10,0,0,0C4,NearOther,"A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",第1回合收集满满的日光，第2回合发射光束进行攻击。
+SOLARBLADE,255,Solar Blade,日光刃,日光刃,GRASS,physical,125,100,10,0,0,0C4,NearOther,"The user gathers light energy into a blade, attacking the target on the next turn.",第1回合收集满满的日光，第2回合将此力量集中在剑上进行攻击。
+SONICBOOM,424,Sonic Boom,音爆,音爆,NORMAL,special,1,90,20,0,0,06A,NearOther,The target is hit with a destructive shock wave that always inflicts 20 HP damage.,将冲击波撞向对手进行攻击。必定会给予20的伤害。
+SPACIALREND,71,Spacial Rend,亞空裂斬,亚空裂斩,DRAGON,special,100,95,5,0,0,000,NearOther,The user tears the target along with the space around it. Critical hits land more easily.,将对手连同周围的空间一起撕裂并给予伤害。容易击中要害。
+SPARK,94,Spark,電光,电光,ELECTRIC,physical,65,100,20,30,0,007,NearOther,The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.,让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。
+SPARKLINGARIA,654,Sparkling Aria,泡影的詠歎調,泡影的咏叹调,WATER,special,90,100,10,100,0,15A,AllNearOthers,"The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.",随着唱歌会放出很多气球。受到此招式攻击时，灼伤会被治愈。
+SPECTRALTHIEF,234,Spectral Thief,暗影偷盜,暗影偷盗,GHOST,physical,90,100,10,0,0,15D,NearOther,"The user hides in the target's shadow, steals the target's stat boosts, and then attacks.",潜入对手的影子进行攻击。会夺取对手的能力提升。
+SPEEDSWAP,599,Speed Swap,速度互換,速度互换,PSYCHIC,status,0,0,10,0,0,161,NearOther,The user exchanges Speed stats with the target.,将对手和自己的速度进行互换。
+SPIDERWEB,25,Spider Web,蛛網,蛛网,BUG,status,0,0,10,0,0,0EF,NearOther,"The user ensnares the target with thin, gooey silk so it can't flee from battle.",将黏糊糊的细丝一层一层缠住对手，使其不能从战斗中逃走。
+SPIKECANNON,405,Spike Cannon,尖刺加農炮,尖刺加农炮,NORMAL,physical,20,100,15,0,0,0C0,NearOther,Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.,向对手发射锐针进行攻击。连续攻击2～5次。
+SPIKES,318,Spikes,撒菱,撒菱,GROUND,status,0,0,20,0,0,103,FoeSide,The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.,在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。
+SPIKYSHIELD,288,Spiky Shield,尖刺防守,尖刺防守,GRASS,status,0,0,10,0,4,14C,User,Protects the user from attacks. Also damages attackers that make contact with the user.,防住对手攻击的同时，削减接触到自己的对手的体力。
+SPIRITSHACKLE,237,Spirit Shackle,縫影,缝影,GHOST,physical,80,100,10,100,0,0EF,NearOther,The user attacks while also stitching the target's shadow to the ground to prevent it fleeing.,攻击的同时，缝住对手的影子，使其无法逃走。
+SPITE,251,Spite,怨恨,怨恨,GHOST,status,0,100,10,0,0,10E,NearOther,The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.,对对手最后使用的招式怀有怨恨，减少4PP该招式。
+SPITUP,425,Spit Up,噴出,喷出,NORMAL,special,1,100,10,0,0,113,NearOther,The power stored using the move Stockpile is released all at once in an attack.,将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大。
+SPLASH,501,Splash,躍起,跃起,NORMAL,status,0,0,40,0,0,001,User,The user just flops and splashes around to no effect at all...,也不攻击只是一蹦一蹦地跳，什么都不会发生……
+SPORE,289,Spore,蘑菇孢子,蘑菇孢子,GRASS,status,0,100,15,0,0,003,NearOther,The user scatters bursts of spores that induce sleep.,沙沙沙地撒满具有催眠效果的孢子，从而让对手陷入睡眠状态。
+SPOTLIGHT,502,Spotlight,聚光燈,聚光灯,NORMAL,status,0,0,15,0,3,16A,NearOther,The user shines a spotlight on the target so that only it will be attacked during the turn.,给宝可梦打上聚光灯，该回合只能瞄准该宝可梦。
+STEALTHROCK,620,Stealth Rock,隱形岩,隐形岩,ROCK,status,0,0,20,0,0,105,FoeSide,The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.,将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。
+STEAMERUPTION,650,Steam Eruption,蒸汽爆炸,蒸汽爆炸,WATER,special,110,95,5,30,0,00A,NearOther,The user immerses the target in superheated steam. This may also leave the target with a burn.,将滚烫的蒸汽喷向对手。有时会让对手灼伤。
+STEAMROLLER,11,Steamroller,瘋狂滾壓,疯狂滚压,BUG,physical,65,100,20,30,0,010,NearOther,The user crushes its foes by rolling over them. This attack may make the target flinch.,旋转揉成团的身体压扁对手。有时会使对手畏缩。
+STEELWING,630,Steel Wing,鋼翼,钢翼,STEEL,physical,70,90,25,10,0,01D,NearOther,The target is hit with wings of steel. It may also raise the user's Defense stat.,用坚硬的翅膀敲打对手进行攻击。有时会提高自己的防御。
+STICKYWEB,26,Sticky Web,黏黏網,黏黏网,BUG,status,0,0,20,0,0,153,FoeSide,"Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in.",在对手周围围上黏黏的网，降低替换出场的对手的速度。
+STOCKPILE,503,Stockpile,蓄力,蓄力,NORMAL,status,0,0,20,0,0,112,User,The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.,积蓄力量，提高自己的防御和特防。最多积蓄3次。
+STOMP,381,Stomp,踩踏,踩踏,NORMAL,physical,65,100,20,30,0,010,NearOther,The target is stomped with a big foot. It may also make the target flinch.,用大脚踩踏对手进行攻击。有时会使对手畏缩。
+STOMPINGTANTRUM,303,Stomping Tantrum,跺腳,跺脚,GROUND,physical,75,100,10,0,0,166,NearOther,The user attacks driven by frustration. Power increases if the user's previous move failed.,化悔恨为力量进行攻击。如果上一回合招式没有打中，威力就会翻倍。
+STONEEDGE,608,Stone Edge,尖石攻擊,尖石攻击,ROCK,physical,100,80,5,0,0,000,NearOther,The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.,用尖尖的岩石刺入对手进行攻击。容易击中要害。
+STOREDPOWER,564,Stored Power,輔助力量,辅助力量,PSYCHIC,special,20,100,10,0,0,08E,NearOther,"The user attacks with stored power. The more the user's stats are raised, the greater the damage.",用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大。
+STORMTHROW,154,Storm Throw,山嵐摔,山岚摔,FIGHTING,physical,60,100,10,0,0,0A0,NearOther,The user strikes the target with a fierce blow. This attack always results in a critical hit.,向对手使出强烈的一击。攻击必定会击中要害。
+STRENGTH,368,Strength,怪力,怪力,NORMAL,physical,80,100,15,0,0,000,NearOther,The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.,使出浑身力气殴打对手进行攻击。还可以推动沉重的岩石。
+STRENGTHSAP,290,Strength Sap,吸取力量,吸取力量,GRASS,status,0,100,10,0,0,160,NearOther,The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat.,给自己回复和对手攻击力相同数值的HP，然后降低对手的攻击。
+STRINGSHOT,27,String Shot,吐絲,吐丝,BUG,status,0,95,40,0,0,04D,AllNearFoes,The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed.,用口中吐出的丝缠绕对手，从而大幅降低对手的速度。
+STRUGGLE,389,Struggle,掙扎,挣扎,NORMAL,physical,50,0,1,0,0,002,RandomNearFoe,An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.,当自己的PP耗尽时，努力挣扎攻击对手。自己也会受到少许伤害。
+STRUGGLEBUG,15,Struggle Bug,蟲之抵抗,虫之抵抗,BUG,special,50,100,20,100,0,045,AllNearFoes,"While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",抵抗并攻击对手。降低对手的特攻。
+STUNSPORE,291,Stun Spore,麻痺粉,麻痹粉,GRASS,status,0,75,30,0,0,007,NearOther,The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.,撒出麻痹粉，从而让对手陷入麻痹状态。
+SUBMISSION,144,Submission,地獄翻滾,地狱翻滚,FIGHTING,physical,80,80,20,0,0,0FA,NearOther,The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.,将对手连同自己一起摔向地面进行攻击。自己也会受到少许伤害。
+SUBSTITUTE,504,Substitute,替身,替身,NORMAL,status,0,0,10,0,0,10C,User,The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.,削减少许自己的HP，制造分身。分身将成为自己的替身。
+SUCKERPUNCH,37,Sucker Punch,突襲,突袭,DARK,physical,70,100,5,0,1,116,NearOther,"This move enables the user to attack first. It fails if the target is not readying an attack, however.",可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。
+SUNNYDAY,204,Sunny Day,大晴天,大晴天,FIRE,status,0,0,5,0,0,0FF,BothSides,"The user intensifies the sun for five turns, powering up Fire-type moves.",在5回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。
+SUNSTEELSTRIKE,624,Sunsteel Strike,流星閃衝,流星闪冲,STEEL,physical,100,100,5,0,0,163,NearOther,The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.,以流星般的气势猛撞对手。可以无视对手的特性进行攻击。
+SUPERFANG,426,Super Fang,憤怒門牙,愤怒门牙,NORMAL,physical,1,90,10,0,0,06C,NearOther,The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.,用锋利的门牙猛烈地咬住对手进行攻击。对手的HP减半。
+SUPERPOWER,134,Superpower,蠻力,蛮力,FIGHTING,physical,120,100,5,0,0,03B,NearOther,"The user attacks the target with great power. However, it also lowers the user's Attack and Defense.",发挥惊人的力量攻击对手。自己的攻击和防御会降低。
+SUPERSONIC,505,Supersonic,超音波,超音波,NORMAL,status,0,55,20,0,0,013,NearOther,The user generates odd sound waves from its body. It may confuse the target.,从身体发出特殊的音波，从而使对手混乱。
+SURF,655,Surf,衝浪,冲浪,WATER,special,90,100,15,0,0,075,AllNearOthers,It swamps the area around the user with a giant wave. It can also be used for crossing water.,利用大浪攻击自己周围所有的宝可梦。还可以在水面上行走。
+SWAGGER,506,Swagger,虛張聲勢,虚张声势,NORMAL,status,0,85,15,0,0,041,NearOther,"The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。
+SWALLOW,507,Swallow,吞下,吞下,NORMAL,status,0,0,10,0,0,114,User,The power stored using the move Stockpile is absorbed by the user to heal its HP.,将积蓄的力量吞下，从而回复自己的HP。积蓄得越多，回复越大。
+SWEETKISS,129,Sweet Kiss,天使之吻,天使之吻,FAIRY,status,0,75,10,0,0,013,NearOther,"The user kisses the target with a sweet, angelic cuteness that causes confusion.",像天使般可爱地亲吻对手，从而使对手混乱。
+SWEETSCENT,508,Sweet Scent,甜甜香氣,甜甜香气,NORMAL,status,0,100,20,0,0,048,AllNearFoes,"A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc.",用香气大幅降低对手的闪避率。如在草丛之类的地方使用，会吸引宝可梦靠近。
+SWIFT,385,Swift,高速星星,高速星星,NORMAL,special,60,0,20,0,0,0A5,AllNearFoes,Star-shaped rays are shot at the opposing team. This attack never misses.,发射星形的光攻击对手。攻击必定会命中。
+SWITCHEROO,61,Switcheroo,掉包,掉包,DARK,status,0,100,10,0,0,0F2,NearOther,The user trades held items with the target faster than the eye can follow.,用一闪而过的速度交换自己和对手的持有物。
+SWORDSDANCE,509,Swords Dance,劍舞,剑舞,NORMAL,status,0,0,10,0,0,02E,User,A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.,激烈地跳起战舞提高气势。大幅提高自己的攻击。
+SYNCHRONOISE,548,Synchronoise,同步干擾,同步干扰,PSYCHIC,special,120,100,10,0,0,123,AllNearOthers,"Using an odd shock wave, the user damages any Pokémon of the same type as the user.",用神奇电波对周围所有和自己属性相同的宝可梦给予伤害。
+SYNTHESIS,292,Synthesis,光合作用,光合作用,GRASS,status,0,0,5,0,0,0D8,User,The user restores its own HP. The amount of HP regained varies with the weather.,回复自己的HP。根据天气的不同，回复量也会有所变化。
+TACKLE,399,Tackle,撞擊,撞击,NORMAL,physical,40,100,35,0,0,000,NearOther,A physical attack in which the user charges and slams into the target with its whole body.,用整个身体撞向对手进行攻击。
+TAILGLOW,28,Tail Glow,螢火,萤火,BUG,status,0,0,20,0,0,039,User,"The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.",凝视闪烁的光芒，集中自己的精神，从而巨幅提高特攻。
+TAILSLAP,402,Tail Slap,掃尾拍打,扫尾拍打,NORMAL,physical,25,85,10,0,0,0C0,NearOther,The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row.,用坚硬的尾巴拍打对手进行攻击。连续攻击2～5次。
+TAILWHIP,510,Tail Whip,搖尾巴,摇尾巴,NORMAL,status,0,100,30,0,0,043,AllNearFoes,"The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.",可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。
+TAILWIND,230,Tailwind,順風,顺风,FLYING,status,0,0,15,0,0,05B,UserSide,The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.,刮起猛烈的旋风，在4回合内提高我方全员的速度。
+TAKEDOWN,360,Take Down,猛撞,猛撞,NORMAL,physical,90,85,20,0,0,0FA,NearOther,"A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。
+TAUNT,62,Taunt,挑釁,挑衅,DARK,status,0,100,20,0,0,0BA,NearOther,The target is taunted into a rage that allows it to use only attack moves for three turns.,使对手愤怒。在3回合内让对手只能使出给予伤害的招式。
+TEARFULLOOK,511,Tearful Look,淚眼汪汪,泪眼汪汪,NORMAL,status,0,0,20,0,0,13A,NearOther,The user gets teary eyed to make the target lose its combative spirit. This lowers the target's Attack and Sp. Atk stats.,变得泪眼汪汪，让对手丧失斗志。从而降低对手的攻击和特攻。
+TECHNOBLAST,352,Techno Blast,高科技光炮,高科技光炮,NORMAL,special,120,100,5,0,0,09F,NearOther,The user fires a beam of light at its target. The type changes depending on the Drive the user holds.,向对手放出光弹。属性会根据自己携带的卡带不同而改变。
+TEETERDANCE,512,Teeter Dance,搖晃舞,摇晃舞,NORMAL,status,0,100,20,0,0,013,AllNearOthers,The user performs a wobbly dance that confuses the Pokémon around it.,摇摇晃晃地跳起舞蹈，让自己周围的宝可梦陷入混乱状态。
+TELEKINESIS,600,Telekinesis,意念移物,意念移物,PSYCHIC,status,0,0,15,0,0,11A,NearOther,The user makes the target float with its psychic power. The target is easier to hit for three turns.,利用超能力使对手浮起来。在3回合内攻击会变得容易打中对手。
+TELEPORT,601,Teleport,瞬間移動,瞬间移动,PSYCHIC,status,0,0,20,0,0,0EA,User,Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.,和后备宝可梦进行替换。野生宝可梦使用时，则会逃走。可以前往最后一次去过的宝可梦中心。
+THIEF,43,Thief,小偷,小偷,DARK,physical,60,100,25,0,0,0F1,NearOther,The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.,攻击的同时盗取道具。当自己携带道具时，不会去盗取。
+THOUSANDARROWS,299,Thousand Arrows,千箭齊發,千箭齐发,GROUND,physical,90,100,10,0,0,11C,AllNearFoes,This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.,可以击中浮在空中的宝可梦。空中的对手被击落后，会掉到地面。
+THOUSANDWAVES,300,Thousand Waves,千波激盪,千波激荡,GROUND,physical,90,100,10,0,0,0EF,AllNearFoes,The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle.,从地面掀起波浪进行攻击。被掀入波浪中的对手，将无法从战斗中逃走。
+THRASH,353,Thrash,大鬧一番,大闹一番,NORMAL,physical,120,100,10,0,0,0D2,RandomNearFoe,"The user rampages and attacks for two to three turns. It then becomes confused, however.",在2～3回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。
+THROATCHOP,35,Throat Chop,地獄突刺,地狱突刺,DARK,physical,80,100,15,100,0,16C,NearOther,The user attacks the target's throat. The target cannot use sound-based moves for two turns.,受到此招式攻击的对手，会因为地狱般的痛苦，在2回合内，变得无法使出声音类招式。
+THUNDER,84,Thunder,打雷,打雷,ELECTRIC,special,110,70,10,30,0,008,NearOther,A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.,向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。
+THUNDERBOLT,87,Thunderbolt,十萬伏特,十万伏特,ELECTRIC,special,90,100,15,10,0,007,NearOther,A strong electric blast is loosed at the target. It may also leave the target with paralysis.,向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。
+THUNDERFANG,95,Thunder Fang,雷電牙,雷电牙,ELECTRIC,physical,65,95,15,100,0,009,NearOther,The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.,用蓄满电流的牙齿咬住对手。有时会使对手畏缩或陷入麻痹状态。
+THUNDERPUNCH,91,Thunder Punch,雷電拳,雷电拳,ELECTRIC,physical,75,100,15,10,0,007,NearOther,The target is punched with an electrified fist. It may also leave the target with paralysis.,用充满电流的拳头攻击对手。有时会让对手陷入麻痹状态。
+THUNDERSHOCK,99,Thunder Shock,電擊,电击,ELECTRIC,special,40,100,30,10,0,007,NearOther,A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.,发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。
+THUNDERWAVE,109,Thunder Wave,電磁波,电磁波,ELECTRIC,status,0,90,20,0,0,007,NearOther,A weak electric charge is launched at the target. It causes paralysis if it hits.,向对手发出微弱的电击，从而让对手陷入麻痹状态。
+TICKLE,513,Tickle,搔癢,挠痒,NORMAL,status,0,100,20,0,0,04A,NearOther,"The user tickles the target into laughing, reducing its Attack and Defense stats.",给对手挠痒，使其发笑，从而降低对手的攻击和防御。
+TOPSYTURVY,63,Topsy-Turvy,顛倒,颠倒,DARK,status,0,0,20,0,0,141,NearOther,All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.,颠倒对手身上的所有能力变化，变成和原来相反的状态。
+TORMENT,64,Torment,無理取鬧,无理取闹,DARK,status,0,100,15,0,0,0B7,NearOther,"The user torments and enrages the foe, making it incapable of using the same move twice in a row.",向对手无理取闹，令其不能连续2次使出相同招式。
+TOXIC,541,Toxic,劇毒,剧毒,POISON,status,0,90,10,0,0,006,NearOther,A move that leaves the target badly poisoned. Its poison damage worsens every turn.,让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。
+TOXICSPIKES,542,Toxic Spikes,毒菱,毒菱,POISON,status,0,0,20,0,0,104,FoeSide,The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.,在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。
+TOXICTHREAD,543,Toxic Thread,毒絲,毒丝,POISON,status,0,100,20,0,0,159,NearOther,The user shoots poisonous threads to poison the target and lower the target's Speed stat.,将混有毒的丝吐向对手。使其中毒，从而降低对手的速度。
+TRANSFORM,514,Transform,變身,变身,NORMAL,status,0,0,10,0,0,069,NearOther,The user transforms into a copy of the target right down to having the same move set.,变身成对手宝可梦的样子，能够使用和对手完全相同的招式。
+TRIATTACK,369,Tri Attack,三重攻擊,三重攻击,NORMAL,special,80,100,10,20,0,017,NearOther,"The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.",用3种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。
+TRIATTACK2,679,Tri Attack,三重攻擊,三重攻击,NORMAL,special,70,100,10,20,0,017,NearOther,"The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.",用3种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。
+TRICK,602,Trick,戲法,戏法,PSYCHIC,status,0,100,10,0,0,0F2,NearOther,The user catches the target off guard and swaps its held item with its own.,抓住对手的空隙，交换自己和对手的持有物。
+TRICKORTREAT,252,Trick-or-Treat,萬聖夜,万圣夜,GHOST,status,0,100,20,0,0,142,NearOther,The user takes the target trick-or-treating. This adds Ghost type to the target's type.,邀请对手参加万圣夜。使对手被追加幽灵属性。
+TRICKROOM,603,Trick Room,戲法空間,戏法空间,PSYCHIC,status,0,0,5,0,-7,11F,BothSides,The user creates a bizarre area in which slower Pokémon get to move first for five turns.,制造出离奇的空间。在5回合内速度慢的宝可梦可以先行动。
+TRIPLEKICK,162,Triple Kick,三連踢,三连踢,FIGHTING,physical,10,90,10,0,0,0BF,NearOther,A consecutive three-kick attack that becomes more powerful with each successive hit.,连续3次踢对手进行攻击。每踢中一次，威力就会提高。
+TROPKICK,268,Trop Kick,熱帶踢,热带踢,GRASS,physical,70,100,15,100,0,042,NearOther,The user lands an intense tropical kick on the target. This also lowers the target's Attack stat.,向对手使出来自南国的火热脚踢。从而降低对手的攻击。
+TRUMPCARD,427,Trump Card,王牌,王牌,NORMAL,special,1,0,5,0,0,097,NearOther,"The fewer PP this move has, the greater its attack power.",王牌招式的剩余PP越少，招式的威力越大。
+TWINEEDLE,18,Twineedle,雙針,双针,BUG,physical,25,100,20,20,0,0BE,NearOther,The foe is stabbed twice by a pair of stingers. It may also poison the target.,将2根针刺入对手，连续2次给予伤害。有时会让对手陷入中毒状态。
+TWISTER,78,Twister,龍捲風,龙卷风,DRAGON,special,40,100,20,20,0,078,AllNearFoes,The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.,兴起龙卷风，将对手卷入进行攻击。有时会使对手畏缩。
+UPROAR,361,Uproar,吵鬧,吵闹,NORMAL,special,90,100,10,0,0,0D1,RandomNearFoe,"The user attacks in an uproar for three turns. Over that time, no one can fall asleep.",在3回合内大吵大闹攻击对手。在此期间谁都不能入眠。
+UTURN,10,U-turn,急速折返,急速折返,BUG,physical,70,100,20,0,0,0EE,NearOther,"After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",在攻击之后急速返回，和后备宝可梦进行替换。
+VACUUMWAVE,159,Vacuum Wave,真空波,真空波,FIGHTING,special,40,100,30,0,1,000,NearOther,The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.,挥动拳头，掀起真空波。必定能够先制攻击。
+VCREATE,172,V-create,Ｖ熱焰,Ｖ热焰,FIRE,physical,180,95,5,0,0,03D,NearOther,"With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.",从前额产生灼热的火焰，舍身撞击对手。防御、特防和速度会降低。
+VENOMDRENCH,544,Venom Drench,毒液陷阱,毒液陷阱,POISON,status,0,100,20,0,0,140,AllNearFoes,"Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon.",将特殊的毒液泼向对手。对处于中毒状态的对手，其攻击、特攻和速度都会降低。
+VENOSHOCK,526,Venoshock,毒液衝擊,毒液冲击,POISON,special,65,100,10,0,0,07B,NearOther,The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.,将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成2倍。
+VICEGRIP,386,Vice Grip,夾住,夹住,NORMAL,physical,55,100,30,0,0,000,NearOther,The target is gripped and squeezed from both sides to inflict damage.,将对手从两侧夹住，给予伤害。
+VINEWHIP,273,Vine Whip,藤鞭,藤鞭,GRASS,physical,45,100,25,0,0,000,NearOther,"The target is struck with slender, whiplike vines to inflict damage.",用如同鞭子般弯曲而细长的藤蔓摔打对手进行攻击。
+VITALTHROW,147,Vital Throw,借力摔,借力摔,FIGHTING,physical,70,0,10,0,-1,0A5,NearOther,"The user attacks last. In return, this throw move is guaranteed not to miss.",会在对手之后进行攻击。但是自己的攻击必定会命中。
+VOLTSWITCH,92,Volt Switch,伏特替換,伏特替换,ELECTRIC,special,70,100,20,0,0,0EE,NearOther,"After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",在攻击之后急速返回，和后备宝可梦进行替换。
+VOLTTACKLE,82,Volt Tackle,伏特攻擊,伏特攻击,ELECTRIC,physical,120,100,15,10,0,0FD,NearOther,"The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.",让电流覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入麻痹状态。
+WAKEUPSLAP,148,Wake-Up Slap,喚醒巴掌,唤醒巴掌,FIGHTING,physical,70,100,10,0,0,07D,NearOther,"This attack inflicts big damage on a sleeping target. It also wakes the target up, however.",给予睡眠状态下的对手较大的伤害。但相反对手会从睡眠中醒过来。
+WATERFALL,660,Waterfall,攀瀑,攀瀑,WATER,physical,80,100,15,20,0,00F,NearOther,The user charges at the target and may make it flinch. It can also be used to climb a waterfall.,以惊人的气势扑向对手。有时会使对手畏缩。还可以游泳登上瀑布。
+WATERGUN,668,Water Gun,水槍,水枪,WATER,special,40,100,25,0,0,000,NearOther,The target is blasted with a forceful shot of water.,向对手猛烈地喷射水流进行攻击。
+WATERPLEDGE,659,Water Pledge,水之誓約,水之誓约,WATER,special,50,100,10,0,0,108,NearOther,"A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.",用水柱进行攻击。如果和火组合，威力就会提高，天空中会挂上彩虹。
+WATERPULSE,665,Water Pulse,水之波動,水之波动,WATER,special,60,100,20,20,0,013,Other,The user attacks the target with a pulsing blast of water. It may also confuse the target.,用水的震动攻击对手。有时会使对手混乱。
+WATERSHURIKEN,671,Water Shuriken,飛水手裡劍,飞水手里剑,WATER,special,15,100,20,0,1,0C0,NearOther,The user hits the target with throwing stars 2-5 times in a row. This move always goes first.,用粘液制成的手里剑，连续攻击2～5次。必定能够先制攻击。
+WATERSPORT,675,Water Sport,玩水,玩水,WATER,status,0,0,15,0,0,09E,BothSides,The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.,用水湿透周围。在5回合内减弱火属性的招式。
+WATERSPOUT,647,Water Spout,噴水,喷水,WATER,special,150,100,5,0,0,08B,AllNearFoes,"The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes.",掀起潮水进行攻击。自己的HP越少，招式的威力越小。
+WEATHERBALL,390,Weather Ball,氣象球,气象球,NORMAL,special,50,100,10,0,0,087,NearOther,An attack move that varies in power and type depending on the weather.,根据使用时的天气，招式属性和威力会改变。
+WHIRLPOOL,670,Whirlpool,潮旋,潮旋,WATER,special,35,85,15,0,0,0D0,NearOther,Traps foes in a violent swirling whirlpool for four to five turns.,将对手困在激烈的水流旋涡中，在4～5回合内进行攻击。还可以穿越旋涡。
+WHIRLWIND,515,Whirlwind,吹飛,吹飞,NORMAL,status,0,0,20,0,-6,0EB,NearOther,"The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.",吹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。
+WIDEGUARD,621,Wide Guard,廣域防守,广域防守,ROCK,status,0,0,10,0,3,0AC,UserSide,The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession.,在1回合内防住击打我方全员的攻击。
+WILDCHARGE,88,Wild Charge,瘋狂伏特,疯狂伏特,ELECTRIC,physical,90,100,15,0,0,0FA,NearOther,The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.,让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。
+WILLOWISP,205,Will-O-Wisp,鬼火,鬼火,FIRE,status,0,85,15,0,0,00A,NearOther,"The user shoots a sinister, bluish-white flame at the target to inflict a burn.",放出怪异的火焰，从而让对手陷入灼伤状态。
+WINGATTACK,222,Wing Attack,翅膀攻擊,翅膀攻击,FLYING,physical,60,100,35,0,0,000,Other,"The target is struck with large, imposing wings spread wide to inflict damage.",大大地展开美丽的翅膀，将其撞向对手进行攻击。
+WISH,516,Wish,祈願,祈愿,NORMAL,status,0,0,10,0,0,0D7,User,"One turn after this move is used, the target's HP is restored by half the user's maximum HP.",在下一回合回复自己或是替换出场的宝可梦最大HP的一半。
+WITHDRAW,676,Withdraw,縮入殼中,缩入壳中,WATER,status,0,0,40,0,0,01D,User,"The user withdraws its body into its hard shell, raising its Defense stat.",缩入壳里保护身体，从而提高自己的防御。
+WONDERROOM,604,Wonder Room,奇妙空間,奇妙空间,PSYCHIC,status,0,0,10,0,-7,124,BothSides,The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns.,制造出离奇的空间。在5回合内互换所有宝可梦的防御和特防。
+WOODHAMMER,260,Wood Hammer,木槌,木槌,GRASS,physical,120,100,15,0,0,0FB,NearOther,The user slams its rugged body into the target to attack. The user also sustains serious damage.,用坚硬的躯体撞击对手进行攻击。自己也会受到不小的伤害。
+WORKUP,517,Work Up,自我激勵,自我激励,NORMAL,status,0,0,30,0,0,027,User,"The user is roused, and its Attack and Sp. Atk stats increase.",激励自己，从而提高攻击和特攻。
+WORRYSEED,293,Worry Seed,煩惱種子,烦恼种子,GRASS,status,0,100,10,0,0,064,NearOther,A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.,种植心神不宁的种子。使对手不能入眠，并将特性变成不眠。
+WRAP,412,Wrap,緊束,紧束,NORMAL,physical,15,90,20,0,0,0CF,NearOther,A long body or vines are used to wrap and squeeze the target for four to five turns.,使用长长的身体或藤蔓等，在4～5回合内紧束对手进行攻击。
+WRINGOUT,428,Wring Out,絞緊,绞紧,NORMAL,special,1,100,5,0,0,08C,NearOther,"The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power.",用力勒紧对手进行攻击。对手的HP越多，威力越大。
+XSCISSOR,8,X-Scissor,十字剪,十字剪,BUG,physical,80,100,15,0,0,000,NearOther,The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.,将镰刀或爪子像剪刀般地交叉，顺势劈开对手。
+YAWN,518,Yawn,哈欠,哈欠,NORMAL,status,0,0,10,0,0,004,NearOther,The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.,打个大哈欠引起睡意。在下一回合让对手陷入睡眠状态。
+ZAPCANNON,83,Zap Cannon,電磁炮,电磁炮,ELECTRIC,special,120,50,5,100,0,007,NearOther,The user fires an electric blast like a cannon to inflict damage and cause paralysis.,发射大炮一样的电流进行攻击。让对手陷入麻痹状态。
+ZENHEADBUTT,557,Zen Headbutt,意念頭錘,意念头锤,PSYCHIC,physical,80,90,15,20,0,00F,NearOther,The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.,将思念的力量集中在前额进行攻击。有时会使对手畏缩。
+ZINGZAP,90,Zing Zap,麻麻刺刺,麻麻刺刺,ELECTRIC,physical,80,100,10,30,0,00F,NearOther,A strong electric blast crashes down on the target. This may also make the target flinch.,撞向对手，并发出强电，使其感到麻麻刺刺的。有时会使对手畏缩。
