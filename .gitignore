@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# 資料管線：下載的原始來源、建出的資料庫
+.sources/
+data/*.sqlite

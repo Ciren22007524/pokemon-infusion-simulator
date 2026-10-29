@@ -1,0 +1,20 @@
+{
+  "name": "pokemon-infusion-simulator",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "data:fetch": "node pipeline/fetch-sources.ts",
+    "data:extract": "node pipeline/extract.ts",
+    "data:build": "node --no-warnings=ExperimentalWarning pipeline/build-db.ts",
+    "data": "pnpm data:fetch && pnpm data:extract && pnpm data:build",
+    "test": "node --test --no-warnings=ExperimentalWarning",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}
