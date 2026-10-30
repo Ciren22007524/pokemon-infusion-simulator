@@ -11,5 +11,5 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["pipeline"]
+  "include": ["pipeline", "core", "tools"]
 }
