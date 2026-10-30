@@ -11,7 +11,8 @@
     "data:build": "node --no-warnings=ExperimentalWarning pipeline/build-db.ts",
     "data": "pnpm data:fetch && pnpm data:extract && pnpm data:build",
     "test": "node --test --no-warnings=ExperimentalWarning",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "calc": "node --no-warnings=ExperimentalWarning tools/calc.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",
