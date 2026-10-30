@@ -1,0 +1,2836 @@
+{
+ "PokeBattle_Move": {
+  "parent": null,
+  "methods": [
+   "to_int",
+   "initialize",
+   "PokeBattle_Move",
+   "pbTarget",
+   "total_pp",
+   "physicalMove?",
+   "specialMove?",
+   "damagingMove?",
+   "statusMove?",
+   "usableWhenAsleep?",
+   "unusableInGravity?",
+   "healingMove?",
+   "recoilMove?",
+   "flinchingMove?",
+   "callsAnotherMove?",
+   "multiHitMove?",
+   "chargingTurnMove?",
+   "successCheckPerHit?",
+   "hitsFlyingTargets?",
+   "hitsDiggingTargets?",
+   "hitsDivingTargets?",
+   "ignoresReflect?",
+   "cannotRedirect?",
+   "worksWithNoTargets?",
+   "damageReducedByBurn?",
+   "triggersHyperMode?",
+   "contactMove?",
+   "canProtectAgainst?",
+   "canMagicCoat?",
+   "canSnatch?",
+   "canMirrorMove?",
+   "canKingsRock?",
+   "thawsUser?",
+   "highCriticalRate?",
+   "bitingMove?",
+   "punchingMove?",
+   "soundMove?",
+   "powderMove?",
+   "pulseMove?",
+   "bombMove?",
+   "danceMove?",
+   "tramplesMinimize?",
+   "nonLethal?",
+   "ignoresSubstitute?",
+   "pbCanChooseMove?",
+   "pbDisplayChargeMessage",
+   "pbOnStartUse",
+   "pbAddTarget",
+   "pbChangeUsageCounters",
+   "pbDisplayUseMessage",
+   "pbMissMessage",
+   "pbIsChargingTurn?",
+   "pbDamagingMove?",
+   "pbContactMove?",
+   "pbNumHits",
+   "pbOverrideSuccessCheckPerHit",
+   "pbCrashDamage",
+   "pbInitialEffect",
+   "pbShowAnimation",
+   "pbSelfKO",
+   "pbEffectWhenDealingDamage",
+   "pbEffectAgainstTarget",
+   "pbEffectGeneral",
+   "pbAdditionalEffect",
+   "pbEffectAfterAllHits",
+   "pbSwitchOutTargetsEffect",
+   "pbEndOfMoveUsageEffect",
+   "pbImmunityByAbility",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbMoveFailedLastInRound?",
+   "pbMoveFailedTargetAlreadyMoved?",
+   "pbMoveFailedAromaVeil?",
+   "pbCheckDamageAbsorption",
+   "pbReduceDamage",
+   "pbInflictHPDamage",
+   "pbAnimateHitAndHPLost",
+   "pbEffectivenessMessage",
+   "pbHitEffectivenessMessages",
+   "pbEndureKOMessage",
+   "pbRecordDamageLost",
+   "pbBaseType",
+   "pbCalcType",
+   "pbCalcTypeModSingle",
+   "pbCalcTypeMod",
+   "pbBaseAccuracy",
+   "pbAccuracyCheck",
+   "pbCalcAccuracyModifiers",
+   "pbCritialOverride",
+   "pbIsCritical?",
+   "pbBaseDamage",
+   "pbBaseDamageMultiplier",
+   "pbModifyDamage",
+   "pbGetAttackStats",
+   "pbGetDefenseStats",
+   "pbCalcDamage",
+   "pbCalcDamageMultipliers",
+   "pbAdditionalEffectChance",
+   "pbFlinchChance"
+  ]
+ },
+ "PokeBattle_UnimplementedMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Confusion": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "physicalMove?",
+   "specialMove?",
+   "pbCritialOverride"
+  ]
+ },
+ "PokeBattle_Struggle": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "physicalMove?",
+   "specialMove?",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_SleepMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_PoisonMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_ParalysisMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_BurnMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_FreezeMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_FlinchMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "flinchingMove?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_ConfuseMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_StatUpMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_MultiStatUpMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_StatDownMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectWhenDealingDamage"
+  ]
+ },
+ "PokeBattle_TargetStatDownMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_TargetMultiStatDownMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_FixedDamageMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFixedDamage",
+   "pbCalcDamage"
+  ]
+ },
+ "PokeBattle_TwoTurnMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "chargingTurnMove?",
+   "pbIsChargingTurn?",
+   "pbDamagingMove?",
+   "pbAccuracyCheck",
+   "pbInitialEffect",
+   "pbChargingTurnMessage",
+   "pbAttackingTurnMessage",
+   "pbChargingTurnEffect",
+   "pbAttackingTurnEffect",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_HealingMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbHealAmount",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_RecoilMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "recoilMove?",
+   "pbRecoilDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_ProtectMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbChangeUsageCounters",
+   "pbMoveFailed?",
+   "pbEffectGeneral",
+   "pbProtectMessage"
+  ]
+ },
+ "PokeBattle_WeatherMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_PledgeMove": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbOnStartUse",
+   "pbDamagingMove?",
+   "pbBaseType",
+   "pbBaseDamage",
+   "pbEffectGeneral",
+   "pbEffectAfterAllHits",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_000": {
+  "parent": "PokeBattle_Move",
+  "methods": []
+ },
+ "PokeBattle_Move_001": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "unusableInGravity?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_002": {
+  "parent": "PokeBattle_Struggle",
+  "methods": []
+ },
+ "PokeBattle_Move_003": {
+  "parent": "PokeBattle_SleepMove",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_004": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_005": {
+  "parent": "PokeBattle_PoisonMove",
+  "methods": []
+ },
+ "PokeBattle_Move_006": {
+  "parent": "PokeBattle_PoisonMove",
+  "methods": [
+   "initialize",
+   "pbOverrideSuccessCheckPerHit"
+  ]
+ },
+ "PokeBattle_Move_007": {
+  "parent": "PokeBattle_ParalysisMove",
+  "methods": [
+   "tramplesMinimize?",
+   "pbFailsAgainstTarget?"
+  ]
+ },
+ "PokeBattle_Move_008": {
+  "parent": "PokeBattle_ParalysisMove",
+  "methods": [
+   "hitsFlyingTargets?",
+   "pbBaseAccuracy"
+  ]
+ },
+ "PokeBattle_Move_009": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "flinchingMove?",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_00A": {
+  "parent": "PokeBattle_BurnMove",
+  "methods": []
+ },
+ "PokeBattle_Move_00B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "flinchingMove?",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_00C": {
+  "parent": "PokeBattle_FreezeMove",
+  "methods": []
+ },
+ "PokeBattle_Move_00D": {
+  "parent": "PokeBattle_FreezeMove",
+  "methods": [
+   "pbBaseAccuracy"
+  ]
+ },
+ "PokeBattle_Move_00E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "flinchingMove?",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_00F": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": []
+ },
+ "PokeBattle_Move_010": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": [
+   "tramplesMinimize?"
+  ]
+ },
+ "PokeBattle_Move_011": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": [
+   "usableWhenAsleep?",
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_012": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": [
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_013": {
+  "parent": "PokeBattle_ConfuseMove",
+  "methods": []
+ },
+ "PokeBattle_Move_014": {
+  "parent": "PokeBattle_Move_013",
+  "methods": []
+ },
+ "PokeBattle_Move_015": {
+  "parent": "PokeBattle_ConfuseMove",
+  "methods": [
+   "hitsFlyingTargets?",
+   "pbBaseAccuracy"
+  ]
+ },
+ "PokeBattle_Move_016": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_017": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_018": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_019": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "worksWithNoTargets?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbAromatherapyHeal",
+   "pbEffectAgainstTarget",
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_01A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_01B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_01C": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_01D": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_01E": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_01F": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_020": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_021": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_022": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_023": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_024": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_025": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_026": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_027": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_028": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize",
+   "pbOnStartUse"
+  ]
+ },
+ "PokeBattle_Move_029": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02A": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02B": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02C": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02D": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02E": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_02F": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_030": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_031": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_032": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_033": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_034": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_035": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_036": {
+  "parent": "PokeBattle_MultiStatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_037": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_038": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_039": {
+  "parent": "PokeBattle_StatUpMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_03A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_03B": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_03C": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_03D": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_03E": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_03F": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_040": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_041": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_042": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_043": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_044": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_045": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_046": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_047": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_048": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_049": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_04A": {
+  "parent": "PokeBattle_TargetMultiStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_04B": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_04C": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_04D": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_04E": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_04F": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_050": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_051": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_052": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_053": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_054": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_055": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_056": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_057": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_058": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_059": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_05A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_05B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_05C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_05D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_05E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_05F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_060": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_061": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_062": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_063": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_064": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_065": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_066": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_067": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_068": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_069": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_06A": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_06B": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_06C": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_06D": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_06E": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbNumHits",
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_06F": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_070": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "hitsDiggingTargets?",
+   "pbFailsAgainstTarget?",
+   "pbAccuracyCheck",
+   "pbFixedDamage",
+   "pbHitEffectivenessMessages"
+  ]
+ },
+ "PokeBattle_Move_071": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbAddTarget",
+   "pbMoveFailed?",
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_072": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbAddTarget",
+   "pbMoveFailed?",
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_073": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbAddTarget",
+   "pbMoveFailed?",
+   "pbFixedDamage"
+  ]
+ },
+ "PokeBattle_Move_074": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectWhenDealingDamage"
+  ]
+ },
+ "PokeBattle_Move_075": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsDivingTargets?",
+   "pbModifyDamage"
+  ]
+ },
+ "PokeBattle_Move_076": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsDiggingTargets?",
+   "pbModifyDamage"
+  ]
+ },
+ "PokeBattle_Move_077": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsFlyingTargets?",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_078": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": [
+   "hitsFlyingTargets?",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_079": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbChangeUsageCounters",
+   "pbBaseDamageMultiplier",
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_07A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbChangeUsageCounters",
+   "pbBaseDamageMultiplier",
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_07B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_07C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_07D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_07E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "damageReducedByBurn?",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_07F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_080": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_081": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_082": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_083": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_084": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_085": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_086": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamageMultiplier"
+  ]
+ },
+ "PokeBattle_Move_087": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbBaseType",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_088": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbAccuracyCheck",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_089": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_08F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_090": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseType",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_091": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbChangeUsageCounters",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_092": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbChangeUsageCounters",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_093": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_094": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbOnStartUse",
+   "pbFailsAgainstTarget?",
+   "pbDamagingMove?",
+   "pbBaseDamage",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_095": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsDiggingTargets?",
+   "pbOnStartUse",
+   "pbBaseDamage",
+   "pbModifyDamage"
+  ]
+ },
+ "PokeBattle_Move_096": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbMoveFailed?",
+   "pbBaseType",
+   "pbNaturalGiftBaseDamage",
+   "pbBaseDamage",
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_097": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_098": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_099": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_09A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_09B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "tramplesMinimize?",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_09C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_09D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_09E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_09F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbBaseType",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0A0": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbCritialOverride"
+  ]
+ },
+ "PokeBattle_Move_0A1": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0A2": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0A3": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0A4": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "flinchingMove?",
+   "pbOnStartUse",
+   "pbEffectAfterAllHits",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0A5": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbAccuracyCheck"
+  ]
+ },
+ "PokeBattle_Move_0A6": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0A7": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0A8": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0A9": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbCalcAccuracyMultipliers",
+   "pbGetDefenseStats"
+  ]
+ },
+ "PokeBattle_Move_0AA": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_0AB": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_0AC": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_0AD": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0AE": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "callsAnotherMove?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0AF": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "callsAnotherMove?",
+   "initialize",
+   "pbChangeUsageCounters",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B0": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "callsAnotherMove?",
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0B1": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B2": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B3": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "callsAnotherMove?",
+   "pbOnStartUse",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0B4": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "usableWhenAsleep?",
+   "callsAnotherMove?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B5": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "callsAnotherMove?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B6": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "callsAnotherMove?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B7": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0B8": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0B9": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0BA": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0BB": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0BC": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0BD": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "multiHitMove?",
+   "pbNumHits"
+  ]
+ },
+ "PokeBattle_Move_0BE": {
+  "parent": "PokeBattle_PoisonMove",
+  "methods": [
+   "multiHitMove?",
+   "pbNumHits"
+  ]
+ },
+ "PokeBattle_Move_0BF": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "multiHitMove?",
+   "pbNumHits",
+   "successCheckPerHit?",
+   "pbOnStartUse",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_0C0": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "multiHitMove?",
+   "pbNumHits",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_0C1": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "multiHitMove?",
+   "pbMoveFailed?",
+   "pbNumHits",
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_0C2": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0C3": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage"
+  ]
+ },
+ "PokeBattle_Move_0C4": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbIsChargingTurn?",
+   "pbChargingTurnMessage",
+   "pbBaseDamageMultiplier"
+  ]
+ },
+ "PokeBattle_Move_0C5": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0C6": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0C7": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "flinchingMove?",
+   "pbChargingTurnMessage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0C8": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage",
+   "pbChargingTurnEffect"
+  ]
+ },
+ "PokeBattle_Move_0C9": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "unusableInGravity?",
+   "pbChargingTurnMessage"
+  ]
+ },
+ "PokeBattle_Move_0CA": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage"
+  ]
+ },
+ "PokeBattle_Move_0CB": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage"
+  ]
+ },
+ "PokeBattle_Move_0CC": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "unusableInGravity?",
+   "pbChargingTurnMessage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0CD": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbChargingTurnMessage",
+   "pbAttackingTurnEffect"
+  ]
+ },
+ "PokeBattle_Move_0CE": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "unusableInGravity?",
+   "pbIsChargingTurn?",
+   "pbFailsAgainstTarget?",
+   "pbCalcTypeMod",
+   "pbChargingTurnMessage",
+   "pbAttackingTurnMessage",
+   "pbChargingTurnEffect",
+   "pbAttackingTurnEffect"
+  ]
+ },
+ "PokeBattle_Move_0CF": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0D0": {
+  "parent": "PokeBattle_Move_0CF",
+  "methods": [
+   "hitsDivingTargets?",
+   "pbModifyDamage"
+  ]
+ },
+ "PokeBattle_Move_0D1": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0D2": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0D3": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0D4": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbAddTarget",
+   "pbMoveFailed?",
+   "pbOnStartUse",
+   "pbDisplayUseMessage",
+   "pbDamagingMove?",
+   "pbFixedDamage",
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0D5": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbHealAmount"
+  ]
+ },
+ "PokeBattle_Move_0D6": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbHealAmount",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0D7": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0D8": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbOnStartUse",
+   "pbHealAmount"
+  ]
+ },
+ "PokeBattle_Move_0D9": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbMoveFailed?",
+   "pbHealAmount",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0DA": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0DB": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0DC": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbMissMessage",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0DD": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0DE": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0DF": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0E0": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "worksWithNoTargets?",
+   "pbNumHits",
+   "pbMoveFailed?",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_0E1": {
+  "parent": "PokeBattle_FixedDamageMove",
+  "methods": [
+   "pbNumHits",
+   "pbOnStartUse",
+   "pbFixedDamage",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_0E2": {
+  "parent": "PokeBattle_TargetMultiStatDownMove",
+  "methods": [
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_0E3": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbMoveFailed?",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_0E4": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbMoveFailed?",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_0E5": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0E6": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0E7": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0E8": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize",
+   "pbProtectMessage"
+  ]
+ },
+ "PokeBattle_Move_0E9": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "nonLethal?"
+  ]
+ },
+ "PokeBattle_Move_0EA": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0EB": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectGeneral",
+   "pbSwitchOutTargetsEffect"
+  ]
+ },
+ "PokeBattle_Move_0EC": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget",
+   "pbSwitchOutTargetsEffect"
+  ]
+ },
+ "PokeBattle_Move_0ED": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_0EE": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_0EF": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0F0": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0F1": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0F2": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0F3": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0F4": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_0F5": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectWhenDealingDamage"
+  ]
+ },
+ "PokeBattle_Move_0F6": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_0F7": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "initialize",
+   "pbCheckFlingSuccess",
+   "pbMoveFailed?",
+   "pbDisplayUseMessage",
+   "pbNumHits",
+   "pbBaseDamage",
+   "pbEffectAgainstTarget",
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_0F8": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_0F9": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_0FA": {
+  "parent": "PokeBattle_RecoilMove",
+  "methods": [
+   "pbRecoilDamage"
+  ]
+ },
+ "PokeBattle_Move_0FB": {
+  "parent": "PokeBattle_RecoilMove",
+  "methods": [
+   "pbRecoilDamage"
+  ]
+ },
+ "PokeBattle_Move_0FC": {
+  "parent": "PokeBattle_RecoilMove",
+  "methods": [
+   "pbRecoilDamage"
+  ]
+ },
+ "PokeBattle_Move_0FD": {
+  "parent": "PokeBattle_RecoilMove",
+  "methods": [
+   "pbRecoilDamage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0FE": {
+  "parent": "PokeBattle_RecoilMove",
+  "methods": [
+   "pbRecoilDamage",
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_0FF": {
+  "parent": "PokeBattle_WeatherMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_100": {
+  "parent": "PokeBattle_WeatherMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_101": {
+  "parent": "PokeBattle_WeatherMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_102": {
+  "parent": "PokeBattle_WeatherMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_103": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_104": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_105": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_106": {
+  "parent": "PokeBattle_PledgeMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_107": {
+  "parent": "PokeBattle_PledgeMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_108": {
+  "parent": "PokeBattle_PledgeMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_109": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_10A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresReflect?",
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_10B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "recoilMove?",
+   "unusableInGravity?",
+   "pbCrashDamage"
+  ]
+ },
+ "PokeBattle_Move_10C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbOnStartUse",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_10D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbTarget",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectGeneral",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_10E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_10F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_110": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_111": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "cannotRedirect?",
+   "pbDamagingMove?",
+   "pbAccuracyCheck",
+   "pbDisplayUseMessage",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_112": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_113": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbBaseDamage",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_114": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_115": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbDisplayChargeMessage",
+   "pbDisplayUseMessage",
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_116": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?"
+  ]
+ },
+ "PokeBattle_Move_117": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_118": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_119": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "unusableInGravity?",
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_11A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "unusableInGravity?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_11B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsFlyingTargets?"
+  ]
+ },
+ "PokeBattle_Move_11C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "hitsFlyingTargets?",
+   "pbCalcTypeModSingle",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_11D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_11E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_11F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_120": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_121": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbGetAttackStats"
+  ]
+ },
+ "PokeBattle_Move_122": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbGetDefenseStats"
+  ]
+ },
+ "PokeBattle_Move_123": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?"
+  ]
+ },
+ "PokeBattle_Move_124": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_125": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?"
+  ]
+ },
+ "PokeBattle_Move_133": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_134": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_135": {
+  "parent": "PokeBattle_FreezeMove",
+  "methods": [
+   "pbCalcTypeModSingle"
+  ]
+ },
+ "PokeBattle_Move_136": {
+  "parent": "PokeBattle_Move_02F",
+  "methods": []
+ },
+ "PokeBattle_Move_137": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_138": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_139": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbAccuracyCheck"
+  ]
+ },
+ "PokeBattle_Move_13A": {
+  "parent": "PokeBattle_TargetMultiStatDownMove",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbAccuracyCheck"
+  ]
+ },
+ "PokeBattle_Move_13B": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbMoveFailed?",
+   "pbAccuracyCheck",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_13C": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbAccuracyCheck"
+  ]
+ },
+ "PokeBattle_Move_13D": {
+  "parent": "PokeBattle_TargetStatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_13E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_13F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_140": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_141": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_142": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_143": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_144": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "tramplesMinimize?",
+   "pbCalcTypeModSingle"
+  ]
+ },
+ "PokeBattle_Move_145": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_146": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_147": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbAccuracyCheck",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_148": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_149": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_14A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_14B": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_14C": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_14D": {
+  "parent": "PokeBattle_Move_0CD",
+  "methods": []
+ },
+ "PokeBattle_Move_14E": {
+  "parent": "PokeBattle_TwoTurnMove",
+  "methods": [
+   "pbMoveFailed?",
+   "pbChargingTurnMessage",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_14F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_150": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_151": {
+  "parent": "PokeBattle_TargetMultiStatDownMove",
+  "methods": [
+   "initialize",
+   "pbEndOfMoveUsageEffect"
+  ]
+ },
+ "PokeBattle_Move_152": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_153": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_154": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_155": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_156": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_157": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_158": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbCanChooseMove?",
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_159": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_15A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_15B": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbFailsAgainstTarget?",
+   "pbHealAmount",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_15C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbMoveFailed?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_15D": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbCalcDamage"
+  ]
+ },
+ "PokeBattle_Move_15E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_15F": {
+  "parent": "PokeBattle_StatDownMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_160": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_161": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_162": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectAfterAllHits"
+  ]
+ },
+ "PokeBattle_Move_163": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbChangeUsageCounters"
+  ]
+ },
+ "PokeBattle_Move_164": {
+  "parent": "PokeBattle_Move_163",
+  "methods": [
+   "initialize",
+   "physicalMove?",
+   "specialMove?",
+   "pbOnStartUse"
+  ]
+ },
+ "PokeBattle_Move_165": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_166": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseDamage"
+  ]
+ },
+ "PokeBattle_Move_167": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_168": {
+  "parent": "PokeBattle_ProtectMove",
+  "methods": [
+   "initialize"
+  ]
+ },
+ "PokeBattle_Move_169": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbBaseType"
+  ]
+ },
+ "PokeBattle_Move_16A": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_16B": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "ignoresSubstitute?",
+   "initialize",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_16C": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbAdditionalEffect"
+  ]
+ },
+ "PokeBattle_Move_16D": {
+  "parent": "PokeBattle_HealingMove",
+  "methods": [
+   "pbHealAmount"
+  ]
+ },
+ "PokeBattle_Move_16E": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "healingMove?",
+   "pbFailsAgainstTarget?",
+   "pbEffectAgainstTarget"
+  ]
+ },
+ "PokeBattle_Move_16F": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbTarget",
+   "pbOnStartUse",
+   "pbFailsAgainstTarget?",
+   "pbDamagingMove?",
+   "pbEffectAgainstTarget",
+   "pbShowAnimation"
+  ]
+ },
+ "PokeBattle_Move_170": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "worksWithNoTargets?",
+   "pbMoveFailed?",
+   "pbSelfKO"
+  ]
+ },
+ "PokeBattle_Move_171": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbDisplayChargeMessage",
+   "pbDisplayUseMessage",
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_172": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbDisplayChargeMessage"
+  ]
+ },
+ "PokeBattle_Move_173": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?",
+   "pbEffectGeneral"
+  ]
+ },
+ "PokeBattle_Move_174": {
+  "parent": "PokeBattle_Move",
+  "methods": [
+   "pbMoveFailed?"
+  ]
+ },
+ "PokeBattle_Move_175": {
+  "parent": "PokeBattle_FlinchMove",
+  "methods": [
+   "multiHitMove?",
+   "pbNumHits",
+   "tramplesMinimize?"
+  ]
+ }
+}
