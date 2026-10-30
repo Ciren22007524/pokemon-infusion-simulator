@@ -1,7 +1,7 @@
 // 遊戲資料 → data/raw/*.json
 // 原樣保留遊戲的欄位名稱與值，只做格式轉換（Marshal → JSON），不做任何整理或篩選
 import { spawnSync } from 'node:child_process';
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { decodeDat, parseMarshal, toPlain, uniqueRecords, type RubyValue } from './marshal.ts';
 import { GAME, RAW_DIR, sourceDir } from './sources.ts';
@@ -37,6 +37,33 @@ export function parseNatures(src: string) {
     );
     return { id, id_number: Number(idNumber), real_name: name, stat_changes };
   });
+}
+
+// 招式類別：每個類別的父類別與自己定義的方法（用文字解析，不執行 Ruby）
+// 同一個類別可能分散在多處重新打開，方法會合併
+export type MoveClass = { parent: string | null; methods: string[] };
+
+export function parseMoveClasses(sources: { file: string; src: string }[]) {
+  const classes: Record<string, MoveClass> = {};
+  for (const { file, src } of sources) {
+    let current: MoveClass | null = null;
+    for (const line of src.split(/\r?\n/)) {
+      const cls = line.match(/^class\s+(\w+)(?:\s*<\s*(\w+))?/);
+      if (cls) {
+        const [, name, parent] = cls;
+        current = classes[name!] ??= { parent: parent ?? null, methods: [] };
+        if (parent && current.parent !== parent) throw new Error(`${file}：${name} 的父類別不一致`);
+        continue;
+      }
+      if (/^end\b/.test(line)) {
+        current = null;
+        continue;
+      }
+      const def = line.match(/^\s+def\s+((?:self\.)?[\w?!=]+)/);
+      if (def && current && !current.methods.includes(def[1]!)) current.methods.push(def[1]!);
+    }
+  }
+  return classes;
 }
 
 // chinese.dat：MessageTypes 編號 → 內容（Data/Scripts/001_Technical/003_Intl_Messages.rb）
@@ -86,6 +113,13 @@ function main() {
   const species = records('species.dat');
   const natures = parseNatures(readFileSync(join(gameDir, 'Data/Scripts/010_Data/001_Hardcoded data/009_Nature.rb'), 'utf8'));
   const zh = gameChineseNames(natures);
+  const moveDir = join(gameDir, 'Data/Scripts/011_Battle/002_Move');
+  const moveClasses = parseMoveClasses(
+    readdirSync(moveDir)
+      .filter((f) => f.endsWith('.rb'))
+      .sort()
+      .map((file) => ({ file, src: readFileSync(join(moveDir, file), 'utf8') })),
+  );
 
   const meta = {
     source: GAME.url,
@@ -102,6 +136,7 @@ function main() {
   write('abilities', abilities);
   write('species', species);
   write('natures', natures);
+  write('move_classes', moveClasses);
   // 遊戲內建的中文（簡體）名稱與說明
   write('text_zh_game', {
     species: zh.byNumber(MESSAGE_TYPES.species, species),
@@ -114,7 +149,7 @@ function main() {
   });
 
   console.log(
-    `遊戲 ${meta.game_version}（${meta.commit.slice(0, 7)}）：屬性 ${types.length}、招式 ${moves.length}、特性 ${abilities.length}、物種 ${species.length}（含三重融合等特殊物種）、個性 ${natures.length}`,
+    `遊戲 ${meta.game_version}（${meta.commit.slice(0, 7)}）：屬性 ${types.length}、招式 ${moves.length}、特性 ${abilities.length}、物種 ${species.length}（含三重融合等特殊物種）、個性 ${natures.length}、招式類別 ${Object.keys(moveClasses).length}`,
   );
 }
 

@@ -83,6 +83,17 @@ CREATE TABLE move_flag (
   PRIMARY KEY (move_id, flag)
 );
 
+-- 效果代碼的類別（PokeBattle_Move_XXX）改寫了哪些方法，含從中間父類別繼承的
+-- 來源：Data/Scripts/011_Battle/002_Move/；基底類別 PokeBattle_Move 自己的方法不列
+-- 傷害計算用來判斷哪些招式有特殊算法（例如 pbBaseDamage 改寫 = 威力另算）
+CREATE TABLE move_function_method (
+  function_code TEXT NOT NULL,
+  method        TEXT NOT NULL,
+  -- 實際定義這個方法的類別（自己或父類別）
+  defined_in    TEXT NOT NULL,
+  PRIMARY KEY (function_code, method)
+);
+
 -- 只收錄 1 <= number <= NB_POKEMON（三重融合等特殊物種不在內）
 CREATE TABLE pokemon (
   id           TEXT PRIMARY KEY,

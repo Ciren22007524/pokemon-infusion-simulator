@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { nameKey, parseCsv, parseMoveFlags } from './build-db.ts';
+import { nameKey, parseCsv, parseMoveFlags, resolveMoveFunctionMethods } from './build-db.ts';
 import { TABLES_DIR } from './sources.ts';
 
 test('CSV：引號、跳脫的引號、欄位內換行、BOM、CRLF', () => {
@@ -65,4 +65,17 @@ test('單屬性只存一列', () => {
     'BULBASAUR:2:POISON',
     'CHARMANDER:1:FIRE',
   ]);
+});
+
+test('效果代碼方法：沿繼承展開，近的定義優先，不含 PokeBattle_Move', () => {
+  const rows = resolveMoveFunctionMethods({
+    PokeBattle_Move: { parent: null, methods: ['pbBaseDamage', 'recoilMove?'] },
+    PokeBattle_RecoilMove: { parent: 'PokeBattle_Move', methods: ['recoilMove?', 'pbRecoilDamage'] },
+    PokeBattle_Move_0FA: { parent: 'PokeBattle_RecoilMove', methods: ['pbRecoilDamage'] },
+  });
+  assert.deepEqual(rows, [
+    { function_code: '0FA', method: 'pbRecoilDamage', defined_in: 'PokeBattle_Move_0FA' },
+    { function_code: '0FA', method: 'recoilMove?', defined_in: 'PokeBattle_RecoilMove' },
+  ]);
+  assert.throws(() => resolveMoveFunctionMethods({ PokeBattle_Move_001: { parent: 'Missing', methods: [] } }), /不在招式類別/);
 });

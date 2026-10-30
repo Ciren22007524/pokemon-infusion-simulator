@@ -26,7 +26,7 @@ pnpm data:build    # data/raw + 台灣譯名 → data/pif.sqlite、data/tables/*
 
 | 來源 | 分支 | 取用的檔案 |
 | --- | --- | --- |
-| [infinitefusion/infinitefusion-e18](https://github.com/infinitefusion/infinitefusion-e18) | `releases`（`main` 是舊版） | `Data/{species,moves,abilities,types,chinese}.dat`、`001_Settings.rb`（版本號）、`009_Nature.rb`（個性）、`001_PokeBattle_Move.rb`（招式旗標） |
+| [infinitefusion/infinitefusion-e18](https://github.com/infinitefusion/infinitefusion-e18) | `releases`（`main` 是舊版） | `Data/{species,moves,abilities,types,chinese}.dat`、`001_Settings.rb`（版本號）、`009_Nature.rb`（個性）、`011_Battle/002_Move/*.rb`（招式旗標、各效果代碼的類別） |
 | [PokeAPI/pokeapi](https://github.com/PokeAPI/pokeapi) | `master` | `data/v2/csv/*_names.csv`（台灣譯名，language_id 4 = zh-Hant） |
 
 兩邊的 commit 都記錄在 `meta` 表與 `data/raw/meta.json`。
@@ -44,6 +44,7 @@ pnpm data:build    # data/raw + 台灣譯名 → data/pif.sqlite、data/tables/*
 | `evolution` | 進化（只存正向） |
 | `move` | 招式 |
 | `move_flag`、`move_flag_def` | 招式旗標（接觸、聲音、拳……） |
+| `move_function_method` | 每個效果代碼的類別改寫了哪些方法（含繼承）。傷害計算用它找出有特殊算法的招式 |
 | `ability` | 特性 |
 | `type`、`type_effectiveness` | 屬性與相剋（只存不是 1 倍的組合） |
 | `nature` | 個性（上升／下降的能力） |
