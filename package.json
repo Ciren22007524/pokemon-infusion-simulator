@@ -13,7 +13,8 @@
     "test": "node --test --no-warnings=ExperimentalWarning",
     "typecheck": "tsc",
     "calc": "node --no-warnings=ExperimentalWarning tools/calc.ts",
-    "fuse": "node --no-warnings=ExperimentalWarning tools/fuse.ts"
+    "fuse": "node --no-warnings=ExperimentalWarning tools/fuse.ts",
+    "rank": "node --no-warnings=ExperimentalWarning tools/rank.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",
