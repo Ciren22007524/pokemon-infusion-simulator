@@ -141,3 +141,9 @@ test('招式有尚未移植的特殊算法時列在 unmodeled；檢查過的改�
 test('變化招沒有傷害', () => {
   assert.throws(() => calc.calculate(attacker({}), move({ category: 'status', power: 0 })), /變化招/);
 });
+
+test('招式自己的威力倍率在特性之後套用：技術高手先看到原本的威力', () => {
+  // 雜技（威力 55）沒帶道具 ×2：技術高手判定時威力 55 ≤ 60 → ×1.5，再 ×2 → 165
+  const acro = calc.calculate(attacker({ ability: 'TECHNICIAN' }), move({ power: 55, baseDamageMultiplier: 2 }));
+  assert.equal(acro.max, calc.calculate(attacker({}), move({ power: 165 })).max);
+});

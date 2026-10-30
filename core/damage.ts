@@ -23,6 +23,8 @@ export type MoveInfo = {
   functionCode: string;
   // 效果代碼類別改寫的方法（move_function_method），用來判斷特殊算法
   overriddenMethods: readonly string[];
+  // 招式自己的威力倍率（pbBaseDamageMultiplier），在所有其他倍率之後套用
+  baseDamageMultiplier?: number;
 };
 
 export type Attacker = {
@@ -348,6 +350,8 @@ export class DamageCalculator {
     // 根性時灼傷不減半
     if (c.user.status === 'BURN' && physical(c.move) && c.user.ability !== 'GUTS') m.final /= 2;
     // 反射壁、光牆、極光幕、變小：沒有移植
+    // 招式自己的倍率（pbBaseDamageMultiplier、pbModifyDamage）
+    if (c.move.baseDamageMultiplier !== undefined) m.base *= c.move.baseDamageMultiplier;
   }
 
   // pbCalcTypeMod / pbCalcTypeModSingle
