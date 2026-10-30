@@ -117,3 +117,17 @@ test('排名：期望傷害相同時依速度、HP、代號', () => {
   ].sort(compareRanked);
   assert.deepEqual(rows.map((r) => r.id), ['C', 'B', 'A']);
 });
+
+test('失敗條件：共用類別的檢查對攻擊招無效；其他沒檢查過的一律排除', () => {
+  const poison = prepareMove(move({ functionCode: '005', overriddenMethods: ['pbFailsAgainstTarget?'], methodSources: { 'pbFailsAgainstTarget?': 'PokeBattle_PoisonMove' } }));
+  assert.equal(poison.excluded, null);
+  const unknown = prepareMove(move({ functionCode: 'ZZZ', overriddenMethods: ['pbMoveFailed?'], methodSources: { 'pbMoveFailed?': 'PokeBattle_Move_ZZZ' } }));
+  assert.match(unknown.excluded!, /未移植/);
+  assert.match(prepareMove(move({ functionCode: '115', overriddenMethods: ['pbMoveFailed?'] })).excluded!, /真氣拳/);
+});
+
+test('燃盡：自己沒有火屬性時不能用', () => {
+  const p = prepareMove(move({ type: 'FIRE', functionCode: '162', overriddenMethods: ['pbMoveFailed?'] }));
+  assert.equal(ranker().evaluate(attacker, null, p), null);
+  assert.ok(ranker().evaluate({ ...attacker, types: ['FIRE'] }, null, p)!.expectedPerTurn > 0);
+});

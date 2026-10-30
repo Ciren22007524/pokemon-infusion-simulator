@@ -4,7 +4,11 @@ import { hitChance } from './accuracy.ts';
 import { DAMAGE_ABILITIES, moveTypeFor, type DamageCalculator, type MoveCategory, type MoveInfo } from './damage.ts';
 import type { Stats } from './stats.ts';
 
-export type RankableMove = MoveInfo & { accuracy: number };
+export type RankableMove = MoveInfo & {
+  accuracy: number;
+  // 方法 → 實際定義它的類別；用來判斷失敗條件是否來自檢查過的共用類別
+  methodSources?: Readonly<Record<string, string>>;
+};
 
 type Hits = { kind: 'fixed'; count: number } | { kind: 'twoToFive' } | { kind: 'tripleKick' };
 
@@ -23,6 +27,8 @@ type Rule = {
   hits?: Hits;
   baseDamageMultiplier?: number;
   fixedDamage?: number | 'LEVEL';
+  // 使用者沒有這個屬性時招式失敗
+  requiresUserType?: string;
   exclude?: boolean;
 };
 
@@ -104,10 +110,16 @@ export const REFERENCE_MOVE_RULES: Record<string, Rule> = {
   '0CB': TWO_TURN,
   '0CC': TWO_TURN,
   '0CD': TWO_TURN,
-  '0CE': same(['pbAccuracyCheck', 'pbCalcTypeMod'], '自由落體：對飛行屬性無效（參考對象沒有屬性）'),
+  '0CE': same(
+    ['pbAccuracyCheck', 'pbCalcTypeMod', 'pbFailsAgainstTarget?'],
+    '自由落體：對飛行屬性無效（參考對象沒有屬性）；只對同伴、替身失敗（第 5 世代不看體重）',
+  ),
   '0D0': same(['pbModifyDamage'], '潮旋：對方潛水時才加倍'),
   '0D3': same(['pbBaseDamage'], '滾動、冰球：第一回合的威力（之後加倍，未計）'),
+  '0DE': exclude('食夢：對方睡著才能用'),
   '0D4': exclude('忍耐：依受到的傷害'),
+  '011': exclude('打鼾：自己睡著才能用'),
+  '012': exclude('擊掌奇襲：只有上場第一回合能用'),
   '0E0': exclude('使用後自己倒下'),
   '0E1': exclude('搏命：依自己的 HP，使用後倒下'),
   '0F0': same(['pbBaseDamage'], '拍落：對方沒帶道具時不加成'),
@@ -117,13 +129,22 @@ export const REFERENCE_MOVE_RULES: Record<string, Rule> = {
   '108': same(['pbBaseDamage', 'pbBaseType'], '誓約：合體只在雙打'),
   '111': exclude('預知未來、破滅之願：兩回合後才造成傷害'),
   '113': exclude('噴出：依蓄力次數'),
+  '115': exclude('真氣拳：出招前被攻擊就失敗（優先度 -3，幾乎一定後攻）'),
+  '116': exclude('突襲：對方使用攻擊招才會成功'),
+  '123': exclude('同步干擾：要和對方有相同屬性'),
+  '125': exclude('珍藏：其他招式都用過才能用'),
+  '13B': exclude('異次元猛攻：只有胡帕能用'),
+  '158': exclude('打嗝：吃過樹果才能用'),
+  '162': { handled: ['pbMoveFailed?'], reason: '燃盡：自己有火屬性才能用', requiresUserType: 'FIRE' },
+  '170': same(['pbMoveFailed?'], '驚爆大頭：只有場上有濕氣時失敗'),
+  '171': exclude('陷阱甲殼：被物理招打到才會發動'),
+  '174': exclude('迎頭一擊：只有上場第一回合能用'),
   '11C': same(['pbCalcTypeModSingle'], '千箭齊發、擊落：地面招打得到飛行（參考對象沒有屬性）'),
   '121': exclude('欺詐：用對方的攻擊'),
   '122': same(['pbGetDefenseStats'], '精神衝擊：打防禦（參考對象防禦 = 特防）'),
   '135': same(['pbCalcTypeModSingle'], '冷凍乾燥：對水屬性效果絕佳（參考對象沒有屬性）'),
   '139': { handled: ['pbAccuracyCheck'], reason: '必中', alwaysHit: true },
   '13A': { handled: ['pbAccuracyCheck'], reason: '必中', alwaysHit: true },
-  '13B': { handled: ['pbAccuracyCheck'], reason: '必中', alwaysHit: true },
   '13C': { handled: ['pbAccuracyCheck'], reason: '必中', alwaysHit: true },
   '144': same(['pbCalcTypeModSingle'], '飛身重壓：加上飛行屬性的相剋（參考對象沒有屬性）'),
   '147': { handled: ['pbAccuracyCheck'], reason: '必中', alwaysHit: true },
@@ -156,6 +177,32 @@ const RELEVANT_METHODS = new Set([
   'pbNumHits',
 ]);
 
+// 失敗條件：定義在這些類別的版本對攻擊招一律不會失敗（開頭就是 return false if damagingMove?，
+// 或只針對特定變化招、特定寶可夢、濕氣）
+const FAILURE_METHODS = ['pbMoveFailed?', 'pbFailsAgainstTarget?'];
+const NEVER_FAILS_WHEN_DAMAGING = new Set([
+  'PokeBattle_UnimplementedMove',
+  'PokeBattle_SleepMove',
+  'PokeBattle_PoisonMove',
+  'PokeBattle_ParalysisMove',
+  'PokeBattle_BurnMove',
+  'PokeBattle_FreezeMove',
+  'PokeBattle_ConfuseMove',
+  'PokeBattle_StatUpMove',
+  'PokeBattle_MultiStatUpMove',
+  'PokeBattle_TargetStatDownMove',
+  'PokeBattle_TargetMultiStatDownMove',
+  // 黑洞：只限達克萊伊（變化招）
+  'PokeBattle_Move_003',
+  // 電磁波：屬性無效時（變化招）
+  'PokeBattle_Move_007',
+  // 縫影等：damagingMove? 時不會失敗
+  'PokeBattle_Move_0EF',
+  'PokeBattle_Move_146',
+  // 花粉團：只在治療同伴時
+  'PokeBattle_Move_16F',
+]);
+
 // 2～5 下：[2,2,3,3,4,5] 隨機取一（PokeBattle_Move_0C0#pbNumHits）
 const TWO_TO_FIVE_AVERAGE = (2 + 2 + 3 + 3 + 4 + 5) / 6;
 
@@ -172,7 +219,11 @@ export type PreparedMove = {
 export function prepareMove(m: RankableMove): PreparedMove {
   const rule = REFERENCE_MOVE_RULES[m.functionCode] ?? null;
   const handled = new Set(rule?.handled ?? []);
-  const unhandled = m.overriddenMethods.filter((x) => RELEVANT_METHODS.has(x) && !handled.has(x));
+  const unhandled = m.overriddenMethods.filter(
+    (x) =>
+      !handled.has(x) &&
+      (RELEVANT_METHODS.has(x) || (FAILURE_METHODS.includes(x) && !NEVER_FAILS_WHEN_DAMAGING.has(m.methodSources?.[x] ?? ''))),
+  );
   const flags: string[] = [];
   let perTurn = 1;
   // 破壞光線類：使用後下回合要休息（PokeBattle_Move_0C2）
@@ -256,6 +307,7 @@ export class Ranker {
   evaluate(attacker: RankAttacker, ability: string | null, p: PreparedMove): MoveEvaluation | null {
     if (p.excluded) return null;
     const rule = p.rule;
+    if (rule?.requiresUserType && !attacker.types.includes(rule.requiresUserType)) return null;
     let move = p.move;
     if (rule?.type === 'USER_TYPE1') move = { ...move, type: attacker.types[0]! };
     if (rule?.category === 'HIGHER_ATTACK')
