@@ -26,6 +26,7 @@ pnpm typecheck
 pnpm data            # 從遊戲最新版重建資料（見 docs/data.md）
 pnpm fuse <頭> <身體>
 pnpm calc <寶可夢 或 頭/身體>
+pnpm rank            # 全部融合的攻擊力排行，約 100 秒
 ```
 
 ## 文件
@@ -33,4 +34,5 @@ pnpm calc <寶可夢 或 頭/身體>
 - `docs/data.md`：資料來源與資料表
 - `docs/damage.md`：傷害計算的涵蓋範圍
 - `docs/fusion.md`：融合規則
+- `docs/ranking.md`：攻擊力排行的標準
 - `docs/decisions.md`：已做的決定
