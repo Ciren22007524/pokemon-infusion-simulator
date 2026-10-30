@@ -2,6 +2,7 @@
 import { DatabaseSync } from 'node:sqlite';
 import { DB_PATH } from '../pipeline/sources.ts';
 import { buildTypeChart, type MoveCategory, type MoveInfo, type TypeChart } from '../core/damage.ts';
+import type { SpeciesData } from '../core/fusion.ts';
 import type { Nature, StatId, Stats } from '../core/stats.ts';
 
 export type Species = {
@@ -113,6 +114,38 @@ export class GameData {
     const row = this.all('SELECT * FROM move WHERE upper(id) = upper(?) OR name_zh_tw = ? OR lower(name_en) = lower(?)', query, query, query)[0];
     if (!row) throw new Error(`找不到招式「${query}」`);
     return this.toMove(row);
+  }
+
+  // core/fusion.ts 使用的物種資料
+  speciesData(s: Species): SpeciesData {
+    const learn = this.all('SELECT move_id, method, level FROM learnset WHERE pokemon_id = ? ORDER BY rowid', s.id);
+    const of = (method: string) => learn.filter((r) => r['method'] === method).map((r) => String(r['move_id']));
+    return {
+      id: s.id,
+      number: Number(this.all('SELECT number FROM pokemon WHERE id = ?', s.id)[0]!['number']),
+      base: s.base,
+      type1: s.types[0]!,
+      type2: s.types[1] ?? s.types[0]!,
+      abilities: s.abilities.filter((a) => a.slot !== 'hidden').map((a) => a.id),
+      hiddenAbilities: s.abilities.filter((a) => a.slot === 'hidden').map((a) => a.id),
+      levelMoves: learn.filter((r) => r['method'] === 'level').map((r) => [Number(r['level']), String(r['move_id'])] as const),
+      tutorMoves: of('tutor'),
+      eggMoves: of('egg'),
+    };
+  }
+
+  movesByIds(ids: readonly string[]): Move[] {
+    return ids.map((id) => this.findMove(id));
+  }
+
+  abilityName(id: string): string {
+    const r = this.all('SELECT name_zh_tw, name_en FROM ability WHERE id = ?', id)[0];
+    return r ? String(r['name_zh_tw'] ?? r['name_en']) : id;
+  }
+
+  typeName(id: string): string {
+    const r = this.all('SELECT name_zh_tw, name_en FROM type WHERE id = ?', id)[0];
+    return r ? String(r['name_zh_tw'] ?? r['name_en']) : id;
   }
 
   // 該物種自己清單上的招式（升級、教學、蛋）；進化前才學得到的招式不在內

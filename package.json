@@ -12,7 +12,8 @@
     "data": "pnpm data:fetch && pnpm data:extract && pnpm data:build",
     "test": "node --test --no-warnings=ExperimentalWarning",
     "typecheck": "tsc",
-    "calc": "node --no-warnings=ExperimentalWarning tools/calc.ts"
+    "calc": "node --no-warnings=ExperimentalWarning tools/calc.ts",
+    "fuse": "node --no-warnings=ExperimentalWarning tools/fuse.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",
