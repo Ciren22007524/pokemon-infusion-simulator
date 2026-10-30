@@ -14,7 +14,13 @@ export type Species = {
   abilities: { slot: 'first' | 'second' | 'hidden'; id: string }[];
 };
 
-export type Move = MoveInfo & { nameZhTw: string | null; nameEn: string; accuracy: number };
+export type Move = MoveInfo & {
+  nameZhTw: string | null;
+  nameEn: string;
+  accuracy: number;
+  // 方法 → 實際定義它的類別（move_function_method.defined_in）
+  methodSources: Record<string, string>;
+};
 
 type Row = Record<string, string | number | null>;
 
@@ -47,12 +53,11 @@ export class GameData {
 
   // 用代號、台灣譯名或英文名稱找寶可夢
   findSpecies(query: string): Species {
-    const rows = this.all(
-      'SELECT * FROM pokemon WHERE upper(id) = upper(?) OR name_zh_tw = ? OR lower(name_en) = lower(?) ORDER BY number',
-      query,
-      query,
-      query,
-    );
+    // 代號完全相同時優先（例如 NECROZMA 與英文名稱也是 Necrozma 的 U_NECROZMA）
+    const byId = this.all('SELECT * FROM pokemon WHERE upper(id) = upper(?)', query);
+    const rows = byId.length
+      ? byId
+      : this.all('SELECT * FROM pokemon WHERE name_zh_tw = ? OR lower(name_en) = lower(?) ORDER BY number', query, query);
     if (rows.length === 0) throw new Error(`找不到寶可夢「${query}」`);
     if (rows.length > 1) throw new Error(`「${query}」對應到多隻寶可夢，請用代號：${rows.map((r) => r['id']).join(', ')}`);
     const r = rows[0]!;
@@ -89,6 +94,14 @@ export class GameData {
     return { increased: row['increased_stat'] as StatId | null, decreased: row['decreased_stat'] as StatId | null };
   }
 
+  private functionMethods(code: string) {
+    const rows = this.all('SELECT method, defined_in FROM move_function_method WHERE function_code = ?', code);
+    return {
+      overriddenMethods: rows.map((m) => String(m['method'])),
+      methodSources: Object.fromEntries(rows.map((m) => [String(m['method']), String(m['defined_in'])])),
+    };
+  }
+
   private toMove(r: Row): Move {
     const id = String(r['id']);
     return {
@@ -104,9 +117,7 @@ export class GameData {
         .join(''),
       effectChance: Number(r['effect_chance']),
       functionCode: String(r['function_code']),
-      overriddenMethods: this.all('SELECT method FROM move_function_method WHERE function_code = ?', String(r['function_code'])).map((m) =>
-        String(m['method']),
-      ),
+      ...this.functionMethods(String(r['function_code'])),
     };
   }
 
