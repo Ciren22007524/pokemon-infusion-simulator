@@ -218,6 +218,22 @@ USER_ABILITIES['PLUS'] = USER_ABILITIES['MINUS'];
 
 export const SUPPORTED_USER_ABILITIES: readonly string[] = Object.keys(USER_ABILITIES).sort();
 
+// pbCalcType → pbBaseType：套用改變招式屬性的特性
+export function moveTypeFor(move: MoveInfo, ability: string | null | undefined, gen: number): { type: string; powerBoost: boolean } {
+  const modified = ability ? TYPE_MODIFIER_ABILITIES[ability]?.(move, move.type, gen) : null;
+  return modified ?? { type: move.type, powerBoost: false };
+}
+
+// 會影響傷害計算的攻擊方特性（其他特性對傷害沒有作用）
+export const DAMAGE_ABILITIES: ReadonlySet<string> = new Set([
+  ...Object.keys(USER_ABILITIES),
+  ...Object.keys(TYPE_MODIFIER_ABILITIES),
+  'ADAPTABILITY',
+  'GUTS',
+  'SCRAPPY',
+  'UNAWARE',
+]);
+
 export type DamageCalculatorOptions = {
   typeChart: TypeChart;
   // 遊戲設定 MECHANICS_GENERATION（6.8.3 是 5）
@@ -263,12 +279,7 @@ export class DamageCalculator {
     };
     const unmodeled = this.unmodeledParts(move);
 
-    // pbCalcType → pbBaseType
-    let type = move.type;
-    let powerBoost = false;
-    const modifier = user.ability ? TYPE_MODIFIER_ABILITIES[user.ability] : undefined;
-    const modified = modifier?.(move, type, this.gen);
-    if (modified) ({ type, powerBoost } = modified);
+    const { type, powerBoost } = moveTypeFor(move, user.ability, this.gen);
 
     const typeMod = this.typeMod(type, user, target, cond.weather);
     const stab = user.types.includes(type) ? (user.ability === 'ADAPTABILITY' ? 2 : 1.5) : 1;
