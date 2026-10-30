@@ -1,0 +1,9 @@
+﻿key,value
+branch,releases
+commit,060726298dadff542e9a48e57ef8bea3fa459e07
+game_version,6.8.3
+mechanics_generation,5
+nb_pokemon,576
+pokeapi_commit,2bf639e5572812a67d2b94903fdcb9d095f5aeb2
+pokeapi_source,https://github.com/PokeAPI/pokeapi
+source,https://github.com/infinitefusion/infinitefusion-e18

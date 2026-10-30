@@ -1,0 +1,16 @@
+﻿flag,method,name
+a,contactMove?,接觸
+b,canProtectAgainst?,可被守住
+c,canMagicCoat?,可被魔法反射
+d,canSnatch?,可被搶奪
+e,canMirrorMove?,可被鸚鵡學舌
+f,canKingsRock?,王者之證可畏縮
+g,thawsUser?,解凍
+h,highCriticalRate?,容易擊中要害
+i,bitingMove?,啃咬
+j,punchingMove?,拳
+k,soundMove?,聲音
+l,powderMove?,粉末
+m,pulseMove?,波動
+n,bombMove?,球彈
+o,danceMove?,舞蹈

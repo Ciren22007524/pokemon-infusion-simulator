@@ -1,0 +1,332 @@
+[
+ {
+  "id": "HARDY",
+  "id_number": 0,
+  "real_name": "Hardy",
+  "stat_changes": []
+ },
+ {
+  "id": "LONELY",
+  "id_number": 1,
+  "real_name": "Lonely",
+  "stat_changes": [
+   [
+    "ATTACK",
+    10
+   ],
+   [
+    "DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "BRAVE",
+  "id_number": 2,
+  "real_name": "Brave",
+  "stat_changes": [
+   [
+    "ATTACK",
+    10
+   ],
+   [
+    "SPEED",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "ADAMANT",
+  "id_number": 3,
+  "real_name": "Adamant",
+  "stat_changes": [
+   [
+    "ATTACK",
+    10
+   ],
+   [
+    "SPECIAL_ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "NAUGHTY",
+  "id_number": 4,
+  "real_name": "Naughty",
+  "stat_changes": [
+   [
+    "ATTACK",
+    10
+   ],
+   [
+    "SPECIAL_DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "BOLD",
+  "id_number": 5,
+  "real_name": "Bold",
+  "stat_changes": [
+   [
+    "DEFENSE",
+    10
+   ],
+   [
+    "ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "DOCILE",
+  "id_number": 6,
+  "real_name": "Docile",
+  "stat_changes": []
+ },
+ {
+  "id": "RELAXED",
+  "id_number": 7,
+  "real_name": "Relaxed",
+  "stat_changes": [
+   [
+    "DEFENSE",
+    10
+   ],
+   [
+    "SPEED",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "IMPISH",
+  "id_number": 8,
+  "real_name": "Impish",
+  "stat_changes": [
+   [
+    "DEFENSE",
+    10
+   ],
+   [
+    "SPECIAL_ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "LAX",
+  "id_number": 9,
+  "real_name": "Lax",
+  "stat_changes": [
+   [
+    "DEFENSE",
+    10
+   ],
+   [
+    "SPECIAL_DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "TIMID",
+  "id_number": 10,
+  "real_name": "Timid",
+  "stat_changes": [
+   [
+    "SPEED",
+    10
+   ],
+   [
+    "ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "HASTY",
+  "id_number": 11,
+  "real_name": "Hasty",
+  "stat_changes": [
+   [
+    "SPEED",
+    10
+   ],
+   [
+    "DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "SERIOUS",
+  "id_number": 12,
+  "real_name": "Serious",
+  "stat_changes": []
+ },
+ {
+  "id": "JOLLY",
+  "id_number": 13,
+  "real_name": "Jolly",
+  "stat_changes": [
+   [
+    "SPEED",
+    10
+   ],
+   [
+    "SPECIAL_ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "NAIVE",
+  "id_number": 14,
+  "real_name": "Naive",
+  "stat_changes": [
+   [
+    "SPEED",
+    10
+   ],
+   [
+    "SPECIAL_DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "MODEST",
+  "id_number": 15,
+  "real_name": "Modest",
+  "stat_changes": [
+   [
+    "SPECIAL_ATTACK",
+    10
+   ],
+   [
+    "ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "MILD",
+  "id_number": 16,
+  "real_name": "Mild",
+  "stat_changes": [
+   [
+    "SPECIAL_ATTACK",
+    10
+   ],
+   [
+    "DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "QUIET",
+  "id_number": 17,
+  "real_name": "Quiet",
+  "stat_changes": [
+   [
+    "SPECIAL_ATTACK",
+    10
+   ],
+   [
+    "SPEED",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "BASHFUL",
+  "id_number": 18,
+  "real_name": "Bashful",
+  "stat_changes": []
+ },
+ {
+  "id": "RASH",
+  "id_number": 19,
+  "real_name": "Rash",
+  "stat_changes": [
+   [
+    "SPECIAL_ATTACK",
+    10
+   ],
+   [
+    "SPECIAL_DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "CALM",
+  "id_number": 20,
+  "real_name": "Calm",
+  "stat_changes": [
+   [
+    "SPECIAL_DEFENSE",
+    10
+   ],
+   [
+    "ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "GENTLE",
+  "id_number": 21,
+  "real_name": "Gentle",
+  "stat_changes": [
+   [
+    "SPECIAL_DEFENSE",
+    10
+   ],
+   [
+    "DEFENSE",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "SASSY",
+  "id_number": 22,
+  "real_name": "Sassy",
+  "stat_changes": [
+   [
+    "SPECIAL_DEFENSE",
+    10
+   ],
+   [
+    "SPEED",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "CAREFUL",
+  "id_number": 23,
+  "real_name": "Careful",
+  "stat_changes": [
+   [
+    "SPECIAL_DEFENSE",
+    10
+   ],
+   [
+    "SPECIAL_ATTACK",
+    -10
+   ]
+  ]
+ },
+ {
+  "id": "QUIRKY",
+  "id_number": 24,
+  "real_name": "Quirky",
+  "stat_changes": []
+ }
+]
