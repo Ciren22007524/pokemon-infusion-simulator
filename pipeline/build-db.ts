@@ -50,6 +50,7 @@ type RawSpecies = {
   generation: number;
 };
 type RawNature = { id: string; id_number: number; real_name: string; stat_changes: [string, number][] };
+type MoveClass = { parent: string | null; methods: string[] };
 type ZhGame = Record<'species' | 'moves' | 'move_descriptions' | 'abilities' | 'ability_descriptions' | 'types' | 'natures', Record<string, string | null>>;
 
 const raw = <T>(name: string): T => JSON.parse(readFileSync(join(RAW_DIR, `${name}.json`), 'utf8')) as T;
@@ -144,6 +145,26 @@ export function parseMoveFlags(src: string) {
     if (!name) throw new Error(`未知的招式旗標方法 ${m[1]}，請在 FLAG_NAMES 補上`);
     return { flag: m[2]!, method: `${m[1]}?`, name };
   });
+}
+
+// 展開繼承：效果代碼類別 → 它改寫的每個方法與實際定義的類別（近的優先，不含 PokeBattle_Move）
+export function resolveMoveFunctionMethods(classes: Record<string, MoveClass>) {
+  const rows: { function_code: string; method: string; defined_in: string }[] = [];
+  for (const name of Object.keys(classes).sort()) {
+    const code = name.match(/^PokeBattle_Move_([0-9A-F]{3})$/)?.[1];
+    if (!code) continue;
+    const seen = new Set<string>();
+    for (let c: string | null = name; c && c !== 'PokeBattle_Move'; c = classes[c]?.parent ?? null) {
+      const cls = classes[c];
+      if (!cls) throw new Error(`${name} 的父類別 ${c} 不在招式類別裡`);
+      for (const method of cls.methods)
+        if (!seen.has(method)) {
+          seen.add(method);
+          rows.push({ function_code: code, method, defined_in: c });
+        }
+    }
+  }
+  return rows;
 }
 
 // ---------- 建表 ----------
@@ -282,6 +303,12 @@ function build() {
     for (const flag of new Set(m.flags)) insert('move_flag', { move_id: m.id, flag });
   }
 
+  const functionMethods = resolveMoveFunctionMethods(raw<Record<string, MoveClass>>('move_classes'));
+  const functionCodes = new Set(functionMethods.map((r) => r.function_code));
+  for (const r of functionMethods) insert('move_function_method', r);
+  const missing = [...new Set(moves.map((m) => m.function_code))].filter((c) => !functionCodes.has(c) && c !== '000');
+  if (missing.length) console.log(`沒有改寫任何方法的效果代碼（與一般招式相同）：${missing.join(', ')}`);
+
   const speciesIds = new Set(species.map((s) => s.id));
   let droppedDuplicates = 0;
   for (const s of species) {
@@ -336,7 +363,7 @@ function build() {
 
   const count = (t: string) => (db.prepare(`SELECT COUNT(*) AS n FROM ${t}`).get() as { n: number }).n;
   console.log(
-    ['pokemon', 'move', 'ability', 'type', 'type_effectiveness', 'nature', 'learnset', 'evolution', 'move_flag']
+    ['pokemon', 'move', 'ability', 'type', 'type_effectiveness', 'nature', 'learnset', 'evolution', 'move_flag', 'move_function_method']
       .map((t) => `${t} ${count(t)}`)
       .join('、'),
   );

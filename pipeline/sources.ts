@@ -23,7 +23,8 @@ export const GAME: Source = {
     '/Data/chinese.dat',
     '/Data/Scripts/001_Settings.rb',
     '/Data/Scripts/010_Data/001_Hardcoded data/009_Nature.rb',
-    '/Data/Scripts/011_Battle/002_Move/001_PokeBattle_Move.rb',
+    // 招式的基底類別與各效果代碼的類別（傷害計算的特例）
+    '/Data/Scripts/011_Battle/002_Move/',
   ],
 };
 
