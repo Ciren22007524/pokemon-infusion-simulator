@@ -30,9 +30,8 @@ type RawMove = {
   target: string;
   priority: number;
   flags: string;
-  real_description: string;
 };
-type RawAbility = { id: string; id_number: number; real_name: string; real_description: string };
+type RawAbility = { id: string; id_number: number; real_name: string };
 type RawSpecies = {
   id: string;
   id_number: number;
@@ -51,7 +50,7 @@ type RawSpecies = {
 };
 type RawNature = { id: string; id_number: number; real_name: string; stat_changes: [string, number][] };
 type MoveClass = { parent: string | null; methods: string[] };
-type ZhGame = Record<'species' | 'moves' | 'move_descriptions' | 'abilities' | 'ability_descriptions' | 'types' | 'natures', Record<string, string | null>>;
+type ZhGame = Record<'species' | 'moves' | 'abilities' | 'types' | 'natures', Record<string, string | null>>;
 
 const raw = <T>(name: string): T => JSON.parse(readFileSync(join(RAW_DIR, `${name}.json`), 'utf8')) as T;
 
@@ -268,8 +267,6 @@ function build() {
       name_en: a.real_name,
       name_zh_tw: tw('ability', a.id, zhAbility(a.real_name, a.id)),
       name_zh_game: zhGame.abilities[a.id] ?? null,
-      desc_en: a.real_description,
-      desc_zh_game: zhGame.ability_descriptions[a.id] ?? null,
     });
   }
 
@@ -297,8 +294,6 @@ function build() {
       priority: m.priority,
       function_code: m.function_code,
       target: m.target,
-      desc_en: m.real_description,
-      desc_zh_game: zhGame.move_descriptions[m.id] ?? null,
     });
     for (const flag of new Set(m.flags)) insert('move_flag', { move_id: m.id, flag });
   }

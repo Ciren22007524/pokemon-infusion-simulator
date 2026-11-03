@@ -42,10 +42,8 @@ CREATE TABLE ability (
   number       INTEGER NOT NULL UNIQUE,
   name_en      TEXT NOT NULL,
   name_zh_tw   TEXT,
-  name_zh_game TEXT,
-  -- 說明文字不可信（例如大力士只寫「提高攻擊」），效果以戰鬥程式碼為準
-  desc_en      TEXT,
-  desc_zh_game TEXT
+  -- 說明文字有著作權且不可信（效果以戰鬥程式碼為準），不收錄
+  name_zh_game TEXT
 );
 
 CREATE TABLE move (
@@ -65,9 +63,8 @@ CREATE TABLE move (
   priority      INTEGER NOT NULL,
   -- 效果代碼，對應 Data/Scripts/011_Battle/002_Move/ 的 PokeBattle_Move_XXX
   function_code TEXT NOT NULL,
-  target        TEXT NOT NULL,
-  desc_en       TEXT,
-  desc_zh_game  TEXT
+  -- 說明文字有著作權，不收錄
+  target        TEXT NOT NULL
 );
 
 -- 旗標字母的意義：Data/Scripts/011_Battle/002_Move/001_PokeBattle_Move.rb
