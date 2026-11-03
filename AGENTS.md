@@ -16,7 +16,9 @@ Pokémon Infinite Fusion 的組隊模擬器。資料與機制來自遊戲原始�
 
 - 從最新的 `main` 開 `feature-xxx` 分支（例如 `feature-fuse`、`feature-ci`）。不要用 `feature/xxx`、`claude/...`、`codex/...` 或其他命名
 - **PR 的目標分支一律是 `main`**，不要開疊在其他 feature 分支上的 PR。疊起來的 PR 合併時會合進上一個分支而不是 `main`，內容會遺失。需要接續另一個 PR 的工作時，等它合併後再從 `main` 開新分支
-- 不直接 push 到 `main`；PR 由使用者合併
+- 不直接 push 到 `main`，一律透過 PR
+- 合併：使用者已授權 **Claude Code** 在 CI 通過、沒有衝突後，自行合併自己開的 PR；其他工具開的 PR 由使用者合併（除非使用者另外授權）
+- 合併方式用 **merge commit**（不用 squash、rebase）
 - 一個 PR 只做一件事；一個 commit 只做一件事（例如程式和它產生的資料檔分開 commit）
 - 開始工作前先 `git fetch`，確認分支是從最新的 `main` 開出來的
 
