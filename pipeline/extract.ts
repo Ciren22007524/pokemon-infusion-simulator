@@ -1,5 +1,6 @@
 // 遊戲資料 → data/raw/*.json
-// 原樣保留遊戲的欄位名稱與值，只做格式轉換（Marshal → JSON），不做任何整理或篩選
+// 原樣保留遊戲的欄位名稱與值，只做格式轉換（Marshal → JSON），不做任何整理或篩選；
+// 唯一的例外是官方文字（圖鑑說明、分類、招式與特性說明）：有著作權，不放進公開 repo
 import { spawnSync } from 'node:child_process';
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -11,9 +12,16 @@ const readDat = (name: string) => parseMarshal(decodeDat(readFileSync(join(gameD
 
 type Plain = Record<string, unknown> & { id: string; id_number: number };
 
+// 不匯出的官方文字欄位（計算用不到）
+export const OMITTED_TEXT_FIELDS = ['real_category', 'real_pokedex_entry', 'real_description', 'contest_description'];
+
+export function omitTextFields<T extends Record<string, unknown>>(record: T): T {
+  return Object.fromEntries(Object.entries(record).filter(([k]) => !OMITTED_TEXT_FIELDS.includes(k))) as T;
+}
+
 function records(name: string): Plain[] {
   return uniqueRecords(readDat(name))
-    .map((r) => toPlain(r) as Plain)
+    .map((r) => omitTextFields(toPlain(r) as Plain))
     .sort((a, b) => a.id_number - b.id_number);
 }
 
@@ -70,9 +78,7 @@ export function parseMoveClasses(sources: { file: string; src: string }[]) {
 const MESSAGE_TYPES = {
   species: 1,
   moves: 5,
-  moveDescriptions: 6,
   abilities: 10,
-  abilityDescriptions: 11,
   types: 12,
   scriptTexts: 24,
 } as const;
@@ -137,13 +143,11 @@ function main() {
   write('species', species);
   write('natures', natures);
   write('move_classes', moveClasses);
-  // 遊戲內建的中文（簡體）名稱與說明
+  // 遊戲內建的中文（簡體）名稱（說明文字不匯出）
   write('text_zh_game', {
     species: zh.byNumber(MESSAGE_TYPES.species, species),
     moves: zh.byNumber(MESSAGE_TYPES.moves, moves),
-    move_descriptions: zh.byNumber(MESSAGE_TYPES.moveDescriptions, moves),
     abilities: zh.byNumber(MESSAGE_TYPES.abilities, abilities),
-    ability_descriptions: zh.byNumber(MESSAGE_TYPES.abilityDescriptions, abilities),
     types: zh.byNumber(MESSAGE_TYPES.types, types),
     natures: zh.natures,
   });
